@@ -3,7 +3,8 @@
     "Brand tag": {
       "Brand": {
         "$value": "Purple Garden",
-        "$type": "string"
+        "$type": "string",
+        "$description": "Brand name for the active mode."
       }
     },
     "primitives": {
@@ -1120,22 +1121,22 @@
         },
         "gradients": {
           "primaryFirst": {
-            "$value": "#b38fff",
+            "$value": "{Brand.primitives.color.primary.400}",
             "$type": "color",
             "$description": "Start color of the primary gradient."
           },
           "primarySecond": {
-            "$value": "#8957f5",
+            "$value": "{Brand.primitives.color.primary.500}",
             "$type": "color",
             "$description": "End color of the primary gradient."
           },
           "secondaryFirst": {
-            "$value": "#8755f4",
+            "$value": "{Brand.primitives.color.secondary.600}",
             "$type": "color",
             "$description": "Start color of the secondary gradient."
           },
           "secondarySecond": {
-            "$value": "#fc8d3c",
+            "$value": "{Brand.primitives.color.secondary.500}",
             "$type": "color",
             "$description": "End color of the secondary gradient."
           },
@@ -1241,7 +1242,7 @@
       "radius": {
         "button": {
           "radius": {
-            "$value": "{unresolved:VariableID:690:15}",
+            "$value": "{Radius.radius-8}",
             "$type": "number",
             "$description": "Corner radius for buttons.\nCode --radius-button: PG 8 · Kasamba 8 · Psiquicos 25"
           }
@@ -1253,7 +1254,8 @@
     "Brand tag": {
       "Brand": {
         "$value": "Kasamba",
-        "$type": "string"
+        "$type": "string",
+        "$description": "Brand name for the active mode."
       }
     },
     "primitives": {
@@ -2491,7 +2493,7 @@
       "radius": {
         "button": {
           "radius": {
-            "$value": "{unresolved:VariableID:690:15}",
+            "$value": "{Radius.radius-8}",
             "$type": "number",
             "$description": "Corner radius for buttons.\nCode --radius-button: PG 8 · Kasamba 8 · Psiquicos 25"
           }
@@ -2503,7 +2505,8 @@
     "Brand tag": {
       "Brand": {
         "$value": "Psiquicos",
-        "$type": "string"
+        "$type": "string",
+        "$description": "Brand name for the active mode."
       }
     },
     "primitives": {
@@ -3741,7 +3744,7 @@
       "radius": {
         "button": {
           "radius": {
-            "$value": "{unresolved:VariableID:690:18}",
+            "$value": "{Radius.radius-0}",
             "$type": "number",
             "$description": "Corner radius for buttons.\nCode --radius-button: PG 8 · Kasamba 8 · Psiquicos 25"
           }
@@ -3753,7 +3756,8 @@
     "Brand tag": {
       "Brand": {
         "$value": "Purple Ocean",
-        "$type": "string"
+        "$type": "string",
+        "$description": "Brand name for the active mode."
       }
     },
     "primitives": {
@@ -4991,7 +4995,7 @@
       "radius": {
         "button": {
           "radius": {
-            "$value": "{unresolved:VariableID:690:15}",
+            "$value": "{Radius.radius-8}",
             "$type": "number",
             "$description": "Corner radius for buttons.\nCode --radius-button: PG 8 · Kasamba 8 · Psiquicos 25"
           }
