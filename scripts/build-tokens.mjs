@@ -236,8 +236,9 @@ for (const [slug, brand] of Object.entries(BRANDS)) {
       Breakpoint: breakpointFile[MOBILE],
       [TABLET]: breakpointFile[TABLET],
       [DESKTOP]: breakpointFile[DESKTOP],
-      grid: json('figma-grid.json'),
-      radius: json('figma-radius.json'),
+      // Keys match the Figma collection names, so aliases like {Radius.radius-8} resolve.
+      Grid: json('figma-grid.json'),
+      Radius: json('figma-radius.json'),
       textStyles: json('text-styles.json'),
     },
     platforms: {
