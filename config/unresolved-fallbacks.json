@@ -1,6 +1,7 @@
 {
   "$description": "Values for Figma aliases that point outside the export ({unresolved:VariableID:…}). Fix them in Figma and delete the entry here.",
-  "VariableID:539:2": { "value": "#FFFFFF", "note": "White — background/primary, background/quaternary (figma-modes.json resolves it to #FFFFFF)" },
-  "VariableID:690:15": { "value": 8, "note": "Button radius for PG, Kasamba, Purple Ocean (per token description)" },
-  "VariableID:690:18": { "value": 25, "note": "Button radius for Psiquicos (per token description)" }
+  "VariableID:539:2": {
+    "value": "#FFFFFF",
+    "note": "White — background/primary, background/quaternary (figma-modes.json resolves it to #FFFFFF)"
+  }
 }
