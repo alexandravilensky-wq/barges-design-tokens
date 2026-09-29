@@ -1,0 +1,7 @@
+node_modules/
+build/
+storybook-static/
+.DS_Store
+
+# Licensed fonts (ABC Social) — local only, never commit
+fonts/licensed/

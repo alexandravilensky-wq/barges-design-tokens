@@ -1,0 +1,26 @@
+{
+  "name": "barges-design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Figma variables → Style Dictionary → CSS per brand, previewed in Storybook",
+  "scripts": {
+    "build:tokens": "node scripts/build-tokens.mjs",
+    "storybook": "npm run build:tokens && storybook dev -p 6007",
+    "build-storybook": "npm run build:tokens && storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.6.1",
+    "@storybook/react-vite": "^10.6.1",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "prettier": "^3.9.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "storybook": "^10.6.1",
+    "style-dictionary": "^5.5.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
