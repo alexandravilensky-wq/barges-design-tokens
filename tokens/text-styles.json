@@ -1,1 +1,522 @@
-
+{
+  "Display-Jumbo-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 125,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Landing-page hero headline only. Use once per page, above the fold — it's the largest, most expressive text in the system and loses impact if repeated.\n\nFormerly \"display/Jumbo\"."
+  },
+  "Display-Jumbo-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 125,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Display-XLarge-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 87,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Large landing-page section headline, one step down from a Jumbo hero. Use to open a major section on a marketing page.\n\nNew tier, added for LOHP's H2."
+  },
+  "Display-XLarge-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 87,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography"
+  },
+  "Display-Large-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 72,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Landing-page section headline for content that doesn't need Jumbo/XLarge's full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP's H3."
+  },
+  "Display-Large-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 72,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Landing-page section headline for content that doesn't need Jumbo/XLarge's full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP's H3."
+  },
+  "Display-Medium-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 50,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent."
+  },
+  "Display-Medium-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 50,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent."
+  },
+  "Display-Small-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 35,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Largest text that appears inside the app itself — onboarding titles, empty-state headlines, hero moments within a screen.\n\nFormerly \"displayLargeTitle\"."
+  },
+  "Display-Small-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 35,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Display/Small\". Matches real code field \"displayLargeTitleBold\"."
+  },
+  "Title-Large-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 29,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Primary section header within a screen — marks the start of a major content block.\n\nFormerly \"titleLarge\"."
+  },
+  "Title-Large-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Bold",
+      "fontSize": 29,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Title/Large\". Matches real code field \"titleLargeBold\"."
+  },
+  "Title-Medium-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Secondary section header, nested under a Title/Large — use for sub-sections.\n\nFormerly \"titleMedium\"."
+  },
+  "Title-Medium-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Title/Medium\". Matches real code field \"titleMediumBold\"."
+  },
+  "Title-Small-Regular": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "Regular",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Compact section header — card titles, modal/dialog titles, list-section headers.\n\nFormerly \"titleSmall\"."
+  },
+  "Title-Small-Emphasis": {
+    "$value": {
+      "fontFamily": "Literata",
+      "fontWeight": "SemiBold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Title/Small\". Matches real code field \"titleSmallBold (w600)\"."
+  },
+  "Subtitle-Large-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Supporting text directly beneath a Title, explaining what the section is about before the reader reaches Body copy.\n\nFormerly \"headline\" — renamed to drop the iOS-specific term."
+  },
+  "Subtitle-Large-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Subtitle/Large\". Matches real code field \"headlineBold\"."
+  },
+  "Subtitle-Small-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Same role as Subtitle/Large, used when the layout is tight (e.g. a compact card or dense list).\n\nFormerly \"subhead\" — renamed to drop the iOS-specific term."
+  },
+  "Subtitle-Small-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Subtitle/Small\". Matches real code field \"subheadBold (w600)\"."
+  },
+  "Body-Large-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Default reading size for paragraphs and descriptions — use this unless you have a specific reason not to.\n\nFormerly \"body\". Same size as Subtitle/Large; they differ by role and weight, not size."
+  },
+  "Body-Large-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Body/Large\". Matches real code field \"bodyBold\"."
+  },
+  "Body-Small-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Secondary paragraph text — de-emphasized descriptions, supporting copy next to a more important Body/Large block.\n\nFormerly \"callout\" — renamed to drop the iOS-specific term."
+  },
+  "Body-Small-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Body/Small\". Matches real code field \"calloutBold (w600)\"."
+  },
+  "Caption-Large-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Fine print that still needs to be comfortably readable: timestamps, metadata, helper text under a form field.\n\nFormerly \"captionLarge\"; also absorbs \"footnote\" (13px — judged not meaningfully distinct)."
+  },
+  "Caption-Medium-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Caption/Large\". Matches real code field \"captionLargeBold (w600)\"."
+  },
+  "Caption-Medium-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Caption/Large\". Matches real code field \"captionLargeBold (w600)\"."
+  },
+  "Caption-Small-Regular": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Regular",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Smallest commonly-used fine print — legal disclaimers, tags, dense metadata rows.\n\nFormerly \"captionSmall\"."
+  },
+  "Caption-Small-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to \"Caption/Small\". Matches real code field \"captionSmallBold (w600)\"."
+  }
+}
