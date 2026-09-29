@@ -1,1 +1,247 @@
-
+{
+  "grid-0": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "0px · No spacing. Use to remove gaps or reset padding. Part of the 4px baseline spacing scale."
+  },
+  "grid-1": {
+    "$value": 1,
+    "$type": "number",
+    "$description": "1px · Hairline. Borders, dividers and 1px optical adjustments only — not for layout spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-2": {
+    "$value": 2,
+    "$type": "number",
+    "$description": "2px · Micro spacing. Icon-to-badge offsets and tight optical fixes. Avoid for layout. Part of the 4px baseline spacing scale."
+  },
+  "grid-4": {
+    "$value": 4,
+    "$type": "number",
+    "$description": "4px · Extra-small spacing (base unit of the 4px grid). Gap between an icon and its label, or inside compact chips. Part of the 4px baseline spacing scale."
+  },
+  "grid-6": {
+    "$value": 6,
+    "$type": "number",
+    "$description": "6px · Off-grid step. Use only to match existing production UI; prefer 4 or 8 in new designs. Part of the 4px baseline spacing scale."
+  },
+  "grid-8": {
+    "$value": 8,
+    "$type": "number",
+    "$description": "8px · Small spacing. Default gap between closely related elements (label and input, stacked text lines). Part of the 4px baseline spacing scale."
+  },
+  "grid-10": {
+    "$value": 10,
+    "$type": "number",
+    "$description": "10px · Off-grid step. Use only to match existing production UI; prefer 8 or 12 in new designs. Part of the 4px baseline spacing scale."
+  },
+  "grid-12": {
+    "$value": 12,
+    "$type": "number",
+    "$description": "12px · Small–medium spacing. Padding inside buttons, chips and list items. Part of the 4px baseline spacing scale."
+  },
+  "grid-16": {
+    "$value": 16,
+    "$type": "number",
+    "$description": "16px · Base spacing. Default padding for cards and containers, and the gap between components. Part of the 4px baseline spacing scale."
+  },
+  "grid-20": {
+    "$value": 20,
+    "$type": "number",
+    "$description": "20px · Medium spacing. Padding for larger cards, sheets and modals. Part of the 4px baseline spacing scale."
+  },
+  "grid-24": {
+    "$value": 24,
+    "$type": "number",
+    "$description": "24px · Medium–large spacing. Gap between content groups; page side margins on mobile. Part of the 4px baseline spacing scale."
+  },
+  "grid-28": {
+    "$value": 28,
+    "$type": "number",
+    "$description": "28px · Off-grid step. Use only to match existing production UI; prefer 24 or 32 in new designs. Part of the 4px baseline spacing scale."
+  },
+  "grid-32": {
+    "$value": 32,
+    "$type": "number",
+    "$description": "32px · Large spacing. Gap between sections within a screen. Part of the 4px baseline spacing scale."
+  },
+  "grid-36": {
+    "$value": 36,
+    "$type": "number",
+    "$description": "36px · Off-grid step. Use only to match existing production UI; prefer 32 or 40 in new designs. Part of the 4px baseline spacing scale."
+  },
+  "grid-40": {
+    "$value": 40,
+    "$type": "number",
+    "$description": "40px · Large spacing. Section padding on tablet; small component heights. Part of the 4px baseline spacing scale."
+  },
+  "grid-44": {
+    "$value": 44,
+    "$type": "number",
+    "$description": "44px · Minimum touch target (44px). Use for the height/width of any tappable element. Part of the 4px baseline spacing scale."
+  },
+  "grid-48": {
+    "$value": 48,
+    "$type": "number",
+    "$description": "48px · Extra-large spacing. Section spacing on desktop; comfortable touch targets. Part of the 4px baseline spacing scale."
+  },
+  "grid-52": {
+    "$value": 52,
+    "$type": "number",
+    "$description": "52px · Component size. Tall buttons and input fields. Part of the 4px baseline spacing scale."
+  },
+  "grid-56": {
+    "$value": 56,
+    "$type": "number",
+    "$description": "56px · Component size. Top bars, large buttons and list rows with avatars. Part of the 4px baseline spacing scale."
+  },
+  "grid-64": {
+    "$value": 64,
+    "$type": "number",
+    "$description": "64px · Layout spacing. Space between major page blocks on desktop. Part of the 4px baseline spacing scale."
+  },
+  "grid-72": {
+    "$value": 72,
+    "$type": "number",
+    "$description": "72px · Layout spacing. Hero padding and spacing around marketing sections. Part of the 4px baseline spacing scale."
+  },
+  "grid-80": {
+    "$value": 80,
+    "$type": "number",
+    "$description": "80px · Layout spacing. Large hero and marketing section padding on desktop. Part of the 4px baseline spacing scale."
+  },
+  "grid-88": {
+    "$value": 88,
+    "$type": "number",
+    "$description": "88px · Layout size. Avatars, thumbnails and fixed-width elements — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-96": {
+    "$value": 96,
+    "$type": "number",
+    "$description": "96px · Layout size. Avatars, thumbnails and fixed-width elements — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-104": {
+    "$value": 104,
+    "$type": "number",
+    "$description": "104px · Layout size. Avatars, thumbnails and fixed-width elements — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-112": {
+    "$value": 112,
+    "$type": "number",
+    "$description": "112px · Layout size. Avatars, thumbnails and fixed-width elements — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-120": {
+    "$value": 120,
+    "$type": "number",
+    "$description": "120px · Layout size. Avatars, thumbnails and fixed-width elements — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-124": {
+    "$value": 124,
+    "$type": "number",
+    "$description": "124px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-128": {
+    "$value": 128,
+    "$type": "number",
+    "$description": "128px · Layout size. Large fixed dimensions (avatars, media, containers) — not for spacing. Matches LOHP's real H1 height (128px). Part of the 4px baseline spacing scale."
+  },
+  "grid-136": {
+    "$value": 136,
+    "$type": "number",
+    "$description": "136px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-144": {
+    "$value": 144,
+    "$type": "number",
+    "$description": "144px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-152": {
+    "$value": 152,
+    "$type": "number",
+    "$description": "152px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-160": {
+    "$value": 160,
+    "$type": "number",
+    "$description": "160px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-168": {
+    "$value": 168,
+    "$type": "number",
+    "$description": "168px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-176": {
+    "$value": 176,
+    "$type": "number",
+    "$description": "176px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-184": {
+    "$value": 184,
+    "$type": "number",
+    "$description": "184px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-192": {
+    "$value": 192,
+    "$type": "number",
+    "$description": "192px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Matches the Speciality Card grid height (192px). Part of the 4px baseline spacing scale."
+  },
+  "grid-200": {
+    "$value": 200,
+    "$type": "number",
+    "$description": "200px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-208": {
+    "$value": 208,
+    "$type": "number",
+    "$description": "208px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-216": {
+    "$value": 216,
+    "$type": "number",
+    "$description": "216px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-224": {
+    "$value": 224,
+    "$type": "number",
+    "$description": "224px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-232": {
+    "$value": 232,
+    "$type": "number",
+    "$description": "232px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-240": {
+    "$value": 240,
+    "$type": "number",
+    "$description": "240px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-248": {
+    "$value": 248,
+    "$type": "number",
+    "$description": "248px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-256": {
+    "$value": 256,
+    "$type": "number",
+    "$description": "256px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-264": {
+    "$value": 264,
+    "$type": "number",
+    "$description": "264px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-272": {
+    "$value": 272,
+    "$type": "number",
+    "$description": "272px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-280": {
+    "$value": 280,
+    "$type": "number",
+    "$description": "280px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  },
+  "grid-288": {
+    "$value": 288,
+    "$type": "number",
+    "$description": "288px · Layout size. Large fixed dimensions (cards, media, containers) — not for spacing. Part of the 4px baseline spacing scale."
+  }
+}
