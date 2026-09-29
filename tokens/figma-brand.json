@@ -1139,15 +1139,10 @@
             "$type": "color",
             "$description": "End color of the secondary gradient."
           },
-          "payLight": {
-            "$value": "#8755f4",
+          "tertiary": {
+            "$value": "{Brand.primitives.color.secondary.200}",
             "$type": "color",
-            "$description": "Pay / checkout gradient, light theme."
-          },
-          "payDark": {
-            "$value": "#8755f4",
-            "$type": "color",
-            "$description": "Pay / checkout gradient, dark theme."
+            "$description": "Tertiary gradient color (formerly payLight / Pay As You Go)."
           }
         }
       },
@@ -2394,15 +2389,10 @@
             "$type": "color",
             "$description": "End color of the secondary gradient."
           },
-          "payLight": {
+          "tertiary": {
             "$value": "#6c84ff",
             "$type": "color",
-            "$description": "Pay / checkout gradient, light theme."
-          },
-          "payDark": {
-            "$value": "#788eff",
-            "$type": "color",
-            "$description": "Pay / checkout gradient, dark theme."
+            "$description": "Tertiary gradient color (formerly payLight / Pay As You Go)."
           }
         }
       },
@@ -3649,15 +3639,10 @@
             "$type": "color",
             "$description": "End color of the secondary gradient."
           },
-          "payLight": {
+          "tertiary": {
             "$value": "#b45092",
             "$type": "color",
-            "$description": "Pay / checkout gradient, light theme."
-          },
-          "payDark": {
-            "$value": "#b45092",
-            "$type": "color",
-            "$description": "Pay / checkout gradient, dark theme."
+            "$description": "Tertiary gradient color (formerly payLight / Pay As You Go)."
           }
         }
       },
@@ -4904,15 +4889,10 @@
             "$type": "color",
             "$description": "End color of the secondary gradient."
           },
-          "payLight": {
+          "tertiary": {
             "$value": "#7c5c99",
             "$type": "color",
-            "$description": "Pay / checkout gradient, light theme."
-          },
-          "payDark": {
-            "$value": "#7c5c99",
-            "$type": "color",
-            "$description": "Pay / checkout gradient, dark theme."
+            "$description": "Tertiary gradient color (formerly payLight / Pay As You Go)."
           }
         }
       },
