@@ -1,1 +1,1255 @@
-
+{
+  "Brand tag": {
+    "Brand": {
+      "$value": "Purple Garden",
+      "$type": "string"
+    }
+  },
+  "primitives": {
+    "color": {
+      "neutral": {
+        "100": {
+          "$value": "#f7f0f4",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#f4eff3",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#e6dfe4",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#d0d0d0",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#9e9d9d",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#898989",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#383a40",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#252729",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#121212",
+          "$type": "color",
+          "$description": "Primitive — Grey scale for text, icons, borders, surfaces and backgrounds. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "primary": {
+        "100": {
+          "$value": "#f8ddff",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#e4c6ec",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#c4a0cd",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#b67fbd",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#af5ab0",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#994092",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#7d2b6f",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#5e184c",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#3b0a2a",
+          "$type": "color",
+          "$description": "Primitive — Main brand hue (PG purple · KA blue · PS pink · PO muted purple). Brand color, primary buttons, voice channel. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "secondary": {
+        "100": {
+          "$value": "#f2def2",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#f4b9e5",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#e3a0cd",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#d685b4",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#c5598f",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#a43f66",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#72284d",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#4e1b34",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#351224",
+          "$type": "color",
+          "$description": "Primitive — Second brand hue (PG pink · KA green · PS sky blue · PO green). Secondary branding and brand-specific states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "tertiary": {
+        "100": {
+          "$value": "#f3dde1",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#da919f",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#c75c70",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#b13c52",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#822c3c",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#5f202c",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#451720",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#321117",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#250c11",
+          "$type": "color",
+          "$description": "Primitive — Third brand hue. Tertiary accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "red": {
+        "100": {
+          "$value": "#efdfdc",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#f0c4bd",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#faa495",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#f67f6b",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#f05c42",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#e8391a",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#be2f16",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#912614",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#661d10",
+          "$type": "color",
+          "$description": "Primitive — Error, danger and negative states. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "green": {
+        "100": {
+          "$value": "#e0f0e6",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#baddc7",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#99ccac",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#7bbe94",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#6ab385",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#4e9d6b",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#306142",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#234730",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#193323",
+          "$type": "color",
+          "$description": "Primitive — Success and positive states, chat channel, accent CTA. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "yellow": {
+        "100": {
+          "$value": "#f3edd6",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#ffedaa",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#fde280",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#f8d758",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#f3ca32",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#e6b913",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#b99613",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#8e7412",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#64520f",
+          "$type": "color",
+          "$description": "Primitive — Yellow accents and highlights. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "blue": {
+        "100": {
+          "$value": "#eeebf5",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#ddd8eb",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#bfc4fc",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#949cf8",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#6a76f4",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#4250ee",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#1b2ce6",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#1725bb",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#141e90",
+          "$type": "color",
+          "$description": "Primitive — Info states, video channel and blue accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      },
+      "orange": {
+        "100": {
+          "$value": "#fff1e5",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "200": {
+          "$value": "#ffd9b8",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Light tint for backgrounds and pale surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "300": {
+          "$value": "#ffbf85",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "400": {
+          "$value": "#ff9f46",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Soft shade for borders, light accents and dark-theme foregrounds. Do not apply directly in designs; use a semantic token."
+        },
+        "500": {
+          "$value": "#ff8717",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "600": {
+          "$value": "#e06f05",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Core shade — the base color of the ramp. Do not apply directly in designs; use a semantic token."
+        },
+        "700": {
+          "$value": "#b35904",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "800": {
+          "$value": "#854203",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        },
+        "900": {
+          "$value": "#572b02",
+          "$type": "color",
+          "$description": "Primitive — Warning states and orange accents. Deep shade for pressed states, text and dark surfaces. Do not apply directly in designs; use a semantic token."
+        }
+      }
+    },
+    "typography": {
+      "family": {
+        "display": {
+          "$value": "Literata",
+          "$type": "string",
+          "$description": "Primitive — font family for display text."
+        },
+        "ttile": {
+          "$value": "Literata",
+          "$type": "string",
+          "$description": "Primitive — font family for title text."
+        },
+        "subtitle": {
+          "$value": "ABC Social",
+          "$type": "string",
+          "$description": "Primitive — font family for subtitle text."
+        },
+        "body": {
+          "$value": "ABC Social",
+          "$type": "string",
+          "$description": "Primitive — font family for body text."
+        },
+        "caption": {
+          "$value": "ABC Social",
+          "$type": "string",
+          "$description": "Primitive — font family for caption text."
+        }
+      },
+      "weight": {
+        "regular": {
+          "$value": "Regular",
+          "$type": "string",
+          "$description": "Primitive — regular font weight."
+        },
+        "emphasis": {
+          "$value": "SemiBold",
+          "$type": "string",
+          "$description": "Primitive — emphasis font weight."
+        },
+        "strong": {
+          "$value": "Bold",
+          "$type": "string",
+          "$description": "Primitive — strong font weight."
+        }
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "branding": {
+        "primaryLight": {
+          "$value": "{Brand.primitives.color.primary.700}",
+          "$type": "color",
+          "$description": "Primary brand color, light theme."
+        },
+        "primaryDark": {
+          "$value": "{Brand.primitives.color.primary.500}",
+          "$type": "color",
+          "$description": "Primary brand color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "secondaryLight": {
+          "$value": "{Brand.primitives.color.green.500}",
+          "$type": "color",
+          "$description": "Secondary brand color, light theme."
+        },
+        "secondaryDark": {
+          "$value": "{Brand.primitives.color.green.300}",
+          "$type": "color",
+          "$description": "Secondary brand color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "tertiaryLight": {
+          "$value": "{Brand.primitives.color.secondary.600}",
+          "$type": "color",
+          "$description": "Tertiary brand color, light theme."
+        },
+        "tertiaryDark": {
+          "$value": "{Brand.primitives.color.secondary.500}",
+          "$type": "color",
+          "$description": "Tertiary brand color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        }
+      },
+      "background": {
+        "primaryLight": {
+          "$value": "{unresolved:VariableID:539:2}",
+          "$type": "color",
+          "$description": "Main screen/page background, light theme."
+        },
+        "primaryDark": {
+          "$value": "{Brand.primitives.color.neutral.800}",
+          "$type": "color",
+          "$description": "Main screen/page background, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "secondaryLight": {
+          "$value": "{Brand.primitives.color.neutral.100}",
+          "$type": "color",
+          "$description": "Secondary surface (sections, grouped content), light theme."
+        },
+        "secondaryDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Secondary surface (sections, grouped content), dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "tertiaryLight": {
+          "$value": "{Brand.primitives.color.neutral.400}",
+          "$type": "color",
+          "$description": "Tertiary surface / subtle fill, light theme."
+        },
+        "tertiaryDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Tertiary surface / subtle fill, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "quaternaryLight": {
+          "$value": "{unresolved:VariableID:539:2}",
+          "$type": "color",
+          "$description": "Fourth surface level (containers on top of other surfaces), light theme."
+        },
+        "quaternaryDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Fourth surface level (containers on top of other surfaces), dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "quinaryLight": {
+          "$value": "{Brand.primitives.color.neutral.200}",
+          "$type": "color",
+          "$description": "Fifth surface level, light theme."
+        },
+        "quinaryDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Fifth surface level, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "paleLight": {
+          "$value": "{Brand.primitives.color.blue.200}",
+          "$type": "color",
+          "$description": "Pale brand-tinted background for highlights and banners, light theme."
+        },
+        "paleDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Pale brand-tinted background for highlights and banners, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "overlay": {
+          "$value": "#000000",
+          "$type": "color",
+          "$description": "Scrim behind modals, sheets and dialogs (apply with opacity)."
+        }
+      },
+      "border": {
+        "primaryLight": {
+          "$value": "{Brand.primitives.color.neutral.300}",
+          "$type": "color",
+          "$description": "Default border and divider color, light theme."
+        },
+        "primaryDark": {
+          "$value": "{Brand.primitives.color.neutral.700}",
+          "$type": "color",
+          "$description": "Default border and divider color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "secondaryLight": {
+          "$value": "{Brand.primitives.color.primary.100}",
+          "$type": "color",
+          "$description": "Emphasis / brand-tinted border color, light theme."
+        },
+        "secondaryDark": {
+          "$value": "{Brand.primitives.color.primary.700}",
+          "$type": "color",
+          "$description": "Emphasis / brand-tinted border color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        }
+      },
+      "states": {
+        "errorLight": {
+          "$value": "{Brand.primitives.color.red.500}",
+          "$type": "color",
+          "$description": "Error state: validation messages, error icons, alerts, light theme."
+        },
+        "errorDark": {
+          "$value": "{Brand.primitives.color.red.400}",
+          "$type": "color",
+          "$description": "Error state: validation messages, error icons, alerts, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "successLight": {
+          "$value": "{Brand.primitives.color.green.500}",
+          "$type": "color",
+          "$description": "Success state: confirmations, success icons, light theme."
+        },
+        "successDark": {
+          "$value": "{Brand.primitives.color.green.400}",
+          "$type": "color",
+          "$description": "Success state: confirmations, success icons, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "infoLight": {
+          "$value": "{Brand.primitives.color.blue.500}",
+          "$type": "color",
+          "$description": "Info state: informational messages and icons, light theme."
+        },
+        "infoDark": {
+          "$value": "{Brand.primitives.color.blue.400}",
+          "$type": "color",
+          "$description": "Info state: informational messages and icons, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "warningLight": {
+          "$value": "{Brand.primitives.color.yellow.600}",
+          "$type": "color",
+          "$description": "Warning state: cautions and warning icons, light theme."
+        },
+        "warningDark": {
+          "$value": "{Brand.primitives.color.yellow.500}",
+          "$type": "color",
+          "$description": "Warning state: cautions and warning icons, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "mutedLight": {
+          "$value": "{Brand.primitives.color.neutral.500}",
+          "$type": "color",
+          "$description": "Muted state: inactive or de-emphasised content, light theme."
+        },
+        "mutedDark": {
+          "$value": "{Brand.primitives.color.neutral.500}",
+          "$type": "color",
+          "$description": "Muted state: inactive or de-emphasised content, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        }
+      },
+      "text": {
+        "primaryLight": {
+          "$value": "{Brand.primitives.color.neutral.900}",
+          "$type": "color",
+          "$description": "Main text for headings and body copy, light theme."
+        },
+        "primaryDark": {
+          "$value": "{Brand.primitives.color.neutral.200}",
+          "$type": "color",
+          "$description": "Main text for headings and body copy, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        },
+        "secondaryLight": {
+          "$value": "{Brand.primitives.color.neutral.600}",
+          "$type": "color",
+          "$description": "Secondary / supporting text, light theme."
+        },
+        "secondaryDark": {
+          "$value": "{Brand.primitives.color.neutral.500}",
+          "$type": "color",
+          "$description": "Secondary / supporting text, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+        }
+      },
+      "icon": {
+        "primary": {
+          "light mode": {
+            "$value": "{Brand.semantic.color.branding.primaryLight}",
+            "$type": "color",
+            "$description": "Default icon color, light theme."
+          },
+          "dark mode": {
+            "$value": "{Brand.semantic.color.branding.primaryDark}",
+            "$type": "color",
+            "$description": "Default icon color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+          }
+        },
+        "secondary": {
+          "light mode": {
+            "$value": "{Brand.primitives.color.neutral.200}",
+            "$type": "color",
+            "$description": "Secondary icon color, light theme."
+          },
+          "dark mode": {
+            "$value": "{Brand.primitives.color.neutral.200}",
+            "$type": "color",
+            "$description": "Secondary icon color, dark theme.\nPurple Ocean has no dark theme in code; mirrors light mode."
+          }
+        },
+        "tertiary": {
+          "light mode": {
+            "$value": "{Brand.semantic.color.branding.tertiaryLight}",
+            "$type": "color",
+            "$description": "Icons on filled / brand-colored surfaces, light theme."
+          },
+          "dark mode": {
+            "$value": "{Brand.semantic.color.branding.tertiaryDark}",
+            "$type": "color",
+            "$description": "Icons on filled / brand-colored surfaces, dark theme."
+          }
+        },
+        "success": {
+          "light mode": {
+            "$value": "{Brand.primitives.color.green.500}",
+            "$type": "color",
+            "$description": "Success icon color, light theme.\nPsiquicos and Purple Ocean: real code aliases `positive` to backgroundSecondary, not a distinct color — identical to Danger in those brands. Flag as a design gap."
+          },
+          "dark mode": {
+            "$value": "{Brand.primitives.color.green.400}",
+            "$type": "color",
+            "$description": "Success icon color, dark theme.\nPsiquicos and Purple Ocean: same backgroundSecondary alias as light. Purple Ocean has no dark theme; mirrors light."
+          }
+        },
+        "danger": {
+          "light mode": {
+            "$value": "{Brand.primitives.color.red.500}",
+            "$type": "color",
+            "$description": "Danger / error icon color, light theme.\nKasamba&#39;s real `negative` value is blue (same as brand primary), not red — likely a design bug, kept faithful to code. Psiquicos/PO alias to backgroundSecondary, identical to Success."
+          },
+          "dark mode": {
+            "$value": "{Brand.primitives.color.red.400}",
+            "$type": "color",
+            "$description": "Danger / error icon color, dark theme.\nSame caveats as Light. Purple Ocean has no dark theme; mirrors light."
+          }
+        },
+        "disabled": {
+          "light mode": {
+            "$value": "{Brand.primitives.color.neutral.400}",
+            "$type": "color",
+            "$description": "Disabled icon color, light theme."
+          },
+          "dark mode": {
+            "$value": "{Brand.primitives.color.neutral.400}",
+            "$type": "color",
+            "$description": "Disabled icon color, dark theme.\nPurple Ocean has no dark theme; mirrors light."
+          }
+        },
+        "channel": {
+          "chat": {
+            "light mode": {
+              "$value": "{Brand.primitives.color.green.600}",
+              "$type": "color",
+              "$description": "Chat channel icon color, light theme."
+            },
+            "dark mode": {
+              "$value": "{Brand.primitives.color.green.500}",
+              "$type": "color",
+              "$description": "Chat channel icon color, dark theme."
+            }
+          },
+          "video": {
+            "light mode": {
+              "$value": "{Brand.primitives.color.blue.500}",
+              "$type": "color",
+              "$description": "Video channel icon color, light theme."
+            },
+            "dark mode": {
+              "$value": "{Brand.primitives.color.blue.400}",
+              "$type": "color",
+              "$description": "Video channel icon color, dark theme."
+            }
+          },
+          "voice": {
+            "light mode": {
+              "$value": "{Brand.primitives.color.primary.500}",
+              "$type": "color",
+              "$description": "Voice channel icon color, light theme."
+            },
+            "dark mode": {
+              "$value": "{Brand.primitives.color.primary.400}",
+              "$type": "color",
+              "$description": "Voice channel icon color, dark theme."
+            }
+          }
+        }
+      },
+      "button": {
+        "primary": {
+          "light": {
+            "Default": {
+              "$value": "{Brand.primitives.color.primary.600}",
+              "$type": "color",
+              "$description": "Primary button fill — default state, light theme."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.primary.800}",
+              "$type": "color",
+              "$description": "Primary button fill — pressed state, light theme."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.400}",
+              "$type": "color",
+              "$description": "Primary button fill — disabled state, light theme."
+            }
+          },
+          "dark": {
+            "Default": {
+              "$value": "{Brand.primitives.color.primary.700}",
+              "$type": "color",
+              "$description": "Primary button fill — default state, dark theme.\nPurple Ocean has no dark theme in code; value mirrors light mode."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.primary.500}",
+              "$type": "color",
+              "$description": "Primary button fill — pressed state, dark theme.\nPurple Ocean has no dark theme in code; value mirrors light mode."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.400}",
+              "$type": "color",
+              "$description": "Primary button fill — disabled state, dark theme.\nPurple Ocean has no dark theme in code; value mirrors light mode."
+            }
+          }
+        },
+        "secondary": {
+          "light": {
+            "Default": {
+              "$value": "{Brand.primitives.color.neutral.100}",
+              "$type": "color",
+              "$description": "Secondary button fill — default state, light theme."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.primary.200}",
+              "$type": "color",
+              "$description": "Secondary button fill — pressed state, light theme."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.100}",
+              "$type": "color",
+              "$description": "Secondary button fill — disabled state, light theme."
+            }
+          },
+          "dark": {
+            "Default": {
+              "$value": "{Brand.primitives.color.neutral.800}",
+              "$type": "color",
+              "$description": "Secondary button fill — default state, dark theme.\nKasamba/Psiquicos real values are transparent (alpha 0) in code, not solid — shown here as their opaque base color. Purple Ocean has no dark theme; mirrors light."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.neutral.700}",
+              "$type": "color",
+              "$description": "Secondary button fill — pressed state, dark theme.\nKasamba/Psiquicos real values are #404144 at 20% alpha in code, not solid. Purple Ocean has no dark theme; mirrors light."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.700}",
+              "$type": "color",
+              "$description": "Secondary button fill — disabled state, dark theme.\nKasamba/Psiquicos real values are #404144 at 20% alpha in code, not solid. Purple Ocean has no dark theme; mirrors light."
+            }
+          }
+        },
+        "accent": {
+          "light": {
+            "Default": {
+              "$value": "{Brand.primitives.color.green.500}",
+              "$type": "color",
+              "$description": "Accent button fill — default state, light theme.\nPsiquicos and Purple Ocean have no Accent button in code (AccentButton force-unwraps a null color and would crash) — value is a neutral placeholder, not a real brand color."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.green.500}",
+              "$type": "color",
+              "$description": "Accent button fill — pressed state, light theme.\nPsiquicos and Purple Ocean have no Accent button in code — placeholder, not a real brand color."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.400}",
+              "$type": "color",
+              "$description": "Accent button fill — disabled state, light theme.\nPsiquicos and Purple Ocean have no Accent button in code — placeholder, not a real brand color."
+            }
+          },
+          "dark": {
+            "Default": {
+              "$value": "{Brand.primitives.color.green.500}",
+              "$type": "color",
+              "$description": "Accent button fill — default state, dark theme.\nPsiquicos and Purple Ocean have no Accent button in code — placeholder, not a real brand color."
+            },
+            "Pressed": {
+              "$value": "{Brand.primitives.color.green.400}",
+              "$type": "color",
+              "$description": "Accent button fill — pressed state, dark theme.\nPsiquicos and Purple Ocean have no Accent button in code — placeholder, not a real brand color."
+            },
+            "Disabled": {
+              "$value": "{Brand.primitives.color.neutral.400}",
+              "$type": "color",
+              "$description": "Accent button fill — disabled state, dark theme.\nPsiquicos and Purple Ocean have no Accent button in code — placeholder, not a real brand color."
+            }
+          }
+        },
+        "channel": {
+          "chat": {
+            "light": {
+              "Online": {
+                "$value": "{Brand.primitives.color.green.100}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is online, light theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is busy, light theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is offline, light theme."
+              }
+            },
+            "dark": {
+              "Online": {
+                "$value": "{Brand.primitives.color.neutral.700}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is online, dark theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is busy, dark theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Chat channel button background when advisor is offline, dark theme."
+              }
+            }
+          },
+          "voice": {
+            "light": {
+              "Online": {
+                "$value": "{Brand.primitives.color.secondary.100}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is online, light theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is busy, light theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is offline, light theme."
+              }
+            },
+            "dark": {
+              "Online": {
+                "$value": "{Brand.primitives.color.neutral.700}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is online, dark theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is busy, dark theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Voice channel button background when advisor is offline, dark theme."
+              }
+            }
+          },
+          "video": {
+            "light": {
+              "Online": {
+                "$value": "{Brand.primitives.color.blue.100}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is online, light theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is busy, light theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryLight}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is offline, light theme."
+              }
+            },
+            "dark": {
+              "Online": {
+                "$value": "{Brand.primitives.color.neutral.700}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is online, dark theme."
+              },
+              "Busy": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is busy, dark theme."
+              },
+              "Offline": {
+                "$value": "{Brand.semantic.color.background.secondaryDark}",
+                "$type": "color",
+                "$description": "Video channel button background when advisor is offline, dark theme."
+              }
+            }
+          }
+        }
+      },
+      "accents": {
+        "red": {
+          "Light": {
+            "$value": "{Brand.primitives.color.secondary.500}",
+            "$type": "color",
+            "$description": "Red accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.tertiary.200}",
+            "$type": "color",
+            "$description": "Red accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "orange": {
+          "Light": {
+            "$value": "{Brand.primitives.color.red.400}",
+            "$type": "color",
+            "$description": "Orange accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.red.300}",
+            "$type": "color",
+            "$description": "Orange accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "yellow": {
+          "Light": {
+            "$value": "{Brand.primitives.color.yellow.400}",
+            "$type": "color",
+            "$description": "Yellow accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.yellow.400}",
+            "$type": "color",
+            "$description": "Yellow accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "green": {
+          "Light": {
+            "$value": "{Brand.primitives.color.green.600}",
+            "$type": "color",
+            "$description": "Green accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.green.500}",
+            "$type": "color",
+            "$description": "Green accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "blue": {
+          "Light": {
+            "$value": "{Brand.primitives.color.blue.500}",
+            "$type": "color",
+            "$description": "Blue accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.blue.500}",
+            "$type": "color",
+            "$description": "Blue accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "purple": {
+          "Light": {
+            "$value": "{Brand.primitives.color.secondary.800}",
+            "$type": "color",
+            "$description": "Purple accent for tags, badges and decorative highlights, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.secondary.500}",
+            "$type": "color",
+            "$description": "Purple accent for tags, badges and decorative highlights, dark theme."
+          }
+        },
+        "inverted": {
+          "Light": {
+            "$value": "{Brand.primitives.color.neutral.900}",
+            "$type": "color",
+            "$description": "Inverted accent that contrasts with the current theme, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.neutral.100}",
+            "$type": "color",
+            "$description": "Inverted accent that contrasts with the current theme, dark theme."
+          }
+        },
+        "positive": {
+          "Light": {
+            "$value": "{Brand.primitives.color.green.600}",
+            "$type": "color",
+            "$description": "Positive accent for positive/negative indicators, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.green.400}",
+            "$type": "color",
+            "$description": "Positive accent for positive/negative indicators, dark theme."
+          }
+        },
+        "negative": {
+          "Light": {
+            "$value": "{Brand.primitives.color.secondary.500}",
+            "$type": "color",
+            "$description": "Negative accent for positive/negative indicators, light theme."
+          },
+          "Dark": {
+            "$value": "{Brand.primitives.color.tertiary.200}",
+            "$type": "color",
+            "$description": "Negative accent for positive/negative indicators, dark theme."
+          }
+        }
+      },
+      "gradients": {
+        "primaryFirst": {
+          "$value": "#b38fff",
+          "$type": "color",
+          "$description": "Start color of the primary gradient."
+        },
+        "primarySecond": {
+          "$value": "#8957f5",
+          "$type": "color",
+          "$description": "End color of the primary gradient."
+        },
+        "secondaryFirst": {
+          "$value": "#8755f4",
+          "$type": "color",
+          "$description": "Start color of the secondary gradient."
+        },
+        "secondarySecond": {
+          "$value": "#fc8d3c",
+          "$type": "color",
+          "$description": "End color of the secondary gradient."
+        },
+        "payLight": {
+          "$value": "#8755f4",
+          "$type": "color",
+          "$description": "Pay / checkout gradient, light theme."
+        },
+        "payDark": {
+          "$value": "#8755f4",
+          "$type": "color",
+          "$description": "Pay / checkout gradient, dark theme."
+        }
+      }
+    },
+    "typography": {
+      "display": {
+        "Jumbo": {
+          "$value": "{Breakpoint.responsive_typography.10xl}",
+          "$type": "number",
+          "$description": "Font size for display jumbo text.\n→ text-6xl (code --font-size-jumbo)"
+        },
+        "XLarge": {
+          "$value": "{Breakpoint.responsive_typography.9xl}",
+          "$type": "number",
+          "$description": "Font size for display xlarge text.\n→ text-6xl (code --font-size-jumbo)"
+        },
+        "large": {
+          "$value": "{Breakpoint.responsive_typography.8xl}",
+          "$type": "number",
+          "$description": "Font size for display large text.\n→ text-6xl (code --font-size-jumbo)"
+        },
+        "medium": {
+          "$value": "{Breakpoint.responsive_typography.5xl}",
+          "$type": "number",
+          "$description": "Font size for display medium text.\n→ text-5xl (code --font-size-h1)"
+        },
+        "small": {
+          "$value": "{Breakpoint.responsive_typography.4xl}",
+          "$type": "number",
+          "$description": "Font size for display small text.\n→ text-4xl (code --font-size-h2)"
+        }
+      },
+      "Subtitle": {
+        "large": {
+          "$value": "{Breakpoint.responsive_typography.base}",
+          "$type": "number",
+          "$description": "Font size for subtitle large text.\n→ text-3xl (code --font-size-h3)"
+        },
+        "small": {
+          "$value": "{unresolved:VariableID:829:47}",
+          "$type": "number",
+          "$description": "Font size for subtitle small text.\n→ text-xl (code --font-size-h5)"
+        }
+      },
+      "title": {
+        "large": {
+          "$value": "{Breakpoint.responsive_typography.3xl}",
+          "$type": "number",
+          "$description": "Font size for title large text.\n→ text-lg (code --font-size-h6)"
+        },
+        "medium": {
+          "$value": "{Breakpoint.responsive_typography.2xl}",
+          "$type": "number",
+          "$description": "Font size for title medium text.\n→ text-base (code --font-size-base)"
+        },
+        "small": {
+          "$value": "{Breakpoint.responsive_typography.xl}",
+          "$type": "number",
+          "$description": "Font size for title small text.\n→ text-md (code --font-size-subhead)"
+        }
+      },
+      "body": {
+        "large": {
+          "$value": "{Breakpoint.responsive_typography.base}",
+          "$type": "number",
+          "$description": "Font size for body large text.\n→ text-base (code --font-size-base)"
+        },
+        "medium": {
+          "$value": "{Breakpoint.responsive_typography.md}",
+          "$type": "number",
+          "$description": "Font size for body medium text.\n→ text-md (code --font-size-subhead)"
+        },
+        "small": {
+          "$value": "{Breakpoint.responsive_typography.md}",
+          "$type": "number",
+          "$description": "Font size for body small text.\n→ text-sm (code --font-size-sm)"
+        }
+      },
+      "Caption": {
+        "large": {
+          "$value": "{Breakpoint.responsive_typography.base}",
+          "$type": "number",
+          "$description": "Font size for caption large text.\n→ text-base-fixed (code --font-size-callout)"
+        },
+        "medium": {
+          "$value": "{unresolved:VariableID:829:47}",
+          "$type": "number",
+          "$description": "Font size for caption medium text.\n→ text-xs (code --font-size-caption1)"
+        },
+        "small": {
+          "$value": "{Breakpoint.responsive_typography.xs}",
+          "$type": "number",
+          "$description": "Font size for caption small text.\n→ text-2xs (code --font-size-xs)"
+        }
+      }
+    },
+    "radius": {
+      "button": {
+        "radius": {
+          "$value": "{unresolved:VariableID:690:15}",
+          "$type": "number",
+          "$description": "Corner radius for buttons.\nCode --radius-button: PG 8 · Kasamba 8 · Psiquicos 25"
+        }
+      }
+    }
+  }
+}
