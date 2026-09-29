@@ -437,44 +437,44 @@
           "display": {
             "$value": "Literata",
             "$type": "string",
-            "$description": "Primitive — font family for display text."
+            "$description": "Font family for display text. Set per brand."
           },
           "ttile": {
             "$value": "Literata",
             "$type": "string",
-            "$description": "Primitive — font family for title text."
+            "$description": "Font family for titles. Set per brand."
           },
           "subtitle": {
             "$value": "ABC Social",
             "$type": "string",
-            "$description": "Primitive — font family for subtitle text."
+            "$description": "Font family for subtitles. Set per brand."
           },
           "body": {
             "$value": "ABC Social",
             "$type": "string",
-            "$description": "Primitive — font family for body text."
+            "$description": "Font family for body text. Set per brand."
           },
           "caption": {
             "$value": "ABC Social",
             "$type": "string",
-            "$description": "Primitive — font family for caption text."
+            "$description": "Font family for captions and button labels. Set per brand."
           }
         },
         "weight": {
           "regular": {
             "$value": "Regular",
             "$type": "string",
-            "$description": "Primitive — regular font weight."
+            "$description": "Default weight for most text."
           },
           "emphasis": {
             "$value": "SemiBold",
             "$type": "string",
-            "$description": "Primitive — emphasis font weight."
+            "$description": "Weight for Emphasis styles — highlights key words, buttons and labels."
           },
           "strong": {
             "$value": "Bold",
             "$type": "string",
-            "$description": "Primitive — strong font weight."
+            "$description": "Heaviest weight, for the strongest emphasis only."
           }
         }
       }
@@ -1156,90 +1156,90 @@
           "Jumbo": {
             "$value": "{Breakpoint.responsive_typography.10xl}",
             "$type": "number",
-            "$description": "Font size for display jumbo text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Biggest text in the system. For hero numbers and big promotional moments — use once per screen at most."
           },
           "XLarge": {
             "$value": "{Breakpoint.responsive_typography.9xl}",
             "$type": "number",
-            "$description": "Font size for display xlarge text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Extra-large headline for hero sections and landing banners."
           },
           "large": {
             "$value": "{Breakpoint.responsive_typography.8xl}",
             "$type": "number",
-            "$description": "Font size for display large text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Large headline for onboarding, marketing and promo screens."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.5xl}",
             "$type": "number",
-            "$description": "Font size for display medium text.\n→ text-5xl (code --font-size-h1)"
+            "$description": "Headline for feature highlights and empty states."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.4xl}",
             "$type": "number",
-            "$description": "Font size for display small text.\n→ text-4xl (code --font-size-h2)"
+            "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
         "Subtitle": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for subtitle large text.\n→ text-3xl (code --font-size-h3)"
+            "$description": "Subtitle under a title, or short lead-in text."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for subtitle small text.\n→ text-xl (code --font-size-h5)"
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
             "$type": "number",
-            "$description": "Font size for title large text.\n→ text-lg (code --font-size-h6)"
+            "$description": "Main screen title. Use one per screen."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.2xl}",
             "$type": "number",
-            "$description": "Font size for title medium text.\n→ text-base (code --font-size-base)"
+            "$description": "Section titles inside a screen."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
-            "$description": "Font size for title small text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Titles for cards, sheets and list groups."
           }
         },
         "body": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for body large text.\n→ text-base (code --font-size-base)"
+            "$description": "Main reading text for descriptions and longer content."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for body medium text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Default text for most UI copy."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
-            "$description": "Font size for body small text.\n→ text-sm (code --font-size-sm)"
+            "$description": "Supporting text for details, hints and helper messages."
           }
         },
         "Caption": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for caption large text.\n→ text-base-fixed (code --font-size-callout)"
+            "$description": "Button labels and short, prominent labels."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for caption medium text.\n→ text-xs (code --font-size-caption1)"
+            "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xs}",
             "$type": "number",
-            "$description": "Font size for caption small text.\n→ text-2xs (code --font-size-xs)"
+            "$description": "Smallest text. For footnotes, legal copy and tiny labels."
           }
         }
       },
@@ -1692,44 +1692,44 @@
           "display": {
             "$value": "Fraunces",
             "$type": "string",
-            "$description": "Primitive — font family for display text."
+            "$description": "Font family for display text. Set per brand."
           },
           "ttile": {
             "$value": "Fraunces",
             "$type": "string",
-            "$description": "Primitive — font family for title text."
+            "$description": "Font family for titles. Set per brand."
           },
           "subtitle": {
             "$value": "Work Sans",
             "$type": "string",
-            "$description": "Primitive — font family for subtitle text."
+            "$description": "Font family for subtitles. Set per brand."
           },
           "body": {
             "$value": "Work Sans",
             "$type": "string",
-            "$description": "Primitive — font family for body text."
+            "$description": "Font family for body text. Set per brand."
           },
           "caption": {
             "$value": "Work Sans",
             "$type": "string",
-            "$description": "Primitive — font family for caption text."
+            "$description": "Font family for captions and button labels. Set per brand."
           }
         },
         "weight": {
           "regular": {
             "$value": "Regular",
             "$type": "string",
-            "$description": "Primitive — regular font weight."
+            "$description": "Default weight for most text."
           },
           "emphasis": {
             "$value": "SemiBold",
             "$type": "string",
-            "$description": "Primitive — emphasis font weight."
+            "$description": "Weight for Emphasis styles — highlights key words, buttons and labels."
           },
           "strong": {
             "$value": "Bold",
             "$type": "string",
-            "$description": "Primitive — strong font weight."
+            "$description": "Heaviest weight, for the strongest emphasis only."
           }
         }
       }
@@ -2411,90 +2411,90 @@
           "Jumbo": {
             "$value": "{Breakpoint.responsive_typography.10xl}",
             "$type": "number",
-            "$description": "Font size for display jumbo text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Biggest text in the system. For hero numbers and big promotional moments — use once per screen at most."
           },
           "XLarge": {
             "$value": "{Breakpoint.responsive_typography.9xl}",
             "$type": "number",
-            "$description": "Font size for display xlarge text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Extra-large headline for hero sections and landing banners."
           },
           "large": {
             "$value": "{Breakpoint.responsive_typography.8xl}",
             "$type": "number",
-            "$description": "Font size for display large text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Large headline for onboarding, marketing and promo screens."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.5xl}",
             "$type": "number",
-            "$description": "Font size for display medium text.\n→ text-5xl (code --font-size-h1)"
+            "$description": "Headline for feature highlights and empty states."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.4xl}",
             "$type": "number",
-            "$description": "Font size for display small text.\n→ text-4xl (code --font-size-h2)"
+            "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
         "Subtitle": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for subtitle large text.\n→ text-3xl (code --font-size-h3)"
+            "$description": "Subtitle under a title, or short lead-in text."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for subtitle small text.\n→ text-xl (code --font-size-h5)"
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
             "$type": "number",
-            "$description": "Font size for title large text.\n→ text-lg (code --font-size-h6)"
+            "$description": "Main screen title. Use one per screen."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.2xl}",
             "$type": "number",
-            "$description": "Font size for title medium text.\n→ text-base (code --font-size-base)"
+            "$description": "Section titles inside a screen."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
-            "$description": "Font size for title small text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Titles for cards, sheets and list groups."
           }
         },
         "body": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for body large text.\n→ text-base (code --font-size-base)"
+            "$description": "Main reading text for descriptions and longer content."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for body medium text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Default text for most UI copy."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
-            "$description": "Font size for body small text.\n→ text-sm (code --font-size-sm)"
+            "$description": "Supporting text for details, hints and helper messages."
           }
         },
         "Caption": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for caption large text.\n→ text-base-fixed (code --font-size-callout)"
+            "$description": "Button labels and short, prominent labels."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for caption medium text.\n→ text-xs (code --font-size-caption1)"
+            "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xs}",
             "$type": "number",
-            "$description": "Font size for caption small text.\n→ text-2xs (code --font-size-xs)"
+            "$description": "Smallest text. For footnotes, legal copy and tiny labels."
           }
         }
       },
@@ -2947,44 +2947,44 @@
           "display": {
             "$value": "Inter",
             "$type": "string",
-            "$description": "Primitive — font family for display text."
+            "$description": "Font family for display text. Set per brand."
           },
           "ttile": {
             "$value": "Inter",
             "$type": "string",
-            "$description": "Primitive — font family for title text."
+            "$description": "Font family for titles. Set per brand."
           },
           "subtitle": {
             "$value": "Inter",
             "$type": "string",
-            "$description": "Primitive — font family for subtitle text."
+            "$description": "Font family for subtitles. Set per brand."
           },
           "body": {
             "$value": "Inter",
             "$type": "string",
-            "$description": "Primitive — font family for body text."
+            "$description": "Font family for body text. Set per brand."
           },
           "caption": {
             "$value": "Inter",
             "$type": "string",
-            "$description": "Primitive — font family for caption text."
+            "$description": "Font family for captions and button labels. Set per brand."
           }
         },
         "weight": {
           "regular": {
             "$value": "Regular",
             "$type": "string",
-            "$description": "Primitive — regular font weight."
+            "$description": "Default weight for most text."
           },
           "emphasis": {
             "$value": "Semi Bold",
             "$type": "string",
-            "$description": "Primitive — emphasis font weight."
+            "$description": "Weight for Emphasis styles — highlights key words, buttons and labels."
           },
           "strong": {
             "$value": "Bold",
             "$type": "string",
-            "$description": "Primitive — strong font weight."
+            "$description": "Heaviest weight, for the strongest emphasis only."
           }
         }
       }
@@ -3666,90 +3666,90 @@
           "Jumbo": {
             "$value": "{Breakpoint.responsive_typography.10xl}",
             "$type": "number",
-            "$description": "Font size for display jumbo text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Biggest text in the system. For hero numbers and big promotional moments — use once per screen at most."
           },
           "XLarge": {
             "$value": "{Breakpoint.responsive_typography.9xl}",
             "$type": "number",
-            "$description": "Font size for display xlarge text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Extra-large headline for hero sections and landing banners."
           },
           "large": {
             "$value": "{Breakpoint.responsive_typography.8xl}",
             "$type": "number",
-            "$description": "Font size for display large text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Large headline for onboarding, marketing and promo screens."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.5xl}",
             "$type": "number",
-            "$description": "Font size for display medium text.\n→ text-5xl (code --font-size-h1)"
+            "$description": "Headline for feature highlights and empty states."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.4xl}",
             "$type": "number",
-            "$description": "Font size for display small text.\n→ text-4xl (code --font-size-h2)"
+            "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
         "Subtitle": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for subtitle large text.\n→ text-3xl (code --font-size-h3)"
+            "$description": "Subtitle under a title, or short lead-in text."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for subtitle small text.\n→ text-xl (code --font-size-h5)"
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
             "$type": "number",
-            "$description": "Font size for title large text.\n→ text-lg (code --font-size-h6)"
+            "$description": "Main screen title. Use one per screen."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.2xl}",
             "$type": "number",
-            "$description": "Font size for title medium text.\n→ text-base (code --font-size-base)"
+            "$description": "Section titles inside a screen."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
-            "$description": "Font size for title small text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Titles for cards, sheets and list groups."
           }
         },
         "body": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for body large text.\n→ text-base (code --font-size-base)"
+            "$description": "Main reading text for descriptions and longer content."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for body medium text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Default text for most UI copy."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
-            "$description": "Font size for body small text.\n→ text-sm (code --font-size-sm)"
+            "$description": "Supporting text for details, hints and helper messages."
           }
         },
         "Caption": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for caption large text.\n→ text-base-fixed (code --font-size-callout)"
+            "$description": "Button labels and short, prominent labels."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for caption medium text.\n→ text-xs (code --font-size-caption1)"
+            "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xs}",
             "$type": "number",
-            "$description": "Font size for caption small text.\n→ text-2xs (code --font-size-xs)"
+            "$description": "Smallest text. For footnotes, legal copy and tiny labels."
           }
         }
       },
@@ -4202,44 +4202,44 @@
           "display": {
             "$value": "Fira Sans",
             "$type": "string",
-            "$description": "Primitive — font family for display text."
+            "$description": "Font family for display text. Set per brand."
           },
           "ttile": {
             "$value": "Fira Sans",
             "$type": "string",
-            "$description": "Primitive — font family for title text."
+            "$description": "Font family for titles. Set per brand."
           },
           "subtitle": {
             "$value": "Fira Sans",
             "$type": "string",
-            "$description": "Primitive — font family for subtitle text."
+            "$description": "Font family for subtitles. Set per brand."
           },
           "body": {
             "$value": "Fira Sans",
             "$type": "string",
-            "$description": "Primitive — font family for body text."
+            "$description": "Font family for body text. Set per brand."
           },
           "caption": {
             "$value": "Fira Sans",
             "$type": "string",
-            "$description": "Primitive — font family for caption text."
+            "$description": "Font family for captions and button labels. Set per brand."
           }
         },
         "weight": {
           "regular": {
             "$value": "Regular",
             "$type": "string",
-            "$description": "Primitive — regular font weight."
+            "$description": "Default weight for most text."
           },
           "emphasis": {
             "$value": "SemiBold",
             "$type": "string",
-            "$description": "Primitive — emphasis font weight."
+            "$description": "Weight for Emphasis styles — highlights key words, buttons and labels."
           },
           "strong": {
             "$value": "Bold",
             "$type": "string",
-            "$description": "Primitive — strong font weight."
+            "$description": "Heaviest weight, for the strongest emphasis only."
           }
         }
       }
@@ -4921,90 +4921,90 @@
           "Jumbo": {
             "$value": "{Breakpoint.responsive_typography.10xl}",
             "$type": "number",
-            "$description": "Font size for display jumbo text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Biggest text in the system. For hero numbers and big promotional moments — use once per screen at most."
           },
           "XLarge": {
             "$value": "{Breakpoint.responsive_typography.9xl}",
             "$type": "number",
-            "$description": "Font size for display xlarge text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Extra-large headline for hero sections and landing banners."
           },
           "large": {
             "$value": "{Breakpoint.responsive_typography.8xl}",
             "$type": "number",
-            "$description": "Font size for display large text.\n→ text-6xl (code --font-size-jumbo)"
+            "$description": "Large headline for onboarding, marketing and promo screens."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.5xl}",
             "$type": "number",
-            "$description": "Font size for display medium text.\n→ text-5xl (code --font-size-h1)"
+            "$description": "Headline for feature highlights and empty states."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.4xl}",
             "$type": "number",
-            "$description": "Font size for display small text.\n→ text-4xl (code --font-size-h2)"
+            "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
         "Subtitle": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for subtitle large text.\n→ text-3xl (code --font-size-h3)"
+            "$description": "Subtitle under a title, or short lead-in text."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for subtitle small text.\n→ text-xl (code --font-size-h5)"
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
             "$type": "number",
-            "$description": "Font size for title large text.\n→ text-lg (code --font-size-h6)"
+            "$description": "Main screen title. Use one per screen."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.2xl}",
             "$type": "number",
-            "$description": "Font size for title medium text.\n→ text-base (code --font-size-base)"
+            "$description": "Section titles inside a screen."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
-            "$description": "Font size for title small text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Titles for cards, sheets and list groups."
           }
         },
         "body": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for body large text.\n→ text-base (code --font-size-base)"
+            "$description": "Main reading text for descriptions and longer content."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
-            "$description": "Font size for body medium text.\n→ text-md (code --font-size-subhead)"
+            "$description": "Default text for most UI copy."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
-            "$description": "Font size for body small text.\n→ text-sm (code --font-size-sm)"
+            "$description": "Supporting text for details, hints and helper messages."
           }
         },
         "Caption": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.base}",
             "$type": "number",
-            "$description": "Font size for caption large text.\n→ text-base-fixed (code --font-size-callout)"
+            "$description": "Button labels and short, prominent labels."
           },
           "medium": {
             "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
-            "$description": "Font size for caption medium text.\n→ text-xs (code --font-size-caption1)"
+            "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
           "small": {
             "$value": "{Breakpoint.responsive_typography.xs}",
             "$type": "number",
-            "$description": "Font size for caption small text.\n→ text-2xs (code --font-size-xs)"
+            "$description": "Smallest text. For footnotes, legal copy and tiny labels."
           }
         }
       },
