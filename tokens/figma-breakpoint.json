@@ -1,1 +1,194 @@
-
+{
+  "Mobile (<768)": {
+    "responsive_typography": {
+      "xs": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Tiny labels — 10px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "sm": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Captions — 12px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "md": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Small body — 14px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "base": {
+        "$value": 17,
+        "$type": "number",
+        "$description": "Body — 17px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "xl": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Small subtitle — 20 / 20 / 24px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "2xl": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Subtitle — 24 / 24 / 29px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "3xl": {
+        "$value": 29,
+        "$type": "number",
+        "$description": "Small title — 29 / 29 / 35px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "4xl": {
+        "$value": 35,
+        "$type": "number",
+        "$description": "Section title — 35 / 35 / 42px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "5xl": {
+        "$value": 42,
+        "$type": "number",
+        "$description": "Page title — 42 / 42 / 50px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "8xl": {
+        "$value": 50,
+        "$type": "number",
+        "$description": "Display — 50 / 60 / 87px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "9xl": {
+        "$value": 60,
+        "$type": "number",
+        "$description": "Large display — 60 / 72 / 104px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "10xl": {
+        "$value": 72,
+        "$type": "number",
+        "$description": "Hero numbers — 72 / 87 / 125px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      }
+    }
+  },
+  "Tablet (768-1023)": {
+    "responsive_typography": {
+      "xs": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Tiny labels — 10px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "sm": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Captions — 12px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "md": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Small body — 14px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "base": {
+        "$value": 17,
+        "$type": "number",
+        "$description": "Body — 17px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "xl": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "Small subtitle — 20 / 20 / 24px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "2xl": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Subtitle — 24 / 24 / 29px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "3xl": {
+        "$value": 29,
+        "$type": "number",
+        "$description": "Small title — 29 / 29 / 35px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "4xl": {
+        "$value": 35,
+        "$type": "number",
+        "$description": "Section title — 35 / 35 / 42px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "5xl": {
+        "$value": 42,
+        "$type": "number",
+        "$description": "Page title — 42 / 42 / 50px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "8xl": {
+        "$value": 60,
+        "$type": "number",
+        "$description": "Display — 50 / 60 / 87px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "9xl": {
+        "$value": 72,
+        "$type": "number",
+        "$description": "Large display — 60 / 72 / 104px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "10xl": {
+        "$value": 87,
+        "$type": "number",
+        "$description": "Hero numbers — 72 / 87 / 125px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      }
+    }
+  },
+  "Desktop (≥1024)": {
+    "responsive_typography": {
+      "xs": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Tiny labels — 10px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "sm": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Captions — 12px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "md": {
+        "$value": 14,
+        "$type": "number",
+        "$description": "Small body — 14px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "base": {
+        "$value": 17,
+        "$type": "number",
+        "$description": "Body — 17px on all screens.\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "xl": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Small subtitle — 20 / 20 / 24px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "2xl": {
+        "$value": 29,
+        "$type": "number",
+        "$description": "Subtitle — 24 / 24 / 29px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "3xl": {
+        "$value": 35,
+        "$type": "number",
+        "$description": "Small title — 29 / 29 / 35px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "4xl": {
+        "$value": 42,
+        "$type": "number",
+        "$description": "Section title — 35 / 35 / 42px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "5xl": {
+        "$value": 50,
+        "$type": "number",
+        "$description": "Page title — 42 / 42 / 50px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "8xl": {
+        "$value": 87,
+        "$type": "number",
+        "$description": "Display — 50 / 60 / 87px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "9xl": {
+        "$value": 104,
+        "$type": "number",
+        "$description": "Large display — 60 / 72 / 104px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      },
+      "10xl": {
+        "$value": 125,
+        "$type": "number",
+        "$description": "Hero numbers — 72 / 87 / 125px (mobile / tablet / desktop).\nScale 14 × 1.2: https://www.modularscale.com/?14&px&1.2"
+      }
+    }
+  }
+}
