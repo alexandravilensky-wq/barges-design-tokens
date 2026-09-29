@@ -1,0 +1,32 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Introduction" />
+
+# Barges design tokens
+
+Figma variables → `tokens/*.json` → **Style Dictionary** → `build/css/<brand>.css` → this Storybook.
+
+Use the **Brand** and **Theme** menus in the toolbar to switch between Purple Garden, Kasamba, Psiquicos and
+Purple Ocean in light or dark mode. Every page is drawn with the generated CSS variables, so what you see is exactly
+what a consuming app gets.
+
+## Updating tokens
+
+1. Export the variables from Figma into `tokens/` and commit.
+2. `npm run storybook` rebuilds the CSS (`npm run build:tokens`) and starts Storybook.
+
+The build prints any Figma alias that points at a variable outside the export. Those get a stand-in value from
+`config/unresolved-fallbacks.json` until they are fixed in Figma.
+
+## Using the CSS
+
+```html
+<link rel="stylesheet" href="build/css/purple-garden.css" />
+<html data-theme="dark"> <!-- omit for light -->
+```
+
+```css
+.button { background: var(--color-button-primary-default); border-radius: var(--radius-button); }
+```
+
+Text styles are classes: `<h1 class="text-display-large-emphasis">`.
