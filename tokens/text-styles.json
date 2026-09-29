@@ -3,7 +3,7 @@
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Regular",
-      "fontSize": 125,
+      "fontSize": 72,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -15,13 +15,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Landing-page hero headline only. Use once per page, above the fold — it's the largest, most expressive text in the system and loses impact if repeated.\n\nFormerly \"display/Jumbo\"."
+    "$description": "Landing-page hero headline only. Use once per page, above the fold — it&#39;s the largest, most expressive text in the system and loses impact if repeated.\n\nFormerly &quot;display/Jumbo&quot;.\nSizes: mobile 72px · tablet 87px · desktop 125px"
   },
   "Display-Jumbo-Emphasis": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "SemiBold",
-      "fontSize": 125,
+      "fontSize": 72,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -32,13 +32,14 @@
       "textCase": "ORIGINAL",
       "textDecoration": "NONE"
     },
-    "$type": "typography"
+    "$type": "typography",
+    "$description": "Sizes: mobile 72px · tablet 87px · desktop 125px"
   },
   "Display-XLarge-Regular": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Regular",
-      "fontSize": 87,
+      "fontSize": 60,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -50,13 +51,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Large landing-page section headline, one step down from a Jumbo hero. Use to open a major section on a marketing page.\n\nNew tier, added for LOHP's H2."
+    "$description": "Large landing-page section headline, one step down from a Jumbo hero. Use to open a major section on a marketing page.\n\nNew tier, added for LOHP&#39;s H2.\nSizes: mobile 60px · tablet 72px · desktop 104px"
   },
   "Display-XLarge-Emphasis": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "SemiBold",
-      "fontSize": 87,
+      "fontSize": 60,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -67,13 +68,14 @@
       "textCase": "ORIGINAL",
       "textDecoration": "NONE"
     },
-    "$type": "typography"
+    "$type": "typography",
+    "$description": "Sizes: mobile 60px · tablet 72px · desktop 104px"
   },
   "Display-Large-Regular": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Regular",
-      "fontSize": 72,
+      "fontSize": 50,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -85,13 +87,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Landing-page section headline for content that doesn't need Jumbo/XLarge's full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP's H3."
+    "$description": "Landing-page section headline for content that doesn&#39;t need Jumbo/XLarge&#39;s full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP&#39;s H3.\nSizes: mobile 50px · tablet 60px · desktop 87px"
   },
   "Display-Large-Emphasis": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "SemiBold",
-      "fontSize": 72,
+      "fontSize": 50,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -103,13 +105,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Landing-page section headline for content that doesn't need Jumbo/XLarge's full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP's H3."
+    "$description": "Landing-page section headline for content that doesn&#39;t need Jumbo/XLarge&#39;s full weight, but is still bigger than in-app text.\n\nNew tier, added for LOHP&#39;s H3.\nSizes: mobile 50px · tablet 60px · desktop 87px"
   },
   "Display-Medium-Regular": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Regular",
-      "fontSize": 50,
+      "fontSize": 42,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -121,13 +123,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent."
+    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent.\nSizes: mobile 42px · tablet 42px · desktop 50px"
   },
   "Display-Medium-Emphasis": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "SemiBold",
-      "fontSize": 50,
+      "fontSize": 42,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -139,7 +141,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent."
+    "$description": "Works on both web and app: the standard H1 for a web page, or a strong hero title in-app. Verified against real production (kasamba.com H1).\n\nNo previous app equivalent.\nSizes: mobile 42px · tablet 42px · desktop 50px"
   },
   "Display-Small-Regular": {
     "$value": {
@@ -157,7 +159,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Largest text that appears inside the app itself — onboarding titles, empty-state headlines, hero moments within a screen.\n\nFormerly \"displayLargeTitle\"."
+    "$description": "Largest text that appears inside the app itself — onboarding titles, empty-state headlines, hero moments within a screen.\n\nFormerly &quot;displayLargeTitle&quot;.\nSizes: mobile 35px · tablet 35px · desktop 42px"
   },
   "Display-Small-Emphasis": {
     "$value": {
@@ -175,7 +177,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Display/Small\". Matches real code field \"displayLargeTitleBold\"."
+    "$description": "Emphasis (bold) companion to &quot;Display/Small&quot;. Matches real code field &quot;displayLargeTitleBold&quot;.\nSizes: mobile 35px · tablet 35px · desktop 42px"
   },
   "Title-Large-Regular": {
     "$value": {
@@ -193,7 +195,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Primary section header within a screen — marks the start of a major content block.\n\nFormerly \"titleLarge\"."
+    "$description": "Primary section header within a screen — marks the start of a major content block.\n\nFormerly &quot;titleLarge&quot;.\nSizes: mobile 29px · tablet 29px · desktop 35px"
   },
   "Title-Large-Emphasis": {
     "$value": {
@@ -211,13 +213,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Title/Large\". Matches real code field \"titleLargeBold\"."
+    "$description": "Emphasis (bold) companion to &quot;Title/Large&quot;. Matches real code field &quot;titleLargeBold&quot;.\nSizes: mobile 29px · tablet 29px · desktop 35px"
   },
   "Title-Medium-Regular": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Regular",
-      "fontSize": 20,
+      "fontSize": 24,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -229,13 +231,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Secondary section header, nested under a Title/Large — use for sub-sections.\n\nFormerly \"titleMedium\"."
+    "$description": "Secondary section header, nested under a Title/Large — use for sub-sections.\n\nFormerly &quot;titleMedium&quot;.\nSizes: mobile 24px · tablet 24px · desktop 29px"
   },
   "Title-Medium-Emphasis": {
     "$value": {
       "fontFamily": "Literata",
       "fontWeight": "Bold",
-      "fontSize": 20,
+      "fontSize": 24,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -247,7 +249,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Title/Medium\". Matches real code field \"titleMediumBold\"."
+    "$description": "Emphasis (bold) companion to &quot;Title/Medium&quot;. Matches real code field &quot;titleMediumBold&quot;.\nSizes: mobile 24px · tablet 24px · desktop 29px"
   },
   "Title-Small-Regular": {
     "$value": {
@@ -265,7 +267,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Compact section header — card titles, modal/dialog titles, list-section headers.\n\nFormerly \"titleSmall\"."
+    "$description": "Compact section header — card titles, modal/dialog titles, list-section headers.\n\nFormerly &quot;titleSmall&quot;.\nSizes: mobile 20px · tablet 20px · desktop 24px"
   },
   "Title-Small-Emphasis": {
     "$value": {
@@ -283,7 +285,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Title/Small\". Matches real code field \"titleSmallBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Title/Small&quot;. Matches real code field &quot;titleSmallBold (w600)&quot;.\nSizes: mobile 20px · tablet 20px · desktop 24px"
   },
   "Subtitle-Large-Regular": {
     "$value": {
@@ -301,7 +303,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Supporting text directly beneath a Title, explaining what the section is about before the reader reaches Body copy.\n\nFormerly \"headline\" — renamed to drop the iOS-specific term."
+    "$description": "Supporting text directly beneath a Title, explaining what the section is about before the reader reaches Body copy.\n\nFormerly &quot;headline&quot; — renamed to drop the iOS-specific term.\nSizes: 17px on all screens"
   },
   "Subtitle-Large-Emphasis": {
     "$value": {
@@ -319,13 +321,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Subtitle/Large\". Matches real code field \"headlineBold\"."
+    "$description": "Emphasis (bold) companion to &quot;Subtitle/Large&quot;. Matches real code field &quot;headlineBold&quot;.\nSizes: 17px on all screens"
   },
   "Subtitle-Small-Regular": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Regular",
-      "fontSize": 15,
+      "fontSize": 14,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -337,13 +339,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Same role as Subtitle/Large, used when the layout is tight (e.g. a compact card or dense list).\n\nFormerly \"subhead\" — renamed to drop the iOS-specific term."
+    "$description": "Same role as Subtitle/Large, used when the layout is tight (e.g. a compact card or dense list).\n\nFormerly &quot;subhead&quot; — renamed to drop the iOS-specific term.\nSizes: 14px on all screens"
   },
   "Subtitle-Small-Emphasis": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Medium",
-      "fontSize": 15,
+      "fontSize": 14,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -355,7 +357,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Subtitle/Small\". Matches real code field \"subheadBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Subtitle/Small&quot;. Matches real code field &quot;subheadBold (w600)&quot;.\nSizes: 14px on all screens"
   },
   "Body-Large-Regular": {
     "$value": {
@@ -373,7 +375,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Default reading size for paragraphs and descriptions — use this unless you have a specific reason not to.\n\nFormerly \"body\". Same size as Subtitle/Large; they differ by role and weight, not size."
+    "$description": "Default reading size for paragraphs and descriptions — use this unless you have a specific reason not to.\n\nFormerly &quot;body&quot;. Same size as Subtitle/Large; they differ by role and weight, not size.\nSizes: 17px on all screens"
   },
   "Body-Large-Emphasis": {
     "$value": {
@@ -391,13 +393,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Body/Large\". Matches real code field \"bodyBold\"."
+    "$description": "Emphasis (bold) companion to &quot;Body/Large&quot;. Matches real code field &quot;bodyBold&quot;.\nSizes: 17px on all screens"
   },
   "Body-Small-Regular": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Regular",
-      "fontSize": 14,
+      "fontSize": 12,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -409,13 +411,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Secondary paragraph text — de-emphasized descriptions, supporting copy next to a more important Body/Large block.\n\nFormerly \"callout\" — renamed to drop the iOS-specific term."
+    "$description": "Secondary paragraph text — de-emphasized descriptions, supporting copy next to a more important Body/Large block.\n\nFormerly &quot;callout&quot; — renamed to drop the iOS-specific term.\nSizes: 12px on all screens"
   },
   "Body-Small-Emphasis": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Medium",
-      "fontSize": 14,
+      "fontSize": 12,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -427,7 +429,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Body/Small\". Matches real code field \"calloutBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Body/Small&quot;. Matches real code field &quot;calloutBold (w600)&quot;.\nSizes: 12px on all screens"
   },
   "Caption-Large-Regular": {
     "$value": {
@@ -445,13 +447,31 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Fine print that still needs to be comfortably readable: timestamps, metadata, helper text under a form field.\n\nFormerly \"captionLarge\"; also absorbs \"footnote\" (13px — judged not meaningfully distinct)."
+    "$description": "Fine print that still needs to be comfortably readable: timestamps, metadata, helper text under a form field.\n\nFormerly &quot;captionLarge&quot;; also absorbs &quot;footnote&quot; (13px — judged not meaningfully distinct).\nSizes: 17px on all screens"
+  },
+  "Caption-Large-Emphasis": {
+    "$value": {
+      "fontFamily": "ABC Social",
+      "fontWeight": "Medium",
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$type": "typography",
+    "$description": "Emphasis (bold) companion to Caption/Large. Same size and role, heavier weight for highlighted labels.\nSizes: 17px on all screens"
   },
   "Caption-Medium-Regular": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Regular",
-      "fontSize": 15,
+      "fontSize": 14,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -463,13 +483,13 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Caption/Large\". Matches real code field \"captionLargeBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Caption/Large&quot;. Matches real code field &quot;captionLargeBold (w600)&quot;.\nSizes: 14px on all screens (Purple Ocean: 12px on all screens)"
   },
   "Caption-Medium-Emphasis": {
     "$value": {
       "fontFamily": "ABC Social",
       "fontWeight": "Medium",
-      "fontSize": 15,
+      "fontSize": 14,
       "lineHeight": {
         "unit": "AUTO"
       },
@@ -481,7 +501,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Caption/Large\". Matches real code field \"captionLargeBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Caption/Large&quot;. Matches real code field &quot;captionLargeBold (w600)&quot;.\nSizes: 14px on all screens (Purple Ocean: 12px on all screens)"
   },
   "Caption-Small-Regular": {
     "$value": {
@@ -499,7 +519,7 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Smallest commonly-used fine print — legal disclaimers, tags, dense metadata rows.\n\nFormerly \"captionSmall\"."
+    "$description": "Smallest commonly-used fine print — legal disclaimers, tags, dense metadata rows.\n\nFormerly &quot;captionSmall&quot;.\nSizes: 10px on all screens"
   },
   "Caption-Small-Emphasis": {
     "$value": {
@@ -517,6 +537,6 @@
       "textDecoration": "NONE"
     },
     "$type": "typography",
-    "$description": "Emphasis (bold) companion to \"Caption/Small\". Matches real code field \"captionSmallBold (w600)\"."
+    "$description": "Emphasis (bold) companion to &quot;Caption/Small&quot;. Matches real code field &quot;captionSmallBold (w600)&quot;.\nSizes: 10px on all screens"
   }
 }
