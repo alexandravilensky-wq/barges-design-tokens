@@ -56,10 +56,11 @@ export const variantProps = name =>
  * Merged sets name a code per variant value: "Code: chevronUp (Up) · chevronDown (Down)" → codeFor.Up = 'chevronUp'.
  */
 export function parseDescription(text = '') {
-  const line = key => text.match(new RegExp(`^${key}:\\s*(.+)$`, 'mi'))?.[1].trim();
+  // "Code:" for app code names, "Code (web):" for web-only ones (e.g. "Code (web): Menu").
+  const line = key => text.match(new RegExp(`^${key}(?: \\(web\\))?:\\s*(.+)$`, 'mi'))?.[1].trim();
   const list = s => (s ? s.split(/\s*[·,]\s*/).filter(Boolean) : []);
   const entries = list(line('Code')?.replace(/\s+—.*$/, ''))
-    .map(e => e.match(/^([a-z][A-Za-z0-9]*)(?:\s*\(([^)]+)\))?$/))
+    .map(e => e.match(/^([A-Za-z][A-Za-z0-9]*)(?:\s*\(([^)]+)\))?$/))
     .filter(Boolean);
   return {
     code: entries.map(m => m[1]),

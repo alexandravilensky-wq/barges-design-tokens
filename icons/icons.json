@@ -1,0 +1,7239 @@
+[
+  {
+    "name": "Glyph",
+    "section": "Brands & Social",
+    "code": [
+      "appLogo"
+    ],
+    "aliases": [
+      "App logo",
+      "Brand mark",
+      "Symbol",
+      "Purple Garden_Glyph"
+    ],
+    "note": "PG art from PG Reskin (Purple Garden_Glyph). Light/Dark come from Modes variables.",
+    "color": {
+      "figma": "Branding/Primary",
+      "css": "--color-branding-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/app-logo.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/app-logo.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/app-logo.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/app-logo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Logo inline",
+    "section": "Brands & Social",
+    "code": [],
+    "aliases": [
+      "Logo horizontal",
+      "Wordmark"
+    ],
+    "note": "Figma only – inline logo (symbol + wordmark); the app bar uses the Glyph. Light/Dark come from Modes variables.",
+    "color": {
+      "figma": "Branding/Primary",
+      "css": "--color-branding-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/logo-inline.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/logo-inline.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/logo-inline.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/logo-inline.svg"
+      }
+    ]
+  },
+  {
+    "name": "Main Logo",
+    "section": "Brands & Social",
+    "code": [
+      "splash"
+    ],
+    "aliases": [
+      "Logo stacked",
+      "Logo with text",
+      "Logo_colored"
+    ],
+    "note": "PG art from PG Reskin (Logo_colored). Psiquicos and Purple Ocean have no stacked logo in code – placeholders. Light/Dark come from Modes variables.",
+    "color": {
+      "figma": "Branding/Primary",
+      "css": "--color-branding-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/splash.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/splash.svg"
+      }
+    ]
+  },
+  {
+    "name": "Press",
+    "section": "Brands & Social",
+    "code": [
+      "nytimesLogo",
+      "slateLogo",
+      "yahooLogo"
+    ],
+    "aliases": [
+      "As seen in",
+      "Press logos",
+      "Media logos"
+    ],
+    "note": "Used in Purple Garden. Colour: Modes › Text/Secondary (code uses #766E8B, no exact token).",
+    "color": {
+      "figma": "Text/Secondary",
+      "css": "--color-text-secondary"
+    },
+    "files": [
+      {
+        "Logo": "New York Times",
+        "file": "shared/nytimes-logo.svg"
+      },
+      {
+        "Logo": "Slate",
+        "file": "shared/slate-logo.svg"
+      },
+      {
+        "Logo": "Yahoo",
+        "file": "shared/yahoo-logo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "section": "Brands & Social",
+    "code": [
+      "appleIconLogo",
+      "facebookIconLogo",
+      "googleIconLogo",
+      "emailIconLogo",
+      "googlePlayLogo",
+      "ppLogo"
+    ],
+    "aliases": [
+      "Social login",
+      "Sign in with"
+    ],
+    "note": "Social login icons (24x24). Option=Apple/Facebook/Google/Email × Brand=Purple Garden/Kasamba/Psiquicos/Purple Ocean. Apple, Facebook and Google keep their official logo colors on every brand; Email is bound to primitives/color/primary/900 with the Brand mode set per variant.",
+    "files": [
+      {
+        "Option": "Apple",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/apple-icon-logo.svg"
+      },
+      {
+        "Option": "Apple",
+        "Brand": "Kasamba",
+        "file": "kasamba/apple-icon-logo.svg"
+      },
+      {
+        "Option": "Apple",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/apple-icon-logo.svg"
+      },
+      {
+        "Option": "Apple",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/apple-icon-logo.svg"
+      },
+      {
+        "Option": "Facebook",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/facebook-icon-logo.svg"
+      },
+      {
+        "Option": "Facebook",
+        "Brand": "Kasamba",
+        "file": "kasamba/facebook-icon-logo.svg"
+      },
+      {
+        "Option": "Facebook",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/facebook-icon-logo.svg"
+      },
+      {
+        "Option": "Facebook",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/facebook-icon-logo.svg"
+      },
+      {
+        "Option": "Google",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/google-icon-logo.svg"
+      },
+      {
+        "Option": "Google",
+        "Brand": "Kasamba",
+        "file": "kasamba/google-icon-logo.svg"
+      },
+      {
+        "Option": "Google",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/google-icon-logo.svg"
+      },
+      {
+        "Option": "Google",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/google-icon-logo.svg"
+      },
+      {
+        "Option": "Email",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/email-icon-logo.svg"
+      },
+      {
+        "Option": "Email",
+        "Brand": "Kasamba",
+        "file": "kasamba/email-icon-logo.svg"
+      },
+      {
+        "Option": "Email",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/email-icon-logo.svg"
+      },
+      {
+        "Option": "Email",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/email-icon-logo.svg"
+      },
+      {
+        "Option": "Google Play",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/google-play-logo.svg"
+      },
+      {
+        "Option": "Google Play",
+        "Brand": "Kasamba",
+        "file": "kasamba/google-play-logo.svg"
+      },
+      {
+        "Option": "Google Play",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/google-play-logo.svg"
+      },
+      {
+        "Option": "Google Play",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/google-play-logo.svg"
+      },
+      {
+        "Option": "PayPal",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/pp-logo.svg"
+      },
+      {
+        "Option": "PayPal",
+        "Brand": "Kasamba",
+        "file": "kasamba/pp-logo.svg"
+      },
+      {
+        "Option": "PayPal",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/pp-logo.svg"
+      },
+      {
+        "Option": "PayPal",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/pp-logo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Add media",
+    "section": "Communication & Media",
+    "code": [
+      "chatAddMedia"
+    ],
+    "aliases": [
+      "Chat add media",
+      "Add image",
+      "Chat Input / Add Image"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/chat-add-media.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chat-add-media.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chat-add-media.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Bluetooth",
+    "section": "Communication & Media",
+    "code": [
+      "bluetooth"
+    ],
+    "aliases": [
+      "Misc/Bluetooth",
+      "Icons/Connetion/Bluetooth",
+      "bluetoothPicker"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/bluetooth.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/bluetooth.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/bluetooth.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/bluetooth.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Camera off",
+    "section": "Communication & Media",
+    "code": [
+      "cameraOff"
+    ],
+    "aliases": [
+      "Camera off",
+      "Misc/Camera off",
+      "Icons/Connetion/Camera off"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/camera-off.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/camera-off.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/camera-off.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/camera-off.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Camera on",
+    "section": "Communication & Media",
+    "code": [
+      "cameraOn"
+    ],
+    "aliases": [
+      "Camera on",
+      "Misc/Camera",
+      "Icons/Connetion/Camera"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/camera-on.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/camera-on.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/camera-on.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/camera-on.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Hang up",
+    "section": "Communication & Media",
+    "code": [
+      "hangUp"
+    ],
+    "aliases": [
+      "Hang up",
+      "End call",
+      "Misc/Hang up",
+      "Icons/Connetion/Hang up"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/hang-up.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/hang-up.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/hang-up.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/hang-up.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Headphone",
+    "section": "Communication & Media",
+    "code": [
+      "headphone"
+    ],
+    "aliases": [
+      "Headphones",
+      "Misc/Headphones",
+      "Icons/Connetion/Headphones",
+      "headphonePicker"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/headphone.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/headphone.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/headphone.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/headphone.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Mute",
+    "section": "Communication & Media",
+    "code": [
+      "mute"
+    ],
+    "aliases": [
+      "Misc/Mute",
+      "Icons/Connetion/Mute"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/mute.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/mute.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/mute.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/mute.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Phone",
+    "section": "Communication & Media",
+    "code": [
+      "phone"
+    ],
+    "aliases": [
+      "Phone device",
+      "Misc/Phone",
+      "Icons/Connetion/Phone",
+      "phonePicker"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/phone.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/phone.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/phone.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/phone.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Speaker",
+    "section": "Communication & Media",
+    "code": [
+      "speaker"
+    ],
+    "aliases": [
+      "Misc/Speaker",
+      "Icons/Connetion/Speaker",
+      "speakerPicker"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/speaker.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/speaker.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/speaker.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/speaker.svg"
+      }
+    ]
+  },
+  {
+    "name": "Call Controls/Unmute",
+    "section": "Communication & Media",
+    "code": [
+      "unmute"
+    ],
+    "aliases": [
+      "Misc/Unmute",
+      "Icons/Connetion/Unmute"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/unmute.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/unmute.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/unmute.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/unmute.svg"
+      }
+    ]
+  },
+  {
+    "name": "Camera",
+    "section": "Communication & Media",
+    "code": [
+      "camera"
+    ],
+    "aliases": [
+      "Take photo",
+      "Linear / Video",
+      "Audio",
+      "Sound / Camera"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/camera.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/camera.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/camera.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/camera.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channel live chat",
+    "section": "Communication & Media",
+    "code": [
+      "channelLiveChat"
+    ],
+    "aliases": [
+      "Chat",
+      "Live chat",
+      "Channels / Live Chat"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-live-chat.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-live-chat.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-live-chat.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-live-chat.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channel minutes",
+    "section": "Communication & Media",
+    "code": [
+      "channelMinutes"
+    ],
+    "aliases": [
+      "Minutes",
+      "Alarm",
+      "Stopwatch",
+      "Channels / Minutes"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-minutes.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channel rush",
+    "section": "Communication & Media",
+    "code": [
+      "channelRush"
+    ],
+    "aliases": [
+      "Rush",
+      "Lightning",
+      "Channels / Rush"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-rush.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channel video call",
+    "section": "Communication & Media",
+    "code": [
+      "channelVideoCall"
+    ],
+    "aliases": [
+      "Video",
+      "Video call",
+      "Channels / Video Call"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-video-call.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-video-call.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-video-call.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-video-call.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channel voice call",
+    "section": "Communication & Media",
+    "code": [
+      "channelVoiceCall"
+    ],
+    "aliases": [
+      "Phone",
+      "Voice call",
+      "Channels / Voice Call",
+      "phoneIconLogo"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-voice-call.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-voice-call.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-voice-call.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-voice-call.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channels/Live chat",
+    "section": "Communication & Media",
+    "code": [
+      "channelLiveChatOutlined"
+    ],
+    "aliases": [
+      "Channel live chat outlined",
+      "Channel=Chat"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-live-chat-outlined.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-live-chat-outlined.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-live-chat-outlined.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-live-chat-outlined.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channels/Standard",
+    "section": "Communication & Media",
+    "code": [
+      "channelStandard"
+    ],
+    "aliases": [
+      "Channel standard",
+      "Watch"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-standard.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channels/Video call",
+    "section": "Communication & Media",
+    "code": [
+      "channelVideoCallOutlined"
+    ],
+    "aliases": [
+      "Channel video call outlined",
+      "Channel=Video"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-video-call-outlined.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-video-call-outlined.svg"
+      }
+    ]
+  },
+  {
+    "name": "Channels/Voice call",
+    "section": "Communication & Media",
+    "code": [
+      "channelVoiceCallOutlined"
+    ],
+    "aliases": [
+      "Channel voice call outlined",
+      "Channel=Voice"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/channel-voice-call-outlined.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-voice-call-outlined.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-voice-call-outlined.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/channel-voice-call-outlined.svg"
+      }
+    ]
+  },
+  {
+    "name": "Chat dots",
+    "section": "Communication & Media",
+    "code": [
+      "chatDots"
+    ],
+    "aliases": [
+      "Chat round dots",
+      "Message",
+      "Linear / Messages",
+      "Conversation / Chat Round Dots"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/chat-dots.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/chat-dots.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chat-dots.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chat-dots.svg"
+      }
+    ]
+  },
+  {
+    "name": "Chat lock",
+    "section": "Communication & Media",
+    "code": [
+      "chatLockMessage"
+    ],
+    "aliases": [
+      "Chat lock message",
+      "Lock",
+      "Lock Icon",
+      "Chat Input / Lock",
+      "lockFilled"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/chat-lock-message.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/chat-lock-message.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chat-lock-message.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chat-lock-message.svg"
+      }
+    ]
+  },
+  {
+    "name": "Gallery",
+    "section": "Communication & Media",
+    "code": [
+      "chooseFromGallery"
+    ],
+    "aliases": [
+      "Choose from gallery",
+      "Image",
+      "Photo library",
+      "Misc outline / Gallery",
+      "Icons/Misc/image-02",
+      "Chat Input / Image Gallery"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/choose-from-gallery.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/choose-from-gallery.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/choose-from-gallery.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/choose-from-gallery.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Bubble",
+    "section": "Communication & Media",
+    "code": [
+      "journeysBubble"
+    ],
+    "aliases": [
+      "Journeys / bubble",
+      "Speech bubble"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys-bubble.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys-bubble.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys-bubble.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys-bubble.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Pause",
+    "section": "Communication & Media",
+    "code": [
+      "journeysPause"
+    ],
+    "aliases": [
+      "Journeys / Pause",
+      "Pause"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys-pause.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys-pause.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys-pause.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys-pause.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Play",
+    "section": "Communication & Media",
+    "code": [
+      "universalPlay"
+    ],
+    "aliases": [
+      "Universal play",
+      "Journeys / Universal play"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/universal-play.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/universal-play.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/universal-play.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/universal-play.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Text",
+    "section": "Communication & Media",
+    "code": [
+      "journeysText"
+    ],
+    "aliases": [
+      "Journeys / text",
+      "Icons/Journeys/Text"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys-text.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys-text.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys-text.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys-text.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Video",
+    "section": "Communication & Media",
+    "code": [
+      "journeysVideo"
+    ],
+    "aliases": [
+      "Journeys / video",
+      "Icons/Journeys/Video"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys-video.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys-video.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys-video.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "Journeys/Voice",
+    "section": "Communication & Media",
+    "code": [
+      "journeysVoice"
+    ],
+    "aliases": [
+      "Journeys / voice",
+      "Icons/Journeys/Voice",
+      "Audio wave"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys-voice.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys-voice.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys-voice.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys-voice.svg"
+      }
+    ]
+  },
+  {
+    "name": "New advisor message",
+    "section": "Communication & Media",
+    "code": [
+      "newAdvisorMessage"
+    ],
+    "aliases": [
+      "New message",
+      "Unread message"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/new-advisor-message.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/new-advisor-message.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/new-advisor-message.svg"
+      }
+    ]
+  },
+  {
+    "name": "Play",
+    "section": "Communication & Media",
+    "code": [
+      "videoAudioSoundPlay"
+    ],
+    "aliases": [
+      "Video audio sound play",
+      "Linear / Video",
+      "Audio",
+      "Sound / Play",
+      "Video audio sound play"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/video-audio-sound-play.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/video-audio-sound-play.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/video-audio-sound-play.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/video-audio-sound-play.svg"
+      }
+    ]
+  },
+  {
+    "name": "Play advisor video",
+    "section": "Communication & Media",
+    "code": [
+      "playAdvisorVideo"
+    ],
+    "aliases": [
+      "Advisor video play button"
+    ],
+    "note": "Only in Purple Ocean",
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/play-advisor-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "Play circle",
+    "section": "Communication & Media",
+    "code": [
+      "playCircle"
+    ],
+    "aliases": [
+      "Linear / Video",
+      "Audio",
+      "Sound / Play Circle"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/play-circle.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/play-circle.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/play-circle.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/play-circle.svg"
+      }
+    ]
+  },
+  {
+    "name": "Play triangle",
+    "section": "Communication & Media",
+    "code": [
+      "generalPlay"
+    ],
+    "aliases": [
+      "Play filled",
+      "General play",
+      "Play triangle"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/general-play.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/general-play.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/general-play.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/general-play.svg"
+      }
+    ]
+  },
+  {
+    "name": "Play video",
+    "section": "Communication & Media",
+    "code": [
+      "playVideo"
+    ],
+    "aliases": [
+      "Video play button"
+    ],
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/play-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reconnect",
+    "section": "Communication & Media",
+    "code": [
+      "reconnect"
+    ],
+    "aliases": [
+      "Wi-Fi",
+      "Connection",
+      "Linear / Reconnect",
+      "Icons/Misc/Reconnect"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/reconnect.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/reconnect.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/reconnect.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/reconnect.svg"
+      }
+    ]
+  },
+  {
+    "name": "Support chat",
+    "section": "Communication & Media",
+    "code": [
+      "supportChat"
+    ],
+    "aliases": [
+      "Chat bubble dots",
+      "Frame 35577"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/support-chat.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/support-chat.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/support-chat.svg"
+      }
+    ]
+  },
+  {
+    "name": "Support ticket",
+    "section": "Communication & Media",
+    "code": [
+      "supportTicket"
+    ],
+    "aliases": [
+      "Email",
+      "Letter",
+      "Linear / Messages",
+      "Conversation / Letter"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/support-ticket.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/support-ticket.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/support-ticket.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/support-ticket.svg"
+      }
+    ]
+  },
+  {
+    "name": "Take photo",
+    "section": "Communication & Media",
+    "code": [
+      "takePhoto"
+    ],
+    "aliases": [
+      "Camera",
+      "Linear / Video",
+      "Audio",
+      "Sound / Camera Square",
+      "Misc outline / Camera",
+      "Icons/Misc/camera-02",
+      "Chat Input / Camera"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/take-photo.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/take-photo.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/take-photo.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/take-photo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Cashback",
+    "section": "Empty States",
+    "code": [
+      "emptyStateCashback"
+    ],
+    "aliases": [
+      "No cashback"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-cashback.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-cashback.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-cashback.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/empty-state-cashback.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-cashback-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-cashback-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-cashback-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/empty-state-cashback-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Error",
+    "section": "Empty States",
+    "code": [
+      "generalError"
+    ],
+    "aliases": [
+      "Something went wrong"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/general-error.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/general-error.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/general-error.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/general-error.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/general-error-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/general-error-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/general-error-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/general-error-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Favorite",
+    "section": "Empty States",
+    "code": [
+      "emptyStateFavorite"
+    ],
+    "aliases": [
+      "No favorites"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-favorite.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-favorite.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-favorite.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/empty-state-favorite.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-favorite-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-favorite-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-favorite-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/empty-state-favorite-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Messages",
+    "section": "Empty States",
+    "code": [],
+    "aliases": [
+      "Inbox",
+      "No messages"
+    ],
+    "note": "Figma only – no illustration in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/messages.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/messages.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/messages.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/messages-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/messages-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/messages-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Morning Read",
+    "section": "Empty States",
+    "code": [
+      "emptyStateMorningRead"
+    ],
+    "aliases": [
+      "Morning read empty"
+    ],
+    "note": "Only Purple Garden uses it.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-morning-read.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-morning-read-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "My Activity",
+    "section": "Empty States",
+    "code": [
+      "emptyStateMyActivity"
+    ],
+    "aliases": [
+      "No activity"
+    ],
+    "note": "PG: no art in PG Reskin – placeholder.",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-my-activity.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-my-activity.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/empty-state-my-activity.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-my-activity-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-my-activity-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/empty-state-my-activity-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Notifications",
+    "section": "Empty States",
+    "code": [],
+    "aliases": [
+      "No notifications",
+      "Alert"
+    ],
+    "note": "Figma only – no illustration in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/notifications.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/notifications-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Orders",
+    "section": "Empty States",
+    "code": [],
+    "aliases": [
+      "No orders",
+      "Order history"
+    ],
+    "note": "Figma only – no illustration in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/orders.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/orders.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/orders.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/orders-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/orders-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/orders-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment Methods",
+    "section": "Empty States",
+    "code": [],
+    "aliases": [
+      "No payment method",
+      "Cards"
+    ],
+    "note": "Figma only – no illustration in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/payment-methods.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/payment-methods.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/payment-methods.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/payment-methods.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/payment-methods-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/payment-methods-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/payment-methods-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/payment-methods-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Promo Code",
+    "section": "Empty States",
+    "code": [
+      "applyPromo"
+    ],
+    "aliases": [
+      "Apply promo",
+      "Coupon"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/apply-promo.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/apply-promo.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/apply-promo.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/apply-promo.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/apply-promo-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/apply-promo-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/apply-promo-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/apply-promo-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Rewards Advisors",
+    "section": "Empty States",
+    "code": [
+      "emptyStateRewardsAdvisors"
+    ],
+    "aliases": [
+      "No reward advisors"
+    ],
+    "note": "Used by PG; Kasamba reuses Search Result art in code.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-rewards-advisors.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-rewards-advisors-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Search Result",
+    "section": "Empty States",
+    "code": [
+      "emptyStateSearchResult"
+    ],
+    "aliases": [
+      "No results",
+      "Search empty state"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-search-result.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-search-result.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-search-result.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/empty-state-search-result.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-search-result-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-search-result-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-search-result-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/empty-state-search-result-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Spiritual Hub",
+    "section": "Empty States",
+    "code": [
+      "emptyStateSpiritualHub"
+    ],
+    "aliases": [
+      "Spiritual hub empty"
+    ],
+    "note": "PG: no art in PG Reskin – placeholder. Purple Ocean: not in code.",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-spiritual-hub.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-spiritual-hub.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-spiritual-hub-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-spiritual-hub-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transaction History",
+    "section": "Empty States",
+    "code": [
+      "emptyStateTransactionHistory"
+    ],
+    "aliases": [
+      "No transactions"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/empty-state-transaction-history.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/empty-state-transaction-history.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/empty-state-transaction-history.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/empty-state-transaction-history.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/empty-state-transaction-history-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/empty-state-transaction-history-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/empty-state-transaction-history-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/empty-state-transaction-history-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Update",
+    "section": "Empty States",
+    "code": [
+      "forceUpdate"
+    ],
+    "aliases": [
+      "Force update",
+      "App update"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Light",
+        "file": "purple-garden/force-update.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/force-update.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Light",
+        "file": "psiquicos/force-update.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Light",
+        "file": "purple-ocean/force-update.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "Theme": "Dark",
+        "file": "purple-garden/force-update-dark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/force-update-dark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "Theme": "Dark",
+        "file": "psiquicos/force-update-dark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "Theme": "Dark",
+        "file": "purple-ocean/force-update-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Zodiac Compatibility",
+    "section": "Empty States",
+    "code": [],
+    "aliases": [
+      "Compatibility"
+    ],
+    "note": "Figma only – no illustration in app code yet.",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "Theme": "Light",
+        "file": "kasamba/zodiac-compatibility.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "Theme": "Dark",
+        "file": "kasamba/zodiac-compatibility-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Flags",
+    "section": "Flags",
+    "code": [],
+    "aliases": [],
+    "note": "Figma only – not in app code yet. Country flag icon, 21×15. Pick the country via the Country property.",
+    "files": [
+      {
+        "Country": "Argentina",
+        "file": "shared/flags-argentina.svg"
+      },
+      {
+        "Country": "Australia",
+        "file": "shared/flags-australia.svg"
+      },
+      {
+        "Country": "Brazil",
+        "file": "shared/flags-brazil.svg"
+      },
+      {
+        "Country": "Canada",
+        "file": "shared/flags-canada.svg"
+      },
+      {
+        "Country": "Chile",
+        "file": "shared/flags-chile.svg"
+      },
+      {
+        "Country": "China",
+        "file": "shared/flags-china.svg"
+      },
+      {
+        "Country": "Colombia",
+        "file": "shared/flags-colombia.svg"
+      },
+      {
+        "Country": "Ecuador",
+        "file": "shared/flags-ecuador.svg"
+      },
+      {
+        "Country": "France",
+        "file": "shared/flags-france.svg"
+      },
+      {
+        "Country": "Germany",
+        "file": "shared/flags-germany.svg"
+      },
+      {
+        "Country": "India",
+        "file": "shared/flags-india.svg"
+      },
+      {
+        "Country": "Ireland",
+        "file": "shared/flags-ireland.svg"
+      },
+      {
+        "Country": "Israel",
+        "file": "shared/flags-israel.svg"
+      },
+      {
+        "Country": "Italy",
+        "file": "shared/flags-italy.svg"
+      },
+      {
+        "Country": "Japan",
+        "file": "shared/flags-japan.svg"
+      },
+      {
+        "Country": "Mexico",
+        "file": "shared/flags-mexico.svg"
+      },
+      {
+        "Country": "Netherlands",
+        "file": "shared/flags-netherlands.svg"
+      },
+      {
+        "Country": "Peru",
+        "file": "shared/flags-peru.svg"
+      },
+      {
+        "Country": "Philippines",
+        "file": "shared/flags-philippines.svg"
+      },
+      {
+        "Country": "Poland",
+        "file": "shared/flags-poland.svg"
+      },
+      {
+        "Country": "Portugal",
+        "file": "shared/flags-portugal.svg"
+      },
+      {
+        "Country": "Puerto Rico",
+        "file": "shared/flags-puerto-rico.svg"
+      },
+      {
+        "Country": "South Korea",
+        "file": "shared/flags-south-korea.svg"
+      },
+      {
+        "Country": "Spain",
+        "file": "shared/flags-spain.svg"
+      },
+      {
+        "Country": "Sweden",
+        "file": "shared/flags-sweden.svg"
+      },
+      {
+        "Country": "Switzerland",
+        "file": "shared/flags-switzerland.svg"
+      },
+      {
+        "Country": "Turkey",
+        "file": "shared/flags-turkey.svg"
+      },
+      {
+        "Country": "Ukraine",
+        "file": "shared/flags-ukraine.svg"
+      },
+      {
+        "Country": "United Kingdom",
+        "file": "shared/flags-united-kingdom.svg"
+      },
+      {
+        "Country": "United States",
+        "file": "shared/flags-united-states.svg"
+      },
+      {
+        "Country": "Uruguay",
+        "file": "shared/flags-uruguay.svg"
+      },
+      {
+        "Country": "Venezuela",
+        "file": "shared/flags-venezuela.svg"
+      }
+    ]
+  },
+  {
+    "name": "Arrow back",
+    "section": "Navigation",
+    "code": [
+      "arrowBack"
+    ],
+    "aliases": [
+      "customArrowBack",
+      "Back",
+      "Icons/Navbar/Back",
+      "Navbar / Arrow back"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/arrow-back.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/arrow-back.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/arrow-back.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/arrow-back.svg"
+      }
+    ]
+  },
+  {
+    "name": "Arrow next",
+    "section": "Navigation",
+    "code": [
+      "arrowNext"
+    ],
+    "aliases": [
+      "Arrow Right",
+      "Icons/Navbar/Arrow right"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/arrow-next.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/arrow-next.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/arrow-next.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/arrow-next.svg"
+      }
+    ]
+  },
+  {
+    "name": "Arrow right",
+    "section": "Navigation",
+    "code": [
+      "arrowRight2"
+    ],
+    "aliases": [
+      "Arrow right 2",
+      "Linear / Arrows / Arrow Right"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/arrow-right2.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/arrow-right2.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/arrow-right2.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/arrow-right2.svg"
+      }
+    ]
+  },
+  {
+    "name": "Caret down",
+    "section": "Navigation",
+    "code": [
+      "arrowDownCustom"
+    ],
+    "aliases": [
+      "Arrow down custom",
+      "Dropdown triangle"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/arrow-down-custom.svg"
+      }
+    ]
+  },
+  {
+    "name": "Chevron",
+    "section": "Navigation",
+    "code": [
+      "chevronUp",
+      "chevronDown",
+      "altArrowRight"
+    ],
+    "aliases": [
+      "Chevron up",
+      "Chevron down",
+      "Chevron right",
+      "Alt arrow",
+      "Arrows / Chevron",
+      "Linear / Arrows / Alt Arrow"
+    ],
+    "note": "All directions are one master shape per brand, rotated. Psiquicos master = its alt_arrow_right shape.",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Direction": "Up",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/chevron-up.svg"
+      },
+      {
+        "Direction": "Up",
+        "Brand": "Kasamba",
+        "file": "kasamba/chevron-up.svg"
+      },
+      {
+        "Direction": "Up",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chevron-up.svg"
+      },
+      {
+        "Direction": "Up",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chevron-up.svg"
+      },
+      {
+        "Direction": "Down",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/chevron-down.svg"
+      },
+      {
+        "Direction": "Down",
+        "Brand": "Kasamba",
+        "file": "kasamba/chevron-down.svg"
+      },
+      {
+        "Direction": "Down",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chevron-down.svg"
+      },
+      {
+        "Direction": "Down",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chevron-down.svg"
+      },
+      {
+        "Direction": "Right",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/alt-arrow-right.svg"
+      },
+      {
+        "Direction": "Right",
+        "Brand": "Kasamba",
+        "file": "kasamba/alt-arrow-right.svg"
+      },
+      {
+        "Direction": "Right",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/alt-arrow-right.svg"
+      },
+      {
+        "Direction": "Right",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/alt-arrow-right.svg"
+      },
+      {
+        "Direction": "Left",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/chevron-left.svg"
+      },
+      {
+        "Direction": "Left",
+        "Brand": "Kasamba",
+        "file": "kasamba/chevron-left.svg"
+      },
+      {
+        "Direction": "Left",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/chevron-left.svg"
+      },
+      {
+        "Direction": "Left",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/chevron-left.svg"
+      }
+    ]
+  },
+  {
+    "name": "Double chevron down",
+    "section": "Navigation",
+    "code": [
+      "doubleChevronDown"
+    ],
+    "aliases": [
+      "Double Alt Arrow Down",
+      "Icons/Misc/Double chevron down"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/double-chevron-down.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/double-chevron-down.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/double-chevron-down.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/double-chevron-down.svg"
+      }
+    ]
+  },
+  {
+    "name": "Menu",
+    "section": "Navigation",
+    "code": [
+      "Menu"
+    ],
+    "aliases": [
+      "Hamburger",
+      "Burger",
+      "Linear / Essentional",
+      "UI / Hamburger Menu"
+    ],
+    "note": "Code (web): Menu",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/menu.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/menu.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/menu.svg"
+      }
+    ]
+  },
+  {
+    "name": "Order arrow",
+    "section": "Navigation",
+    "code": [
+      "orderArrow"
+    ],
+    "aliases": [
+      "Linear / Arrows / Order Arrow"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/order-arrow.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/order-arrow.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Add funds",
+    "section": "Navigation",
+    "code": [
+      "addFunds"
+    ],
+    "aliases": [
+      "Linear / Money / Dollar Minimalistic",
+      "Icons/Profile/dollar-square",
+      "Profile / Add funds"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/add-funds.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/add-funds.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/add-funds.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/add-funds.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Apply as psychic",
+    "section": "Navigation",
+    "code": [
+      "psychicApplyHere"
+    ],
+    "aliases": [
+      "Psychic apply here",
+      "Apply for psychic",
+      "Linear / Messages",
+      "Conversation / Pen 2",
+      "Icons/Profile/pen-tool-03"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/psychic-apply-here.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/psychic-apply-here.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/psychic-apply-here.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/psychic-apply-here.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Cash out",
+    "section": "Navigation",
+    "code": [
+      "cashOut"
+    ],
+    "aliases": [
+      "Linear / Money / Cash Out",
+      "Misc outline / Redeem"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/cash-out.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/cash-out.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/cash-out.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/cash-out.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Cashback",
+    "section": "Navigation",
+    "code": [
+      "cashback"
+    ],
+    "aliases": [
+      "Cash back",
+      "Redeem cashback",
+      "Linear / Money / Cashback",
+      "Icons/Profile/credit-card-change"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/cashback.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/cashback.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/cashback.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/cashback.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Dark mode",
+    "section": "Navigation",
+    "code": [
+      "darkMode"
+    ],
+    "aliases": [
+      "Moon",
+      "Linear / Weather / Moon Stars",
+      "Icons/Profile/moon",
+      "Profile / Dark mode"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/dark-mode.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/dark-mode.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/dark-mode.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/dark-mode.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Favorites",
+    "section": "Navigation",
+    "code": [
+      "favs"
+    ],
+    "aliases": [
+      "Favs",
+      "Favourites",
+      "Heart",
+      "Profile / Favs",
+      "Icons/Profile/Favs",
+      "Profile / Favorite"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/favs.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/favs.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/favs.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/favs.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Invite friend",
+    "section": "Navigation",
+    "code": [
+      "inviteFriend"
+    ],
+    "aliases": [
+      "Invite friends",
+      "Linear / Essentional",
+      "UI / Add Square",
+      "Icons/Profile/add-circle",
+      "Profile / Invite friends"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/invite-friend.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/invite-friend.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/invite-friend.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/invite-friend.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Journeys",
+    "section": "Navigation",
+    "code": [
+      "journeys"
+    ],
+    "aliases": [
+      "Profile / Joyrneys",
+      "Icons/Profile/Joyrneys",
+      "Profile / Journeys",
+      "Misc / Journeys filled"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/journeys.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/journeys.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/journeys.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/journeys.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Language",
+    "section": "Navigation",
+    "code": [
+      "language"
+    ],
+    "aliases": [
+      "Linear / List / Sort By Alphabet",
+      "Icons/Profile/language-square",
+      "Profile / Language"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/language.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/language.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/language.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/language.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Offers",
+    "section": "Navigation",
+    "code": [
+      "offers"
+    ],
+    "aliases": [
+      "Ticket",
+      "Profile / Offers",
+      "Icons/Profile/Offers"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/offers.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/offers.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/offers.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Payment method",
+    "section": "Navigation",
+    "code": [
+      "paymentMethod"
+    ],
+    "aliases": [
+      "Payment methods",
+      "Linear / Money / Wallet 2",
+      "Icons/Profile/wallet-01",
+      "Profile / Payment methods"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/payment-method.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/payment-method.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/payment-method.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/payment-method.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Promo code",
+    "section": "Navigation",
+    "code": [
+      "applyPromoCodeProfile"
+    ],
+    "aliases": [
+      "Apply promo code",
+      "Apply promocode profile",
+      "Linear / Money / Sale Square",
+      "Icons/Profile/discount",
+      "Profile / Apply promocode"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/apply-promo-code-profile.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/apply-promo-code-profile.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/apply-promo-code-profile.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/apply-promo-code-profile.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Rate us",
+    "section": "Navigation",
+    "code": [
+      "rateUs"
+    ],
+    "aliases": [
+      "Thumbs up",
+      "Linear / Like / Like",
+      "Icons/Profile/thumbs-up",
+      "Profile / Rate us"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/rate-us.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/rate-us.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/rate-us.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/rate-us.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Support",
+    "section": "Navigation",
+    "code": [
+      "support"
+    ],
+    "aliases": [
+      "Help",
+      "Linear / Essentional",
+      "UI / Help",
+      "Icons/Profile/help-circle",
+      "Profile / Support"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/support.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/support.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/support.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/support.svg"
+      }
+    ]
+  },
+  {
+    "name": "Profile Menu/Transaction history",
+    "section": "Navigation",
+    "code": [
+      "transactionHistory"
+    ],
+    "aliases": [
+      "Transactions",
+      "Linear / Money / Card Transfer",
+      "Icons/Profile/square-arrow-left-right-round",
+      "Profile / Transactions"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/transaction-history.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/transaction-history.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/transaction-history.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/transaction-history.svg"
+      }
+    ]
+  },
+  {
+    "name": "See more dots",
+    "section": "Navigation",
+    "code": [
+      "seeMoreDots"
+    ],
+    "aliases": [
+      "Ellipsis",
+      "More",
+      "Dots"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/see-more-dots.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/see-more-dots.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/see-more-dots.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/see-more-dots.svg"
+      }
+    ]
+  },
+  {
+    "name": "Settings",
+    "section": "Navigation",
+    "code": [
+      "settings"
+    ],
+    "aliases": [
+      "Gear",
+      "Icons/Navbar/Settings",
+      "Profile / Settings"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/settings.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/settings.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/settings.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/settings.svg"
+      }
+    ]
+  },
+  {
+    "name": "Share",
+    "section": "Navigation",
+    "code": [
+      "share"
+    ],
+    "aliases": [
+      "Icons/Navbar/Share",
+      "Navbar / Share"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/share.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/share.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/share.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/share.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/Dashboard",
+    "section": "Navigation",
+    "code": [],
+    "aliases": [],
+    "note": "Figma only – not in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-bar-dashboard.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-bar-dashboard.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/Home",
+    "section": "Navigation",
+    "code": [
+      "tabBarHome"
+    ],
+    "aliases": [
+      "Tab bar home",
+      "Tabbar / Home",
+      "Icons/Tab Bar/Home",
+      "Tab Bar/Tab bar home"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-bar-home.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-bar-home.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tab-bar-home.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/tab-bar-home.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/Horoscopes",
+    "section": "Navigation",
+    "code": [
+      "tabBarHoroscopes"
+    ],
+    "aliases": [
+      "Tab bar horoscopes",
+      "Tabbar / Horoscope",
+      "Icons/Tab Bar/Horoscope",
+      "Tab Bar/Tab bar horoscopes"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-bar-horoscopes.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-bar-horoscopes.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tab-bar-horoscopes.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/tab-bar-horoscopes.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/My activity",
+    "section": "Navigation",
+    "code": [
+      "tabBarMyActivity"
+    ],
+    "aliases": [
+      "Tab bar my activity",
+      "Tabbar / My Activity",
+      "Tabbar / Activity",
+      "Tab Bar/Tab bar my activity"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-bar-my-activity.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-bar-my-activity.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tab-bar-my-activity.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/tab-bar-my-activity.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/Profile",
+    "section": "Navigation",
+    "code": [
+      "tabBarProfile"
+    ],
+    "aliases": [
+      "Tab bar profile",
+      "Tabbar / Profile",
+      "Icons/Tab Bar/Profile",
+      "Tab Bar/Tab bar profile"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-bar-profile.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-bar-profile.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tab-bar-profile.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/tab-bar-profile.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tab Bar/Spiritual hub",
+    "section": "Navigation",
+    "code": [
+      "tabSpiritualHub"
+    ],
+    "aliases": [
+      "Hub",
+      "Tabbar / Hub",
+      "Icons/Tab Bar/Hub"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tab-spiritual-hub.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tab-spiritual-hub.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tab-spiritual-hub.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/tab-spiritual-hub.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / AE",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (AE).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-ae.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-ae-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / Apple Pay",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (Apple Pay).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-apple-pay.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-apple-pay-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / DC",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (DC).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-dc.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-dc-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / Discover",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (Discover).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-discover.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-discover-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / HC",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (HC).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-hc.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-hc-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / JCB",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (JCB).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-jcb.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-jcb-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / MC",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (MC).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-mc.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-mc-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / OB",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (OB).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-ob.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-ob-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / PP",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (PP).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-pp.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-pp-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / Select another",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (Select another).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-select-another.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-select-another-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / Targeta",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (Targeta).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-targeta.svg"
+      },
+      {
+        "Theme": "Drak",
+        "file": "shared/payment-methods-targeta-drak.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / UP",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (UP).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-up.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-up-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / Visa",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (Visa).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods-visa.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-visa-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Payment methods / СС",
+    "section": "Payment methods",
+    "code": [],
+    "aliases": [
+      "Card brand",
+      "Payment logo"
+    ],
+    "note": "Figma only – card / payment brand logo (СС).",
+    "files": [
+      {
+        "Theme": "Light",
+        "file": "shared/payment-methods.svg"
+      },
+      {
+        "Theme": "Dark",
+        "file": "shared/payment-methods-dark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Angel insights",
+    "section": "Reading Categories",
+    "code": [
+      "angelInsights",
+      "angelInsightsSmall"
+    ],
+    "aliases": [
+      "Angels",
+      "Wing"
+    ],
+    "note": "API: angel_insights PG art from PG Reskin.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/angel-insights.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Astrology & horoscopes",
+    "section": "Reading Categories",
+    "code": [
+      "astrology",
+      "astrologySmall"
+    ],
+    "aliases": [
+      "Astrology",
+      "Horoscopes"
+    ],
+    "note": "API: astrology_and_horoscopes",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/astrology.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/astrology.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/astrology.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Career forecasts",
+    "section": "Reading Categories",
+    "code": [
+      "careerForecasts",
+      "careerForecastsSmall"
+    ],
+    "aliases": [
+      "Career",
+      "Work",
+      "Money"
+    ],
+    "note": "API: career_forecasts",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/career-forecasts.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/career-forecasts.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Dream analysis",
+    "section": "Reading Categories",
+    "code": [
+      "dreamAnalysis",
+      "dreamAnalysisSmall"
+    ],
+    "aliases": [
+      "Dreams"
+    ],
+    "note": "API: dream_analysis",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/dream-analysis.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/dream-analysis.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Family & friends",
+    "section": "Reading Categories",
+    "code": [
+      "familyAndFriends",
+      "familyAndFriendsSmall"
+    ],
+    "aliases": [
+      "Family"
+    ],
+    "note": "API: family_and_friends",
+    "files": [
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/family-and-friends.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Fortune telling",
+    "section": "Reading Categories",
+    "code": [
+      "fortuneTelling",
+      "fortuneTellingSmall"
+    ],
+    "aliases": [
+      "Fortune",
+      "Crystal ball"
+    ],
+    "note": "API: fortune_telling",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/fortune-telling.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Karma & past life",
+    "section": "Reading Categories",
+    "code": [
+      "karmaAndPastlife",
+      "karmaAndPastlifeSmall"
+    ],
+    "aliases": [
+      "Karma",
+      "Past lives"
+    ],
+    "note": "API: karma_and_past_life",
+    "files": [
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/karma-and-pastlife.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Love readings",
+    "section": "Reading Categories",
+    "code": [
+      "loveReadings",
+      "loveReadingsSmall"
+    ],
+    "aliases": [
+      "Love & relationships",
+      "Relationship coaching"
+    ],
+    "note": "API: love_relationships, relationship_coaching",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/love-readings.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/love-readings.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/love-readings.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Medium reaching beyond",
+    "section": "Reading Categories",
+    "code": [
+      "psychicsMediums",
+      "psychicsMediumsSmall"
+    ],
+    "aliases": [
+      "Psychics & mediums",
+      "Mediumship"
+    ],
+    "note": "API: medium_reaching_beyond",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/psychics-mediums.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Numerology",
+    "section": "Reading Categories",
+    "code": [
+      "numerology",
+      "numerologySmall"
+    ],
+    "aliases": [
+      "Numbers"
+    ],
+    "note": "API: numerology",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/numerology.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Oracle guidance",
+    "section": "Reading Categories",
+    "code": [
+      "oracleGuidance",
+      "oracleGuidanceSmall"
+    ],
+    "aliases": [
+      "Oracle cards"
+    ],
+    "note": "API: oracle_guidance PG art from PG Reskin.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/oracle-guidance.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Palm readings",
+    "section": "Reading Categories",
+    "code": [
+      "palmReadings",
+      "palmReadingsSmall"
+    ],
+    "aliases": [
+      "Palmistry",
+      "Hand"
+    ],
+    "note": "API: palm_readings PG: reskin Palm readings art is an empty placeholder – needs design.",
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/palm-readings.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Psychic readings",
+    "section": "Reading Categories",
+    "code": [
+      "psychicReading",
+      "psychicReadingSmall"
+    ],
+    "aliases": [
+      "Speciality",
+      "Category",
+      "Eye"
+    ],
+    "note": "API: psychic_readings",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/psychic-reading.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/psychic-reading.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/psychic-reading.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Soulmates & twin flames",
+    "section": "Reading Categories",
+    "code": [
+      "soulmatesAndTwinflames",
+      "soulmatesAndTwinflamesSmall"
+    ],
+    "aliases": [
+      "Soulmates",
+      "Twin flames"
+    ],
+    "note": "API: soulmates_and_twin_flames",
+    "files": [
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/soulmates-and-twinflames.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Spiritual medium",
+    "section": "Reading Categories",
+    "code": [
+      "spiritualMedium",
+      "spiritualMediumSmall"
+    ],
+    "aliases": [
+      "Spiritual mediums"
+    ],
+    "note": "API: spiritual_medium PG art from PG Reskin (Spiritual Medium).",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/spiritual-medium.svg"
+      }
+    ]
+  },
+  {
+    "name": "Reading/Tarot readings",
+    "section": "Reading Categories",
+    "code": [
+      "tarotReadings",
+      "tarotReadingsSmall"
+    ],
+    "aliases": [
+      "Tarot cards"
+    ],
+    "note": "API: tarot_readings",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/tarot-readings.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/tarot-readings.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/tarot-readings.svg"
+      }
+    ]
+  },
+  {
+    "name": "Zodiac",
+    "section": "Spiritual Content",
+    "code": [
+      "zodiacSignAquarius",
+      "zodiacSignAries",
+      "zodiacSignCancer",
+      "zodiacSignCapricorn",
+      "zodiacSignGemini",
+      "zodiacSignLeo",
+      "zodiacSignLibra",
+      "zodiacSignPisces",
+      "zodiacSignSagittarius",
+      "zodiacSignScorpio",
+      "zodiacSignTaurus",
+      "zodiacSignVirgo"
+    ],
+    "aliases": [
+      "Zodiac signs",
+      "Horoscope signs",
+      "Star signs"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Sign": "Aquarius",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-aquarius.svg"
+      },
+      {
+        "Sign": "Aquarius",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-aquarius.svg"
+      },
+      {
+        "Sign": "Aquarius",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-aquarius.svg"
+      },
+      {
+        "Sign": "Aquarius",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-aquarius.svg"
+      },
+      {
+        "Sign": "Aries",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-aries.svg"
+      },
+      {
+        "Sign": "Aries",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-aries.svg"
+      },
+      {
+        "Sign": "Aries",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-aries.svg"
+      },
+      {
+        "Sign": "Aries",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-aries.svg"
+      },
+      {
+        "Sign": "Cancer",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-cancer.svg"
+      },
+      {
+        "Sign": "Cancer",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-cancer.svg"
+      },
+      {
+        "Sign": "Cancer",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-cancer.svg"
+      },
+      {
+        "Sign": "Cancer",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-cancer.svg"
+      },
+      {
+        "Sign": "Capricorn",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-capricorn.svg"
+      },
+      {
+        "Sign": "Capricorn",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-capricorn.svg"
+      },
+      {
+        "Sign": "Capricorn",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-capricorn.svg"
+      },
+      {
+        "Sign": "Capricorn",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-capricorn.svg"
+      },
+      {
+        "Sign": "Gemini",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-gemini.svg"
+      },
+      {
+        "Sign": "Gemini",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-gemini.svg"
+      },
+      {
+        "Sign": "Gemini",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-gemini.svg"
+      },
+      {
+        "Sign": "Gemini",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-gemini.svg"
+      },
+      {
+        "Sign": "Leo",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-leo.svg"
+      },
+      {
+        "Sign": "Leo",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-leo.svg"
+      },
+      {
+        "Sign": "Leo",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-leo.svg"
+      },
+      {
+        "Sign": "Leo",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-leo.svg"
+      },
+      {
+        "Sign": "Libra",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-libra.svg"
+      },
+      {
+        "Sign": "Libra",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-libra.svg"
+      },
+      {
+        "Sign": "Libra",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-libra.svg"
+      },
+      {
+        "Sign": "Libra",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-libra.svg"
+      },
+      {
+        "Sign": "Pisces",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-pisces.svg"
+      },
+      {
+        "Sign": "Pisces",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-pisces.svg"
+      },
+      {
+        "Sign": "Pisces",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-pisces.svg"
+      },
+      {
+        "Sign": "Pisces",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-pisces.svg"
+      },
+      {
+        "Sign": "Sagittarius",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-sagittarius.svg"
+      },
+      {
+        "Sign": "Sagittarius",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-sagittarius.svg"
+      },
+      {
+        "Sign": "Sagittarius",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-sagittarius.svg"
+      },
+      {
+        "Sign": "Sagittarius",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-sagittarius.svg"
+      },
+      {
+        "Sign": "Scorpio",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-scorpio.svg"
+      },
+      {
+        "Sign": "Scorpio",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-scorpio.svg"
+      },
+      {
+        "Sign": "Scorpio",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-scorpio.svg"
+      },
+      {
+        "Sign": "Scorpio",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-scorpio.svg"
+      },
+      {
+        "Sign": "Taurus",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-taurus.svg"
+      },
+      {
+        "Sign": "Taurus",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-taurus.svg"
+      },
+      {
+        "Sign": "Taurus",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-taurus.svg"
+      },
+      {
+        "Sign": "Taurus",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-taurus.svg"
+      },
+      {
+        "Sign": "Virgo",
+        "Brand": "Kasamba",
+        "file": "kasamba/zodiac-sign-virgo.svg"
+      },
+      {
+        "Sign": "Virgo",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/zodiac-sign-virgo.svg"
+      },
+      {
+        "Sign": "Virgo",
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/zodiac-sign-virgo.svg"
+      },
+      {
+        "Sign": "Virgo",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/zodiac-sign-virgo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Add funds error",
+    "section": "Status & feedback",
+    "code": [
+      "addFundsError"
+    ],
+    "aliases": [
+      "Payment error",
+      "Exclamation circle"
+    ],
+    "color": {
+      "figma": "Icons/Danger",
+      "css": "--color-icon-danger"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/add-funds-error.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/add-funds-error.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/add-funds-error.svg"
+      }
+    ]
+  },
+  {
+    "name": "Alert",
+    "section": "Status & feedback",
+    "code": [
+      "alert"
+    ],
+    "aliases": [
+      "Warning triangle",
+      "Alert light border"
+    ],
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/alert.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/alert.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/alert.svg"
+      }
+    ]
+  },
+  {
+    "name": "Availability/Busy",
+    "section": "Status & feedback",
+    "code": [
+      "availabilityBusy"
+    ],
+    "aliases": [
+      "Busy status",
+      "Availability / Busy"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/availability-busy.svg"
+      }
+    ]
+  },
+  {
+    "name": "Availability/Offline",
+    "section": "Status & feedback",
+    "code": [
+      "availabilityOffline"
+    ],
+    "aliases": [
+      "Offline status",
+      "Moon",
+      "Availability / Offline"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/availability-offline.svg"
+      }
+    ]
+  },
+  {
+    "name": "Availability/Online",
+    "section": "Status & feedback",
+    "code": [
+      "availabilityOnline"
+    ],
+    "aliases": [
+      "Online status",
+      "Availability / Online"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/availability-online.svg"
+      }
+    ]
+  },
+  {
+    "name": "Availability/Rush",
+    "section": "Status & feedback",
+    "code": [
+      "availabilityRush"
+    ],
+    "aliases": [
+      "Rush status",
+      "Lightning",
+      "Availability / Rush"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/availability-rush.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Academic cap",
+    "section": "Status & feedback",
+    "code": [
+      "squareAcademicCap"
+    ],
+    "aliases": [
+      "Academic",
+      "Square academic cap",
+      "Linear / School / Square Academic Cap"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/square-academic-cap.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/square-academic-cap.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/square-academic-cap.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/square-academic-cap.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Accuracy",
+    "section": "Status & feedback",
+    "code": [
+      "badgeAccuracy"
+    ],
+    "aliases": [
+      "Badges/Badge accuracy",
+      "Accuracy",
+      "Badges / Accuracy"
+    ],
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-accuracy.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-accuracy.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-accuracy.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-accuracy.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Advisor coupon",
+    "section": "Status & feedback",
+    "code": [
+      "advisorCoupon"
+    ],
+    "aliases": [
+      "Coupon",
+      "Advisor / Coupon enabled"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/advisor-coupon.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/advisor-coupon.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/advisor-coupon.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/advisor-coupon.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Advisor gift",
+    "section": "Status & feedback",
+    "code": [
+      "advisorCarouselGift"
+    ],
+    "aliases": [
+      "Advisor carousel gift",
+      "Gift badge"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/advisor-carousel-gift.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/advisor-carousel-gift.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Bonus",
+    "section": "Status & feedback",
+    "code": [
+      "matchingBonus"
+    ],
+    "aliases": [
+      "Matching bonus",
+      "Icons/Random filled/Bonus"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/matching-bonus.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/matching-bonus.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/matching-bonus.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Checkmark",
+    "section": "Status & feedback",
+    "code": [
+      "badgeCheckmark"
+    ],
+    "aliases": [
+      "Badge checkmark",
+      "Verified badge",
+      "Badges / Checkmark"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-checkmark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-checkmark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-checkmark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-checkmark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Crown",
+    "section": "Status & feedback",
+    "code": [
+      "badgeCrownMinimalistic"
+    ],
+    "aliases": [
+      "Badge crown minimalistic",
+      "Crown",
+      "Badges / Crown Minimalistic",
+      "Badges / Top rated",
+      "Badges/Badge crown minimalistic"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-crown-minimalistic.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-crown-minimalistic.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-crown-minimalistic.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-crown-minimalistic.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Discount applied",
+    "section": "Status & feedback",
+    "code": [
+      "discountApplied"
+    ],
+    "aliases": [
+      "Discount",
+      "Badges / Discount",
+      "General / Sale"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/discount-applied.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/discount-applied.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/discount-applied.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/discount-applied.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Fanfare",
+    "section": "Status & feedback",
+    "code": [
+      "maxDiscount"
+    ],
+    "aliases": [
+      "Badges/Badge fanfare",
+      "Max discount",
+      "Fanfare",
+      "Badges / Fanfare",
+      "Badges/Max discount"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/max-discount.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/max-discount.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/max-discount.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/max-discount.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Fire",
+    "section": "Status & feedback",
+    "code": [
+      "badgeFire"
+    ],
+    "aliases": [
+      "Badges/Badge fire",
+      "Fire",
+      "Badges / Fire",
+      "Badges / Trending"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-fire.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-fire.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-fire.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-fire.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Gift",
+    "section": "Status & feedback",
+    "code": [
+      "badgeGift"
+    ],
+    "aliases": [
+      "Badges/Badge gift",
+      "Gift",
+      "Badges / Gift"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-gift.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-gift.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-gift.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-gift.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Gift gradient",
+    "section": "Status & feedback",
+    "code": [
+      "badgeGiftGradient"
+    ],
+    "aliases": [
+      "Gift gradient"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-gift-gradient.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Heart",
+    "section": "Status & feedback",
+    "code": [
+      "heart"
+    ],
+    "aliases": [
+      "Heart",
+      "Badges / Heart",
+      "Favorite"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/heart.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/heart.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/heart.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/heart.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Leaf",
+    "section": "Status & feedback",
+    "code": [
+      "badgeLeaf"
+    ],
+    "aliases": [
+      "Badges/Badge leaf",
+      "Leaf",
+      "Badges / Leaf"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-leaf.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-leaf.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-leaf.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-leaf.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Most popular",
+    "section": "Status & feedback",
+    "code": [
+      "badgeTarget"
+    ],
+    "aliases": [
+      "Badge target",
+      "Target",
+      "Badges / Most popular"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-target.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-target.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-target.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Reward star",
+    "section": "Status & feedback",
+    "code": [
+      "rewardStar"
+    ],
+    "aliases": [
+      "Reward star",
+      "Loyalty"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/reward-star.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Staff pick",
+    "section": "Status & feedback",
+    "code": [
+      "badgeStaffPick"
+    ],
+    "aliases": [
+      "staffPick (KA/PO crown)",
+      "Badges / Staff pick",
+      "Badges / Psychic stars",
+      "Icons/Random filled/Staffpick"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-staff-pick.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-staff-pick.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-staff-pick.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-staff-pick.svg"
+      }
+    ]
+  },
+  {
+    "name": "Badges/Status dot",
+    "section": "Status & feedback",
+    "code": [
+      "badgeSessionDuration",
+      "advisorStatusBadge"
+    ],
+    "aliases": [
+      "Session duration",
+      "Advisor status badge",
+      "Online dot",
+      "Status dot"
+    ],
+    "color": {
+      "figma": "Icons/Success",
+      "css": "--color-icon-success"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-session-duration.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-session-duration.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-session-duration.svg"
+      }
+    ]
+  },
+  {
+    "name": "Calendar",
+    "section": "Status & feedback",
+    "code": [
+      "calendar"
+    ],
+    "aliases": [
+      "Forms / Calendar"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/calendar.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/calendar.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/calendar.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/calendar.svg"
+      }
+    ]
+  },
+  {
+    "name": "Candle",
+    "section": "Status & feedback",
+    "code": [],
+    "aliases": [],
+    "note": "Figma only – not in app code yet.",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/candle.svg"
+      }
+    ]
+  },
+  {
+    "name": "Checkmark circle",
+    "section": "Status & feedback",
+    "code": [
+      "checkMarkButton"
+    ],
+    "aliases": [
+      "Checkmark button",
+      "Success check",
+      "Confirmation",
+      "App Lock / Confirmation",
+      "Icons/Random outline/Confirmation"
+    ],
+    "color": {
+      "figma": "Icons/Success",
+      "css": "--color-icon-success"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/check-mark-button.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/check-mark-button.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/check-mark-button.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/check-mark-button.svg"
+      }
+    ]
+  },
+  {
+    "name": "Clock",
+    "section": "Status & feedback",
+    "code": [
+      "generalClock"
+    ],
+    "aliases": [
+      "General clock",
+      "Time",
+      "clock",
+      "alarm",
+      "General / Clock",
+      "Icons/Random filled/Clock"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/general-clock.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/general-clock.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/general-clock.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/general-clock.svg"
+      }
+    ]
+  },
+  {
+    "name": "Clock filled",
+    "section": "Status & feedback",
+    "code": [
+      "clockFilled"
+    ],
+    "aliases": [
+      "Time filled"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/clock-filled.svg"
+      }
+    ]
+  },
+  {
+    "name": "Clock outline",
+    "section": "Status & feedback",
+    "code": [
+      "clockOutline"
+    ],
+    "aliases": [
+      "Time outline",
+      "Clock",
+      "Misc / Clock"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/clock-outline.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/clock-outline.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/clock-outline.svg"
+      }
+    ]
+  },
+  {
+    "name": "Error",
+    "section": "Status & feedback",
+    "code": [
+      "error"
+    ],
+    "aliases": [
+      "Error circle",
+      "Exclamation",
+      "Warning"
+    ],
+    "color": {
+      "figma": "Icons/Danger",
+      "css": "--color-icon-danger"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/error.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/error.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/error.svg"
+      }
+    ]
+  },
+  {
+    "name": "Help",
+    "section": "Status & feedback",
+    "code": [
+      "help"
+    ],
+    "aliases": [
+      "supportHelp",
+      "Lifebuoy",
+      "General / Help",
+      "Icons/Random filled/Help",
+      "Misc / Help"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/help.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/help.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/help.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/help.svg"
+      }
+    ]
+  },
+  {
+    "name": "Highlights/Accuracy",
+    "section": "Status & feedback",
+    "code": [
+      "accuracyRating"
+    ],
+    "aliases": [
+      "Accuracy rating",
+      "Target",
+      "Highlights / Accuracy"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/accuracy-rating.svg"
+      }
+    ]
+  },
+  {
+    "name": "Highlights/Retention",
+    "section": "Status & feedback",
+    "code": [
+      "returningClients"
+    ],
+    "aliases": [
+      "Returning clients",
+      "Repeat",
+      "Highlights / Retention"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/returning-clients.svg"
+      }
+    ]
+  },
+  {
+    "name": "Highlights/Reviews",
+    "section": "Status & feedback",
+    "code": [
+      "positiveReviews"
+    ],
+    "aliases": [
+      "Positive reviews",
+      "Smiley",
+      "Highlights / Reviews"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/positive-reviews.svg"
+      }
+    ]
+  },
+  {
+    "name": "Hourglass",
+    "section": "Status & feedback",
+    "code": [
+      "hourglass"
+    ],
+    "aliases": [
+      "Waiting",
+      "Linear / Time / Hourglass Line",
+      "Icons/Misc/Hourglass Line",
+      "Misc / Hourglass"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/hourglass.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/hourglass.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/hourglass.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/hourglass.svg"
+      }
+    ]
+  },
+  {
+    "name": "Infinity",
+    "section": "Status & feedback",
+    "code": [
+      "timeInfinite"
+    ],
+    "aliases": [
+      "Time infinite",
+      "Unlimited",
+      "Linear / Astronomy / Infinity"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/time-infinite.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/time-infinite.svg"
+      }
+    ]
+  },
+  {
+    "name": "Info",
+    "section": "Status & feedback",
+    "code": [
+      "generalInfo"
+    ],
+    "aliases": [
+      "General info",
+      "Information",
+      "General / Info",
+      "Icons/Misc/Info"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/general-info.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/general-info.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/general-info.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/general-info.svg"
+      }
+    ]
+  },
+  {
+    "name": "Notification dot",
+    "section": "Status & feedback",
+    "code": [
+      "notificationDot"
+    ],
+    "aliases": [
+      "Unread dot",
+      "Badge dot"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/notification-dot.svg"
+      }
+    ]
+  },
+  {
+    "name": "Psychic stars",
+    "section": "Status & feedback",
+    "code": [
+      "psychicStar"
+    ],
+    "aliases": [
+      "Psychic star",
+      "orderCreatedSuccessIcon",
+      "Sparkle"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/psychic-star.svg"
+      }
+    ]
+  },
+  {
+    "name": "Shield check",
+    "section": "Status & feedback",
+    "code": [
+      "shieldCheck"
+    ],
+    "aliases": [
+      "Secure",
+      "Linear / Security / Shield Check"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/shield-check.svg"
+      }
+    ]
+  },
+  {
+    "name": "Shield star",
+    "section": "Status & feedback",
+    "code": [
+      "shieldStar"
+    ],
+    "aliases": [
+      "Guarantee",
+      "Satisfaction",
+      "Linear / Security / Shield Star",
+      "Expert Guidance"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/shield-star.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/shield-star.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/shield-star.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/shield-star.svg"
+      }
+    ]
+  },
+  {
+    "name": "Stars",
+    "section": "Status & feedback",
+    "code": [
+      "starsMinimalistic"
+    ],
+    "aliases": [
+      "Stars minimalistic",
+      "Sparkle",
+      "Linear / Astronomy / Stars Minimalistic"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/stars-minimalistic.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/stars-minimalistic.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/stars-minimalistic.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/stars-minimalistic.svg"
+      }
+    ]
+  },
+  {
+    "name": "Verified",
+    "section": "Status & feedback",
+    "code": [
+      "advisorVetting"
+    ],
+    "aliases": [
+      "Advisor vetting",
+      "advisorVettingBold",
+      "Verify",
+      "Linear / Security / Shield User"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/advisor-vetting.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/advisor-vetting.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/advisor-vetting.svg"
+      }
+    ]
+  },
+  {
+    "name": "Verified check",
+    "section": "Status & feedback",
+    "code": [
+      "verifiedCheck"
+    ],
+    "aliases": [
+      "Verified badge",
+      "Linear / Money / Verified Check"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/verified-check.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/verified-check.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/verified-check.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/verified-check.svg"
+      }
+    ]
+  },
+  {
+    "name": "Zen mode",
+    "section": "Status & feedback",
+    "code": [
+      "payAsYouGo"
+    ],
+    "aliases": [
+      "Pay as you go",
+      "Infinity",
+      "Icons/Misc/Zen mode"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/pay-as-you-go.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/pay-as-you-go.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/pay-as-you-go.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/pay-as-you-go.svg"
+      }
+    ]
+  },
+  {
+    "name": "Add Payment",
+    "section": "UI Actions",
+    "code": [],
+    "aliases": [],
+    "note": "Figma only – not in app code yet.",
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/add-payment.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/add-payment.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/add-payment.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/add-payment.svg"
+      }
+    ]
+  },
+  {
+    "name": "Add video",
+    "section": "UI Actions",
+    "code": [
+      "orderAddVideo"
+    ],
+    "aliases": [
+      "Order add video",
+      "Order / Add Video"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/order-add-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "Block",
+    "section": "UI Actions",
+    "code": [
+      "block"
+    ],
+    "aliases": [
+      "General / Block"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/block.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/block.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/block.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/block.svg"
+      }
+    ]
+  },
+  {
+    "name": "Cancel",
+    "section": "UI Actions",
+    "code": [
+      "cancel"
+    ],
+    "aliases": [
+      "Linear / Essentional",
+      "UI / Cancel",
+      "cancelCircle (PO)",
+      "Icons/Random filled/Cancel"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/cancel.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/cancel.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/cancel.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/cancel.svg"
+      }
+    ]
+  },
+  {
+    "name": "Card",
+    "section": "UI Actions",
+    "code": [
+      "card"
+    ],
+    "aliases": [
+      "Credit card",
+      "Forms / Card",
+      "Icons/Forms/Card"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/card.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/card.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/card.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/card.svg"
+      }
+    ]
+  },
+  {
+    "name": "Checkmark",
+    "section": "UI Actions",
+    "code": [
+      "checkMark"
+    ],
+    "aliases": [
+      "Check",
+      "checkMarkBold",
+      "Misc outline / Checkmark",
+      "Icons/Misc/Checkmark"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/check-mark.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/check-mark.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/check-mark.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/check-mark.svg"
+      }
+    ]
+  },
+  {
+    "name": "Close",
+    "section": "UI Actions",
+    "code": [
+      "closeCircle"
+    ],
+    "aliases": [
+      "Close circle",
+      "X",
+      "Cross",
+      "Misc outline / Close",
+      "Icons/Misc/Cancel",
+      "Misc / Close",
+      "cancel (KA/PO)",
+      "miscClose"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/close-circle.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/close-circle.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/close-circle.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/close-circle.svg"
+      }
+    ]
+  },
+  {
+    "name": "Close filled",
+    "section": "UI Actions",
+    "code": [
+      "generalClose"
+    ],
+    "aliases": [
+      "General close",
+      "General / Close",
+      "Notification / Close"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/general-close.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/general-close.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/general-close.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/general-close.svg"
+      }
+    ]
+  },
+  {
+    "name": "Close square",
+    "section": "UI Actions",
+    "code": [
+      "closeSquare"
+    ],
+    "aliases": [
+      "Close in square",
+      "Dismiss"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/close-square.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/close-square.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/close-square.svg"
+      }
+    ]
+  },
+  {
+    "name": "Copy",
+    "section": "UI Actions",
+    "code": [
+      "orderCopy"
+    ],
+    "aliases": [
+      "Order copy",
+      "Duplicate",
+      "Order / Copy"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/order-copy.svg"
+      }
+    ]
+  },
+  {
+    "name": "Download",
+    "section": "UI Actions",
+    "code": [
+      "miscDownload"
+    ],
+    "aliases": [
+      "Misc download",
+      "Cloud download",
+      "Misc / Download"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/misc-download.svg"
+      }
+    ]
+  },
+  {
+    "name": "Edit",
+    "section": "UI Actions",
+    "code": [
+      "generalEdit"
+    ],
+    "aliases": [
+      "General edit",
+      "Pencil",
+      "General / Edit",
+      "Icons/Random filled/Edit",
+      "Misc / Edit"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/general-edit.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/general-edit.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/general-edit.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/general-edit.svg"
+      }
+    ]
+  },
+  {
+    "name": "Edit filled",
+    "section": "UI Actions",
+    "code": [
+      "editFilled"
+    ],
+    "aliases": [
+      "Pencil filled",
+      "Misc / Edit"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/edit-filled.svg"
+      }
+    ]
+  },
+  {
+    "name": "Empty heart",
+    "section": "UI Actions",
+    "code": [
+      "emptyHeart"
+    ],
+    "aliases": [
+      "Heart outline",
+      "Favorite outline"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/empty-heart.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/empty-heart.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/empty-heart.svg"
+      }
+    ]
+  },
+  {
+    "name": "Eye",
+    "section": "UI Actions",
+    "code": [
+      "eye"
+    ],
+    "aliases": [
+      "Show password",
+      "Forms / Eye",
+      "Icons/Forms/Eye"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/eye.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/eye.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/eye.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/eye.svg"
+      }
+    ]
+  },
+  {
+    "name": "Eye hidden",
+    "section": "UI Actions",
+    "code": [
+      "eyeHidden"
+    ],
+    "aliases": [
+      "Hide password",
+      "Eye slash",
+      "Forms / Eye Hidden",
+      "Forms / Eye Slash"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/eye-hidden.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/eye-hidden.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/eye-hidden.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/eye-hidden.svg"
+      }
+    ]
+  },
+  {
+    "name": "Favorite",
+    "section": "UI Actions",
+    "code": [
+      "likeHeart"
+    ],
+    "aliases": [
+      "Like heart",
+      "Heart outline",
+      "Icons/Navbar/Favourite",
+      "Navbar / Favorite",
+      "heart"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/like-heart.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/like-heart.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/like-heart.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/like-heart.svg"
+      }
+    ]
+  },
+  {
+    "name": "Favorite filled",
+    "section": "UI Actions",
+    "code": [
+      "likeHeartPressed"
+    ],
+    "aliases": [
+      "Like heart pressed",
+      "Heart filled",
+      "Liked",
+      "Heart {Status=Pressed}",
+      "Navbar / Favorite filled"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/like-heart-pressed.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/like-heart-pressed.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/like-heart-pressed.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/like-heart-pressed.svg"
+      }
+    ]
+  },
+  {
+    "name": "Filter all",
+    "section": "UI Actions",
+    "code": [
+      "badgeAll"
+    ],
+    "aliases": [
+      "Filters/All",
+      "Filter",
+      "Badge all",
+      "Filters / All"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-all.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-all.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-all.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-all.svg"
+      }
+    ]
+  },
+  {
+    "name": "Filter live chat",
+    "section": "UI Actions",
+    "code": [
+      "badgeMessage"
+    ],
+    "aliases": [
+      "Badge message",
+      "Live chat filter",
+      "Filters / Live Chat"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-message.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-message.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-message.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-message.svg"
+      }
+    ]
+  },
+  {
+    "name": "Filter under $5",
+    "section": "UI Actions",
+    "code": [
+      "badgeDollar"
+    ],
+    "aliases": [
+      "Badge dollar",
+      "Under $5",
+      "Filters / Under $5"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-dollar.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-dollar.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-dollar.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-dollar.svg"
+      }
+    ]
+  },
+  {
+    "name": "Gender/Female",
+    "section": "UI Actions",
+    "code": [
+      "genderFemale"
+    ],
+    "aliases": [
+      "Female",
+      "Genders / Female",
+      "Icons/Genders/Female"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/gender-female.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/gender-female.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/gender-female.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/gender-female.svg"
+      }
+    ]
+  },
+  {
+    "name": "Gender/Male",
+    "section": "UI Actions",
+    "code": [
+      "genderMale"
+    ],
+    "aliases": [
+      "Male",
+      "Genders / Male",
+      "Icons/Genders/Male"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/gender-male.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/gender-male.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/gender-male.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/gender-male.svg"
+      }
+    ]
+  },
+  {
+    "name": "Gender/Other",
+    "section": "UI Actions",
+    "code": [
+      "genderOther"
+    ],
+    "aliases": [
+      "Other",
+      "Non-binary",
+      "Genders / Other",
+      "Icons/Genders/Other"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/gender-other.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/gender-other.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/gender-other.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/gender-other.svg"
+      }
+    ]
+  },
+  {
+    "name": "Key",
+    "section": "UI Actions",
+    "code": [
+      "key"
+    ],
+    "aliases": [
+      "Security",
+      "Shield key",
+      "General / Key"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/key.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/key.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/key.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/key.svg"
+      }
+    ]
+  },
+  {
+    "name": "Like",
+    "section": "UI Actions",
+    "code": [
+      "badgeLike"
+    ],
+    "aliases": [
+      "Badge like",
+      "Thumbs up",
+      "Badges / Like",
+      "Badges / Recommended"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/badge-like.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/badge-like.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/badge-like.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/badge-like.svg"
+      }
+    ]
+  },
+  {
+    "name": "Logout",
+    "section": "UI Actions",
+    "code": [
+      "logout"
+    ],
+    "aliases": [
+      "Log out",
+      "Sign out",
+      "Linear / Arrows Action / Logout 2"
+    ],
+    "color": {
+      "figma": "Icons/Danger",
+      "css": "--color-icon-danger"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/logout.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/logout.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/logout.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/logout.svg"
+      }
+    ]
+  },
+  {
+    "name": "Notifications/Bell",
+    "section": "UI Actions",
+    "code": [
+      "bell"
+    ],
+    "aliases": [
+      "Notify me",
+      "Bell unset",
+      "Notifications / Bell",
+      "Icons/Buttons/Bell unset",
+      "Advisor info / Bell unset"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/bell.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/bell.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/bell.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/bell.svg"
+      }
+    ]
+  },
+  {
+    "name": "Notifications/Bell set",
+    "section": "UI Actions",
+    "code": [
+      "bellSet"
+    ],
+    "aliases": [
+      "Notify me set",
+      "Notifications / Bell Set",
+      "Icons/Buttons/Bell set",
+      "Advisor info / Bell set"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/bell-set.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/bell-set.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/bell-set.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/bell-set.svg"
+      }
+    ]
+  },
+  {
+    "name": "Notifications/Notify",
+    "section": "UI Actions",
+    "code": [
+      "notify"
+    ],
+    "aliases": [
+      "Bell",
+      "Icons/Buttons/Bell",
+      "Advisor info / Bell"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/notify.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/notify.svg"
+      }
+    ]
+  },
+  {
+    "name": "Plus",
+    "section": "UI Actions",
+    "code": [
+      "plus"
+    ],
+    "aliases": [
+      "Add",
+      "Add circle",
+      "General / Plus",
+      "Icons/Random filled/Plus",
+      "Misc / Add Circle"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/plus.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/plus.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/plus.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/plus.svg"
+      }
+    ]
+  },
+  {
+    "name": "Plus bold",
+    "section": "UI Actions",
+    "code": [
+      "cross"
+    ],
+    "aliases": [
+      "Cross",
+      "Add",
+      "Plus thick"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/cross.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/cross.svg"
+      }
+    ]
+  },
+  {
+    "name": "Popups/Clear",
+    "section": "UI Actions",
+    "code": [
+      "popupsDrawersClear"
+    ],
+    "aliases": [
+      "Popups & Drawers / Clear"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/popups-drawers-clear.svg"
+      }
+    ]
+  },
+  {
+    "name": "Popups/Delete",
+    "section": "UI Actions",
+    "code": [
+      "popupsDrawersDelete"
+    ],
+    "aliases": [
+      "Popups & Drawers / Delete"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/popups-drawers-delete.svg"
+      }
+    ]
+  },
+  {
+    "name": "Popups/Delete video",
+    "section": "UI Actions",
+    "code": [
+      "popupsDrawersDeleteVideo"
+    ],
+    "aliases": [
+      "Popups & Drawers / Delete video"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/popups-drawers-delete-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "Popups/Replace",
+    "section": "UI Actions",
+    "code": [
+      "popupsDrawersReplace"
+    ],
+    "aliases": [
+      "Popups & Drawers / Replace"
+    ],
+    "note": "Only in Purple Ocean",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/popups-drawers-replace.svg"
+      }
+    ]
+  },
+  {
+    "name": "Restart",
+    "section": "UI Actions",
+    "code": [
+      "arrowRestart"
+    ],
+    "aliases": [
+      "Arrow restart",
+      "Reset",
+      "reset",
+      "Linear / Arrows / Restart",
+      "Misc outline / Restart",
+      "Icons/Misc/Reset"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/arrow-restart.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/arrow-restart.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/arrow-restart.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/arrow-restart.svg"
+      }
+    ]
+  },
+  {
+    "name": "Search and filter",
+    "section": "UI Actions",
+    "code": [
+      "searchAndFilter"
+    ],
+    "aliases": [
+      "Search",
+      "Magnifier",
+      "Icons/Navbar/Search and Filter"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/search-and-filter.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/search-and-filter.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/search-and-filter.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/search-and-filter.svg"
+      }
+    ]
+  },
+  {
+    "name": "Search magnifier",
+    "section": "UI Actions",
+    "code": [
+      "searchMagnifier"
+    ],
+    "aliases": [
+      "Search",
+      "Magnifer",
+      "Linear / Search / Magnifer"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/search-magnifier.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/search-magnifier.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/search-magnifier.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/search-magnifier.svg"
+      }
+    ]
+  },
+  {
+    "name": "Sort",
+    "section": "UI Actions",
+    "code": [
+      "sort"
+    ],
+    "aliases": [
+      "Linear / Essentional",
+      "UI / Sort"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/sort.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/sort.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/sort.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/sort.svg"
+      }
+    ]
+  },
+  {
+    "name": "Star",
+    "section": "UI Actions",
+    "code": [
+      "star"
+    ],
+    "aliases": [
+      "Rating",
+      "General / Star",
+      "General / Star half",
+      "Star rating"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "State": "Empty",
+        "file": "purple-garden/star-empty.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "State": "Empty",
+        "file": "kasamba/star-empty.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "State": "Empty",
+        "file": "psiquicos/star-empty.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "State": "Empty",
+        "file": "purple-ocean/star-empty.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "State": "Half",
+        "file": "purple-garden/star-half.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "State": "Half",
+        "file": "kasamba/star-half.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "State": "Half",
+        "file": "psiquicos/star-half.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "State": "Half",
+        "file": "purple-ocean/star-half.svg"
+      },
+      {
+        "Brand": "Purple Garden",
+        "State": "Full",
+        "file": "purple-garden/star-full.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "State": "Full",
+        "file": "kasamba/star-full.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "State": "Full",
+        "file": "psiquicos/star-full.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "State": "Full",
+        "file": "purple-ocean/star-full.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transactions/Add card",
+    "section": "UI Actions",
+    "code": [
+      "creditCard"
+    ],
+    "aliases": [
+      "Credit card",
+      "Payment method",
+      "Payment methods / Add Credit / Card"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/credit-card.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/credit-card.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/credit-card.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/credit-card.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transactions/Bonus",
+    "section": "UI Actions",
+    "code": [
+      "bonus"
+    ],
+    "aliases": [
+      "Bonus coin",
+      "Reward"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/bonus.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/bonus.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/bonus.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transactions/Cashback",
+    "section": "UI Actions",
+    "code": [
+      "cashbackBold"
+    ],
+    "aliases": [
+      "Cashback bold",
+      "Money back"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/cashback-bold.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/cashback-bold.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/cashback-bold.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transactions/Gift",
+    "section": "UI Actions",
+    "code": [
+      "giftThin"
+    ],
+    "aliases": [
+      "Gift thin",
+      "Present",
+      "Linear / Essentional",
+      "UI / Gift"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/gift-thin.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/gift-thin.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/gift-thin.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/gift-thin.svg"
+      }
+    ]
+  },
+  {
+    "name": "Transactions/Promo",
+    "section": "UI Actions",
+    "code": [
+      "promo"
+    ],
+    "aliases": [
+      "Percent",
+      "Discount"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/promo.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/promo.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/promo.svg"
+      }
+    ]
+  },
+  {
+    "name": "Trash",
+    "section": "UI Actions",
+    "code": [
+      "trashBinTrash"
+    ],
+    "aliases": [
+      "Delete",
+      "Trash bin",
+      "trashBinMinimalistic",
+      "Linear / Essentional",
+      "UI / Trash Bin Trash",
+      "Misc / Delete"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/trash-bin-trash.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/trash-bin-trash.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/trash-bin-trash.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/trash-bin-trash.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tuning",
+    "section": "UI Actions",
+    "code": [
+      "settingsLinearTuning2"
+    ],
+    "aliases": [
+      "Settings linear tuning 2",
+      "Filters",
+      "Sliders",
+      "Linear / Settings",
+      "Fine Tuning / Tuning 2"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/settings-linear-tuning2.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/settings-linear-tuning2.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/settings-linear-tuning2.svg"
+      },
+      {
+        "Brand": "Purple Ocean",
+        "file": "purple-ocean/settings-linear-tuning2.svg"
+      }
+    ]
+  }
+]
