@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Icons/How to add an icon" />
+
+# How to add or change an icon
+
+Icons live in the Figma **DS-Foundation** file, page **Icons & Images**. You only work in Figma – the code side
+updates by itself.
+
+## In Figma
+
+1. **One component set per icon**, with a `Brand` property and 4 variants: Purple Garden, Kasamba, Psiquicos,
+   Purple Ocean. If a brand has no artwork, keep the variant empty.
+2. **Icons are 24×24.** Single-colour icons are one flattened vector named **Union**, with its fill bound to
+   **Modes › Icons/Primary** (or Danger, Success…). Don't use hard-coded colours.
+3. **Name** it after the code name in plain words: `tabBarHome` → **Tab Bar/Home**. Use `/` groups only when the
+   group has several icons.
+4. **Description** – three lines, so developers can find it:
+
+   ```
+   Code: tabBarHome
+   File: tabbar_home.svg
+   Also known as: Home, Tab bar home
+   ```
+
+   New icon that isn't in the app yet? Write `Figma only` instead of the `Code:` line.
+
+   One set for several code icons (e.g. Chevron with a Direction property)? Name the code per value:
+   `Code: chevronUp (Up) · chevronDown (Down)`.
+
+5. **Publish** the Foundation library.
+
+## What happens next
+
+- Every night the **Export icons** job reads the Figma file. If anything changed, it opens a pull request listing
+  what was added, changed or removed.
+- Anything that breaks the rules above is listed under **⚠️ Please fix in Figma** in that pull request.
+- The design system owner reviews and merges it. Then the icon shows up on the **Icons** page here.
+
+Need it sooner? Ask the design system owner to run **Export icons** from the GitHub Actions tab.

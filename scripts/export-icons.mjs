@@ -11,8 +11,9 @@
  * Usage: FIGMA_TOKEN=… npm run export:icons
  *   FIGMA_FILE_KEY   default: DS-Foundation
  *   FIGMA_ICONS_PAGE default: the "Icons & Images" page id
+ *   ICONS_SUMMARY    optional path: plain-language change report (used as the PR description)
  */
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { optimize } from 'svgo';
 
 const TOKEN = process.env.FIGMA_TOKEN;
@@ -20,6 +21,7 @@ const FILE_KEY = process.env.FIGMA_FILE_KEY ?? 'ciJdK157glzYOMa1W5SPcF';
 const PAGE_ID = process.env.FIGMA_ICONS_PAGE ?? '15:3848';
 const OUT = new URL('../icons/', import.meta.url);
 const API = 'https://api.figma.com/v1';
+const BRANDS = ['Purple Garden', 'Kasamba', 'Psiquicos', 'Purple Ocean'];
 
 export const kebab = s =>
   String(s)
@@ -150,6 +152,7 @@ export function collectSets(page, componentSets) {
         section,
         description: componentSets[node.id]?.description ?? node.description ?? '',
         variants: node.children.filter(v => v.type === 'COMPONENT' && v.children?.length),
+        brands: [...new Set(node.children.map(v => variantProps(v.name).Brand).filter(Boolean))],
       });
       return;
     }
@@ -157,6 +160,66 @@ export function collectSets(page, componentSets) {
   };
   visit(page, undefined);
   return sets;
+}
+
+/** Things a designer should fix in Figma, in plain words. */
+export function checkSet(set, meta) {
+  const issues = [];
+  if (!meta.code.length && !/figma only/i.test(set.description))
+    issues.push(`**${set.name}** has no \`Code:\` line in its description`);
+  if (set.brands.length) {
+    const missing = BRANDS.filter(b => !set.brands.includes(b));
+    if (missing.length) issues.push(`**${set.name}** is missing a variant for ${missing.join(', ')}`);
+  }
+  if (!set.variants.length) issues.push(`**${set.name}** has no artwork yet (all variants are empty)`);
+  return issues;
+}
+
+/** Current files in icons/ (path → content), to tell what changed. */
+function snapshot() {
+  const files = new Map();
+  if (!existsSync(OUT)) return files;
+  for (const rel of readdirSync(OUT, { recursive: true }))
+    if (String(rel).endsWith('.svg')) files.set(String(rel), readFileSync(new URL(String(rel), OUT), 'utf8'));
+  return files;
+}
+
+export function summarise({ sets, files, before, oldNames, issues }) {
+  const label = f =>
+    [
+      f.set.name,
+      Object.values(f.props)
+        .filter(v => v !== 'Light')
+        .join(' · '),
+    ]
+      .filter(Boolean)
+      .join(' — ');
+  const added = [],
+    changed = [];
+  for (const f of files.filter(f => !f.skipped)) {
+    const old = before.get(f.file);
+    if (old === undefined) added.push(label(f));
+    else if (old !== readFileSync(new URL(f.file, OUT), 'utf8')) changed.push(label(f));
+  }
+  const names = new Set(sets.map(s => s.name));
+  const removed = [...oldNames].filter(n => !names.has(n));
+  const kept = new Set(files.map(f => f.file));
+  const removedFiles = [...before.keys()].filter(f => !kept.has(f));
+  const list = (title, items) =>
+    items.length ? `### ${title} (${items.length})\n${items.map(i => `- ${i}`).join('\n')}\n` : '';
+  const body = [
+    '## Icons exported from Figma',
+    'From the DS-Foundation file, **Icons & Images** page. Check the SVG diff and the Storybook **Icons** page, then merge.',
+    '',
+    list('✅ Added', added),
+    list('✏️ Changed', changed),
+    list('🗑 Removed icons', removed),
+    removedFiles.length && !removed.length ? list('🗑 Removed files', removedFiles) : '',
+    issues.length
+      ? list('⚠️ Please fix in Figma', issues)
+      : '### ⚠️ Please fix in Figma\nNothing – all icons follow the rules.\n',
+  ].join('\n');
+  return { body, hasChanges: added.length + changed.length + removed.length + removedFiles.length > 0 };
 }
 
 async function main() {
@@ -171,8 +234,10 @@ async function main() {
   // File name per variant: <code name or set name>[-<extra props>], under the brand folder.
   const files = [];
   const taken = new Set();
+  const issues = [];
   for (const set of sets) {
     const meta = parseDescription(set.description);
+    issues.push(...checkSet(set, meta));
     const setBase = kebab(meta.code[0] ?? set.name.replace(/\//g, ' '));
     // Merged sets (e.g. Chevron) map one property's values to their own code names.
     const mappedKey = set.variants
@@ -187,7 +252,10 @@ async function main() {
         .filter(([k, v]) => k !== 'Brand' && k !== mappedKey && !(k === 'Theme' && v === 'Light'))
         .map(([, v]) => kebab(v));
       let file = `${brand}/${[base, ...extra].join('-')}.svg`;
-      if (taken.has(file)) file = `${brand}/${[base, kebab(set.section ?? ''), ...extra].join('-')}.svg`;
+      if (taken.has(file)) {
+        issues.push(`**${set.name}** has the same code name as another icon (\`${file}\`)`);
+        file = `${brand}/${[base, kebab(set.section ?? ''), ...extra].join('-')}.svg`;
+      }
       taken.add(file);
       files.push({ set, meta, variant, props, brand, file, colour: colouring(variant) });
     }
@@ -203,6 +271,12 @@ async function main() {
     Object.assign(urls, images);
   }
 
+  const before = snapshot();
+  const oldNames = new Set(
+    existsSync(new URL('icons.json', OUT))
+      ? JSON.parse(readFileSync(new URL('icons.json', OUT), 'utf8')).map(i => i.name)
+      : [],
+  );
   rmSync(OUT, { recursive: true, force: true });
   const queue = [...files];
   const worker = async () => {
@@ -242,7 +316,12 @@ async function main() {
     .sort((a, b) => (a.section ?? '').localeCompare(b.section ?? '') || a.name.localeCompare(b.name));
 
   writeFileSync(new URL('icons.json', OUT), JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`Done: ${manifest.length} icons, ${files.filter(f => !f.skipped).length} SVG files in icons/.`);
+  const { body, hasChanges } = summarise({ sets, files, before, oldNames, issues });
+  if (process.env.ICONS_SUMMARY) writeFileSync(process.env.ICONS_SUMMARY, body);
+  console.log(body);
+  console.log(
+    `Done: ${manifest.length} icons, ${files.filter(f => !f.skipped).length} SVG files in icons/.${hasChanges ? '' : ' No changes.'}`,
+  );
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

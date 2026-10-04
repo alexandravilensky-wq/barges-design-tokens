@@ -35,9 +35,10 @@ Text styles are classes: `<h1 class="text-display-large-emphasis">`.
 
 Icons come from the Figma DS-Foundation file (**Icons & Images** page), not from the token export.
 
-1. Publish the Foundation library in Figma.
-2. Run the **Export icons** GitHub Action (Actions tab → Export icons → Run workflow). It exports every icon as SVG
-   and opens a pull request with the changes.
+1. Publish the Foundation library in Figma (see **Icons › How to add an icon**).
+2. Every night the **Export icons** GitHub Action exports every icon as SVG and, if anything changed, opens a pull
+   request with a plain-language summary and a list of things to fix in Figma. It can also be run by hand from the
+   Actions tab.
 3. Review the SVG diff and the **Icons** page here, then merge.
 
 Output: `icons/<brand>/<code-name>.svg` and `icons/icons.json` (Figma name, code name, old names, files per brand).
