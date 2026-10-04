@@ -1,0 +1,44 @@
+name: Export icons
+
+# Pull icons from the Figma DS-Foundation file and open a PR with the changes.
+# Run it from the Actions tab after publishing the Foundation library.
+# Needs the FIGMA_TOKEN repository secret (Figma personal access token, file read access).
+on:
+  workflow_dispatch:
+  # Optional: a Figma LIBRARY_PUBLISH webhook relay can trigger this with event type "figma-library-publish".
+  repository_dispatch:
+    types: [figma-library-publish]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: export-icons
+  cancel-in-progress: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Export icons from Figma
+        run: npm run export:icons
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: icons/figma-export
+          add-paths: icons/
+          commit-message: Update icons from Figma
+          title: Update icons from Figma
+          body: |
+            Icons exported from the Figma DS-Foundation file (Icons & Images page).
+            Review the SVG diff and the Storybook **Icons** page before merging.
+          delete-branch: true
