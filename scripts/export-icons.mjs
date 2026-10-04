@@ -49,12 +49,19 @@ export const variantProps = name =>
       .filter(p => p.length === 2),
   );
 
-/** Description lines "Code: x · y", "Also known as: a, b" → fields. */
+/**
+ * Description lines "Code: x · y", "Also known as: a, b" → fields.
+ * Merged sets name a code per variant value: "Code: chevronUp (Up) · chevronDown (Down)" → codeFor.Up = 'chevronUp'.
+ */
 export function parseDescription(text = '') {
   const line = key => text.match(new RegExp(`^${key}:\\s*(.+)$`, 'mi'))?.[1].trim();
   const list = s => (s ? s.split(/\s*[·,]\s*/).filter(Boolean) : []);
+  const entries = list(line('Code')?.replace(/\s+—.*$/, ''))
+    .map(e => e.match(/^([a-z][A-Za-z0-9]*)(?:\s*\(([^)]+)\))?$/))
+    .filter(Boolean);
   return {
-    code: list(line('Code')).filter(c => /^[a-z][A-Za-z0-9]*$/.test(c)),
+    code: entries.map(m => m[1]),
+    codeFor: Object.fromEntries(entries.filter(m => m[2]).map(m => [m[2], m[1]])),
     aliases: list(line('Also known as')),
     note: text
       .split('\n')
@@ -166,12 +173,18 @@ async function main() {
   const taken = new Set();
   for (const set of sets) {
     const meta = parseDescription(set.description);
-    const base = kebab(meta.code[0] ?? set.name.replace(/\//g, ' '));
+    const setBase = kebab(meta.code[0] ?? set.name.replace(/\//g, ' '));
+    // Merged sets (e.g. Chevron) map one property's values to their own code names.
+    const mappedKey = set.variants
+      .flatMap(v => Object.entries(variantProps(v.name)))
+      .find(([, value]) => meta.codeFor[value])?.[0];
     for (const variant of set.variants) {
       const props = variantProps(variant.name);
       const brand = props.Brand ? kebab(props.Brand) : 'shared';
+      const mapped = mappedKey && props[mappedKey];
+      const base = !mapped ? setBase : kebab(meta.codeFor[mapped] ?? `${set.name.replace(/\//g, ' ')} ${mapped}`); // e.g. chevron-left
       const extra = Object.entries(props)
-        .filter(([k, v]) => k !== 'Brand' && !(k === 'Theme' && v === 'Light'))
+        .filter(([k, v]) => k !== 'Brand' && k !== mappedKey && !(k === 'Theme' && v === 'Light'))
         .map(([, v]) => kebab(v));
       let file = `${brand}/${[base, ...extra].join('-')}.svg`;
       if (taken.has(file)) file = `${brand}/${[base, kebab(set.section ?? ''), ...extra].join('-')}.svg`;
