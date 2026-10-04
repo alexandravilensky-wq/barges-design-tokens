@@ -7,7 +7,8 @@
   "scripts": {
     "build:tokens": "node scripts/build-tokens.mjs",
     "storybook": "npm run build:tokens && storybook dev -p 6007",
-    "build-storybook": "npm run build:tokens && storybook build"
+    "build-storybook": "npm run build:tokens && storybook build",
+    "export:icons": "node scripts/export-icons.mjs"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^10.6.1",
@@ -20,6 +21,7 @@
     "react-dom": "^19.3.0",
     "storybook": "^10.6.1",
     "style-dictionary": "^5.5.5",
+    "svgo": "^4.1.0",
     "typescript": "^7.0.2",
     "vite": "^8.3.1"
   }

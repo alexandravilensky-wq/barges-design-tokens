@@ -30,3 +30,23 @@ The build prints any Figma alias that points at a variable outside the export. T
 ```
 
 Text styles are classes: `<h1 class="text-display-large-emphasis">`.
+
+## Icons
+
+Icons come from the Figma DS-Foundation file (**Icons & Images** page), not from the token export.
+
+1. Publish the Foundation library in Figma (see **Icons › How to add an icon**).
+2. Every night the **Export icons** GitHub Action exports every icon as SVG and, if anything changed, opens a pull
+   request with a plain-language summary and a list of things to fix in Figma. It can also be run by hand from the
+   Actions tab.
+3. Review the SVG diff and the **Icons** page here, then merge.
+
+Output: `icons/<brand>/<code-name>.svg` and `icons/icons.json` (Figma name, code name, old names, files per brand).
+Single-colour icons use `currentColor`; colour them with their token:
+
+```css
+.icon { color: var(--color-icon-primary); }
+```
+
+Run it locally with `FIGMA_TOKEN=… npm run export:icons`. The Action needs a `FIGMA_TOKEN` repository secret
+(a Figma personal access token with read access to the file).
