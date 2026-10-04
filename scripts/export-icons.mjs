@@ -129,10 +129,14 @@ export function toCurrentColor(svg) {
   return svg.replace(/(fill|stroke)="(?!none|url)[^"]+"/g, '$1="currentColor"');
 }
 
-const optimise = svg =>
+/** Optimise; prefix ids with the file name so several SVGs inlined on one page don't clash. */
+const optimise = (svg, file) =>
   optimize(svg, {
     multipass: true,
-    plugins: ['preset-default'], // svgo 4 keeps viewBox by default
+    plugins: [
+      'preset-default', // svgo 4 keeps viewBox by default
+      { name: 'prefixIds', params: { prefix: kebab(file.replace(/\.svg$/, '')), delim: '-' } },
+    ],
   }).data;
 
 async function figma(path) {
@@ -291,7 +295,7 @@ async function main() {
       let svg = await (await fetch(url)).text();
       if (f.colour.mode === 'currentColor') svg = toCurrentColor(svg);
       mkdirSync(new URL(f.brand + '/', OUT), { recursive: true });
-      writeFileSync(new URL(f.file, OUT), optimise(svg));
+      writeFileSync(new URL(f.file, OUT), optimise(svg, f.file));
     }
   };
   await Promise.all(Array.from({ length: 8 }, worker));
