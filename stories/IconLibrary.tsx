@@ -156,9 +156,10 @@ const CSS = `
 .il-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
 .il-grid.xl { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
 .il-stage.xl { height: 320px; }
-.il-tile { aspect-ratio: 1; display: grid; place-items: center; align-content: center; gap: 12px; padding: 12px; border: 0;
-  border-radius: 24px; background: var(--color-background-secondary); cursor: pointer; font: inherit; color: inherit;
-  transition: transform .15s, box-shadow .15s; }
+.il-tile { aspect-ratio: 1; display: grid; grid-template-rows: minmax(0, 1fr) auto; justify-items: center; gap: 10px;
+  padding: 16px 12px 18px; border: 0; border-radius: 24px; background: var(--color-background-secondary); cursor: pointer; font: inherit;
+  color: inherit; transition: transform .15s, box-shadow .15s; }
+.il-tile-art { display: grid; place-items: center; width: 100%; min-height: 0; }
 .il-tile:hover, .il-tile:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 20px rgb(0 0 0 / .08); outline: none; }
 .il-tile small { color: var(--color-text-secondary); font-size: 13px; text-align: center; line-height: 1.3; }
 .il-svg { display: inline-grid; place-items: center; }
@@ -213,7 +214,9 @@ function Tile(props: { icon: Icon; brand: string; theme: string; onOpen: () => v
   const big = naturalSize(svg) > 32;
   return (
     <button className="il-tile" onClick={onOpen} title={[...icon.code, ...icon.tags].join(', ')}>
-      <Svg svg={svg} size={big ? size * 3 : size} color={icon.color?.css} />
+      <span className="il-tile-art">
+        <Svg svg={svg} size={big ? size * 3 : size} color={icon.color?.css} />
+      </span>
       <small>{icon.name.toLowerCase()}</small>
     </button>
   );
