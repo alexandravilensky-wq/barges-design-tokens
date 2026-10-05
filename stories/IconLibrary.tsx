@@ -127,13 +127,15 @@ function Svg({ svg, size, color }: { svg?: string; size: number; color?: string 
 }
 
 const CSS = `
-.il { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 48px; padding: 48px; max-width: 1360px; margin: 0 auto;
+.il { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 56px; padding: 48px; max-width: 1440px; margin: 0 auto;
   color: var(--color-text-primary); }
-.il-nav { position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow: auto;
-  border-left: 1px solid var(--color-border-primary); padding-left: 16px; }
-.il-nav h4 { margin: 0 0 16px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--color-text-secondary); }
-.il-nav a { display: flex; justify-content: space-between; gap: 8px; padding: 7px 12px; margin-left: -17px; border-left: 2px solid transparent;
-  color: var(--color-text-primary); text-decoration: none; font-size: 14px; }
+.il-nav { grid-column: 2; grid-row: 1; position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow: auto;
+  border-left: 1px solid var(--color-border-primary); padding: 4px 0 4px 0; }
+.il-nav h4 { margin: 0 0 20px; padding-left: 20px; font-size: 18px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--color-text-secondary); }
+.il-nav a { display: flex; justify-content: space-between; gap: 8px; padding: 9px 16px 9px 20px; margin-left: -1px; border-left: 3px solid transparent;
+  color: var(--color-text-primary); text-decoration: none; font-size: 16px; }
+.il-nav a:hover { background: var(--color-background-secondary); }
 .il-nav a span { color: var(--color-text-secondary); font-size: 12px; }
 .il-nav a.on { border-left-color: var(--color-branding-primary); background: var(--color-background-secondary);
   color: var(--color-branding-primary); font-weight: 600; }
@@ -142,18 +144,22 @@ const CSS = `
 .il-head h1 { margin: 0; font-family: var(--font-family-title), system-ui; font-size: clamp(40px, 6vw, 72px); line-height: 1; }
 .il-chip { padding: 8px 14px; border-radius: 999px; background: var(--color-background-secondary); font-size: 13px; white-space: nowrap; }
 .il-lead { color: var(--color-text-secondary); font-size: 17px; margin: 24px 0 32px; }
-.il-search { display: flex; align-items: center; gap: 10px; width: min(360px, 100%); padding: 10px 16px;
+.il-main { grid-column: 1; grid-row: 1; min-width: 0; }
+.il-searchbar { position: sticky; top: 0; z-index: 2; padding: 16px 0; background: var(--color-background-primary); }
+.il-search { display: flex; align-items: center; gap: 12px; width: 100%; padding: 14px 20px;
   border: 1px solid var(--color-border-primary); border-radius: 999px; background: var(--color-background-primary); }
-.il-search input { border: 0; outline: 0; flex: 1; font: inherit; font-size: 14px; background: transparent; color: inherit; }
-.il-section { scroll-margin-top: 24px; margin-top: 56px; }
+.il-search:focus-within { border-color: var(--color-branding-primary); }
+.il-search input { border: 0; outline: 0; flex: 1; font: inherit; font-size: 17px; background: transparent; color: inherit; }
+.il-section { scroll-margin-top: 96px; margin-top: 40px; }
 .il-section h2 { margin: 0 0 24px; padding-bottom: 16px; border-bottom: 1px solid var(--color-border-primary);
   font-family: var(--font-family-title), system-ui; font-size: 32px; }
 .il-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
 .il-grid.xl { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
 .il-stage.xl { height: 320px; }
-.il-tile { aspect-ratio: 1; display: grid; place-items: center; align-content: center; gap: 12px; padding: 12px; border: 0;
-  border-radius: 24px; background: var(--color-background-secondary); cursor: pointer; font: inherit; color: inherit;
-  transition: transform .15s, box-shadow .15s; }
+.il-tile { aspect-ratio: 1; display: grid; grid-template-rows: minmax(0, 1fr) auto; justify-items: center; gap: 10px;
+  padding: 16px 12px 18px; border: 0; border-radius: 24px; background: var(--color-background-secondary); cursor: pointer; font: inherit;
+  color: inherit; transition: transform .15s, box-shadow .15s; }
+.il-tile-art { display: grid; place-items: center; width: 100%; min-height: 0; }
 .il-tile:hover, .il-tile:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 20px rgb(0 0 0 / .08); outline: none; }
 .il-tile small { color: var(--color-text-secondary); font-size: 13px; text-align: center; line-height: 1.3; }
 .il-svg { display: inline-grid; place-items: center; }
@@ -208,7 +214,9 @@ function Tile(props: { icon: Icon; brand: string; theme: string; onOpen: () => v
   const big = naturalSize(svg) > 32;
   return (
     <button className="il-tile" onClick={onOpen} title={[...icon.code, ...icon.tags].join(', ')}>
-      <Svg svg={svg} size={big ? size * 3 : size} color={icon.color?.css} />
+      <span className="il-tile-art">
+        <Svg svg={svg} size={big ? size * 3 : size} color={icon.color?.css} />
+      </span>
       <small>{icon.name.toLowerCase()}</small>
     </button>
   );
@@ -409,7 +417,7 @@ export function IconLibrary({ brand, theme, kind }: { brand: string; theme: stri
           </a>
         ))}
       </nav>
-      <main>
+      <main className="il-main">
         <div className="il-head">
           <h1>{kind === 'icons' ? 'Icon library' : 'Illustrations'}</h1>
           <span className="il-chip">
@@ -420,18 +428,20 @@ export function IconLibrary({ brand, theme, kind }: { brand: string; theme: stri
           Every {noun} from the Figma DS-Foundation file, shown for <b>{BRAND_NAMES[brand]}</b> in {theme} mode. Switch
           brand and theme in the toolbar; click any {noun} for sizes, code name and tags.
         </p>
-        <label className="il-search">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="11" cy="11" r="7" />
-            <path d="m20 20-4-4" />
-          </svg>
-          <input
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            placeholder={`Search ${noun}s`}
-            aria-label={`Search ${noun}s`}
-          />
-        </label>
+        <div className="il-searchbar">
+          <label className="il-search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-4-4" />
+            </svg>
+            <input
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder={`Search ${noun}s by name, code name or keyword…`}
+              aria-label={`Search ${noun}s`}
+            />
+          </label>
+        </div>
         {!shown.length && <p className="il-empty">No icons match “{query}”.</p>}
         {sections.map(s => (
           <section key={s} id={slug(s)} className="il-section">
