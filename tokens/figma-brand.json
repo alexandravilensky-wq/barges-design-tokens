@@ -9,6 +9,16 @@
     },
     "primitives": {
       "color": {
+        "black-and-white": {
+          "white": {
+            "$value": "#ffffff",
+            "$type": "color"
+          },
+          "black": {
+            "$value": "#000000",
+            "$type": "color"
+          }
+        },
         "neutral": {
           "100": {
             "$value": "#f7f0f4",
@@ -459,6 +469,11 @@
             "$value": "ABC Social",
             "$type": "string",
             "$description": "Font family for captions and button labels. Set per brand."
+          },
+          "button": {
+            "$value": "ABC Social",
+            "$type": "string",
+            "$description": "Font family for button and link labels"
           }
         },
         "weight": {
@@ -579,6 +594,24 @@
             "$value": "#000000",
             "$type": "color",
             "$description": "Scrim behind modals, sheets and dialogs (apply with opacity)."
+          },
+          "banner": {
+            "heroLight": {
+              "$value": "{Brand.primitives.color.blue.300}",
+              "$type": "color"
+            },
+            "heroDark": {
+              "$value": "{Brand.primitives.color.blue.800}",
+              "$type": "color"
+            },
+            "saleLight": {
+              "$value": "{Brand.primitives.color.primary.400}",
+              "$type": "color"
+            },
+            "saleDark": {
+              "$value": "{Brand.primitives.color.primary.800}",
+              "$type": "color"
+            }
           }
         },
         "border": {
@@ -785,6 +818,28 @@
                 "$value": "{Brand.primitives.color.primary.400}",
                 "$type": "color",
                 "$description": "Voice channel icon color, dark theme."
+              }
+            }
+          },
+          "feedback": {
+            "positive": {
+              "light mode": {
+                "$value": "#4e9d6b",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#4e9d6b",
+                "$type": "color"
+              }
+            },
+            "negative": {
+              "light mode": {
+                "$value": "#e15b88",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#e15b88",
+                "$type": "color"
               }
             }
           }
@@ -1175,18 +1230,6 @@
             "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
-        "Subtitle": {
-          "large": {
-            "$value": "{Breakpoint.responsive_typography.base}",
-            "$type": "number",
-            "$description": "Subtitle under a title, or short lead-in text."
-          },
-          "small": {
-            "$value": "{Breakpoint.responsive_typography.md}",
-            "$type": "number",
-            "$description": "Small subtitle for card headers, list items and labels."
-          }
-        },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
@@ -1202,6 +1245,23 @@
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
             "$description": "Titles for cards, sheets and list groups."
+          }
+        },
+        "subtitle": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.xl}",
+            "$type": "number",
+            "$description": "Subtitle XL — one step above Subtitle/large on the 1.2 scale (20 → 24 desktop)"
+          },
+          "medium": {
+            "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Subtitle under a title, or short lead-in text."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "body": {
@@ -1221,14 +1281,31 @@
             "$description": "Supporting text for details, hints and helper messages."
           }
         },
-        "Caption": {
+        "button": {
           "large": {
+            "$value": "{Breakpoint.responsive_typography.2xl}",
+            "$type": "number",
+            "$description": "Main reading text for descriptions and longer content."
+          },
+          "medium": {
             "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Default text for most UI copy."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Supporting text for details, hints and helper messages."
+          }
+        },
+        "caption": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
             "$description": "Button labels and short, prominent labels."
           },
           "medium": {
-            "$value": "{Breakpoint.responsive_typography.md}",
+            "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
             "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
@@ -1260,6 +1337,16 @@
     },
     "primitives": {
       "color": {
+        "black-and-white": {
+          "white": {
+            "$value": "#ffffff",
+            "$type": "color"
+          },
+          "black": {
+            "$value": "#000000",
+            "$type": "color"
+          }
+        },
         "neutral": {
           "100": {
             "$value": "#ffffff",
@@ -1710,6 +1797,11 @@
             "$value": "Work Sans",
             "$type": "string",
             "$description": "Font family for captions and button labels. Set per brand."
+          },
+          "button": {
+            "$value": "Work Sans",
+            "$type": "string",
+            "$description": "Font family for button and link labels"
           }
         },
         "weight": {
@@ -1830,6 +1922,24 @@
             "$value": "#000000",
             "$type": "color",
             "$description": "Scrim behind modals, sheets and dialogs (apply with opacity)."
+          },
+          "banner": {
+            "heroLight": {
+              "$value": "{Brand.primitives.color.blue.300}",
+              "$type": "color"
+            },
+            "heroDark": {
+              "$value": "{Brand.primitives.color.blue.900}",
+              "$type": "color"
+            },
+            "saleLight": {
+              "$value": "{Brand.primitives.color.primary.400}",
+              "$type": "color"
+            },
+            "saleDark": {
+              "$value": "{Brand.primitives.color.primary.800}",
+              "$type": "color"
+            }
           }
         },
         "border": {
@@ -2036,6 +2146,28 @@
                 "$value": "#788eff",
                 "$type": "color",
                 "$description": "Voice channel icon color, dark theme."
+              }
+            }
+          },
+          "feedback": {
+            "positive": {
+              "light mode": {
+                "$value": "#7bd137",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#7bd137",
+                "$type": "color"
+              }
+            },
+            "negative": {
+              "light mode": {
+                "$value": "#6c84ff",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#6c84ff",
+                "$type": "color"
               }
             }
           }
@@ -2426,18 +2558,6 @@
             "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
-        "Subtitle": {
-          "large": {
-            "$value": "{Breakpoint.responsive_typography.base}",
-            "$type": "number",
-            "$description": "Subtitle under a title, or short lead-in text."
-          },
-          "small": {
-            "$value": "{Breakpoint.responsive_typography.md}",
-            "$type": "number",
-            "$description": "Small subtitle for card headers, list items and labels."
-          }
-        },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
@@ -2453,6 +2573,23 @@
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
             "$description": "Titles for cards, sheets and list groups."
+          }
+        },
+        "subtitle": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.xl}",
+            "$type": "number",
+            "$description": "Subtitle XL — one step above Subtitle/large on the 1.2 scale (20 → 24 desktop)"
+          },
+          "medium": {
+            "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Subtitle under a title, or short lead-in text."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "body": {
@@ -2472,14 +2609,31 @@
             "$description": "Supporting text for details, hints and helper messages."
           }
         },
-        "Caption": {
+        "button": {
           "large": {
+            "$value": "{Breakpoint.responsive_typography.2xl}",
+            "$type": "number",
+            "$description": "Main reading text for descriptions and longer content."
+          },
+          "medium": {
             "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Default text for most UI copy."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Supporting text for details, hints and helper messages."
+          }
+        },
+        "caption": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
             "$description": "Button labels and short, prominent labels."
           },
           "medium": {
-            "$value": "{Breakpoint.responsive_typography.md}",
+            "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
             "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
@@ -2511,6 +2665,16 @@
     },
     "primitives": {
       "color": {
+        "black-and-white": {
+          "white": {
+            "$value": "#ffffff",
+            "$type": "color"
+          },
+          "black": {
+            "$value": "#000000",
+            "$type": "color"
+          }
+        },
         "neutral": {
           "100": {
             "$value": "#ffffff",
@@ -2961,6 +3125,11 @@
             "$value": "Inter",
             "$type": "string",
             "$description": "Font family for captions and button labels. Set per brand."
+          },
+          "button": {
+            "$value": "Inter",
+            "$type": "string",
+            "$description": "Font family for button and link labels"
           }
         },
         "weight": {
@@ -3081,6 +3250,24 @@
             "$value": "#000000",
             "$type": "color",
             "$description": "Scrim behind modals, sheets and dialogs (apply with opacity)."
+          },
+          "banner": {
+            "heroLight": {
+              "$value": "{Brand.primitives.color.blue.300}",
+              "$type": "color"
+            },
+            "heroDark": {
+              "$value": "{Brand.primitives.color.blue.900}",
+              "$type": "color"
+            },
+            "saleLight": {
+              "$value": "{Brand.primitives.color.primary.400}",
+              "$type": "color"
+            },
+            "saleDark": {
+              "$value": "{Brand.primitives.color.primary.800}",
+              "$type": "color"
+            }
           }
         },
         "border": {
@@ -3287,6 +3474,28 @@
                 "$value": "{Brand.primitives.color.primary.400}",
                 "$type": "color",
                 "$description": "Voice channel icon color, dark theme."
+              }
+            }
+          },
+          "feedback": {
+            "positive": {
+              "light mode": {
+                "$value": "#ae7408",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#ae7408",
+                "$type": "color"
+              }
+            },
+            "negative": {
+              "light mode": {
+                "$value": "#5f8d9d",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#5f8d9d",
+                "$type": "color"
               }
             }
           }
@@ -3677,18 +3886,6 @@
             "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
-        "Subtitle": {
-          "large": {
-            "$value": "{Breakpoint.responsive_typography.base}",
-            "$type": "number",
-            "$description": "Subtitle under a title, or short lead-in text."
-          },
-          "small": {
-            "$value": "{Breakpoint.responsive_typography.md}",
-            "$type": "number",
-            "$description": "Small subtitle for card headers, list items and labels."
-          }
-        },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
@@ -3704,6 +3901,23 @@
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
             "$description": "Titles for cards, sheets and list groups."
+          }
+        },
+        "subtitle": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.xl}",
+            "$type": "number",
+            "$description": "Subtitle XL — one step above Subtitle/large on the 1.2 scale (20 → 24 desktop)"
+          },
+          "medium": {
+            "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Subtitle under a title, or short lead-in text."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "body": {
@@ -3723,14 +3937,31 @@
             "$description": "Supporting text for details, hints and helper messages."
           }
         },
-        "Caption": {
+        "button": {
           "large": {
+            "$value": "{Breakpoint.responsive_typography.2xl}",
+            "$type": "number",
+            "$description": "Main reading text for descriptions and longer content."
+          },
+          "medium": {
             "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Default text for most UI copy."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Supporting text for details, hints and helper messages."
+          }
+        },
+        "caption": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
             "$description": "Button labels and short, prominent labels."
           },
           "medium": {
-            "$value": "{Breakpoint.responsive_typography.md}",
+            "$value": "{Breakpoint.responsive_typography.sm}",
             "$type": "number",
             "$description": "Metadata such as dates, timestamps, prices and statuses."
           },
@@ -3762,6 +3993,16 @@
     },
     "primitives": {
       "color": {
+        "black-and-white": {
+          "white": {
+            "$value": "#ffffff",
+            "$type": "color"
+          },
+          "black": {
+            "$value": "#000000",
+            "$type": "color"
+          }
+        },
         "neutral": {
           "100": {
             "$value": "#f9f9fc",
@@ -4212,6 +4453,11 @@
             "$value": "Fira Sans",
             "$type": "string",
             "$description": "Font family for captions and button labels. Set per brand."
+          },
+          "button": {
+            "$value": "Fira Sans",
+            "$type": "string",
+            "$description": "Font family for button and link labels"
           }
         },
         "weight": {
@@ -4332,6 +4578,24 @@
             "$value": "#000000",
             "$type": "color",
             "$description": "Scrim behind modals, sheets and dialogs (apply with opacity)."
+          },
+          "banner": {
+            "heroLight": {
+              "$value": "{Brand.primitives.color.blue.300}",
+              "$type": "color"
+            },
+            "heroDark": {
+              "$value": "{Brand.primitives.color.blue.900}",
+              "$type": "color"
+            },
+            "saleLight": {
+              "$value": "{Brand.primitives.color.primary.400}",
+              "$type": "color"
+            },
+            "saleDark": {
+              "$value": "{Brand.primitives.color.primary.800}",
+              "$type": "color"
+            }
           }
         },
         "border": {
@@ -4538,6 +4802,28 @@
                 "$value": "#a479ff",
                 "$type": "color",
                 "$description": "Voice channel icon color, dark theme."
+              }
+            }
+          },
+          "feedback": {
+            "positive": {
+              "light mode": {
+                "$value": "#6fcf78",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#6fcf78",
+                "$type": "color"
+              }
+            },
+            "negative": {
+              "light mode": {
+                "$value": "#ff6a6a",
+                "$type": "color"
+              },
+              "dark mode": {
+                "$value": "#ff6a6a",
+                "$type": "color"
               }
             }
           }
@@ -4928,18 +5214,6 @@
             "$description": "Smallest display size. For prominent headers and key numbers that need more weight than a title."
           }
         },
-        "Subtitle": {
-          "large": {
-            "$value": "{Breakpoint.responsive_typography.base}",
-            "$type": "number",
-            "$description": "Subtitle under a title, or short lead-in text."
-          },
-          "small": {
-            "$value": "{Breakpoint.responsive_typography.md}",
-            "$type": "number",
-            "$description": "Small subtitle for card headers, list items and labels."
-          }
-        },
         "title": {
           "large": {
             "$value": "{Breakpoint.responsive_typography.3xl}",
@@ -4955,6 +5229,23 @@
             "$value": "{Breakpoint.responsive_typography.xl}",
             "$type": "number",
             "$description": "Titles for cards, sheets and list groups."
+          }
+        },
+        "subtitle": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.xl}",
+            "$type": "number",
+            "$description": "Subtitle XL — one step above Subtitle/large on the 1.2 scale (20 → 24 desktop)"
+          },
+          "medium": {
+            "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Subtitle under a title, or short lead-in text."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Small subtitle for card headers, list items and labels."
           }
         },
         "body": {
@@ -4974,9 +5265,26 @@
             "$description": "Supporting text for details, hints and helper messages."
           }
         },
-        "Caption": {
+        "button": {
           "large": {
+            "$value": "{Breakpoint.responsive_typography.xl}",
+            "$type": "number",
+            "$description": "Main reading text for descriptions and longer content."
+          },
+          "medium": {
             "$value": "{Breakpoint.responsive_typography.base}",
+            "$type": "number",
+            "$description": "Default text for most UI copy."
+          },
+          "small": {
+            "$value": "{Breakpoint.responsive_typography.md}",
+            "$type": "number",
+            "$description": "Supporting text for details, hints and helper messages."
+          }
+        },
+        "caption": {
+          "large": {
+            "$value": "{Breakpoint.responsive_typography.md}",
             "$type": "number",
             "$description": "Button labels and short, prominent labels."
           },
