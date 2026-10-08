@@ -639,40 +639,6 @@
     ]
   },
   {
-    "name": "Channel live chat",
-    "section": "Communication & Media",
-    "code": [
-      "channelLiveChat"
-    ],
-    "aliases": [
-      "Chat",
-      "Live chat",
-      "Channels / Live Chat"
-    ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
-    "files": [
-      {
-        "Brand": "Purple Garden",
-        "file": "purple-garden/channel-live-chat.svg"
-      },
-      {
-        "Brand": "Kasamba",
-        "file": "kasamba/channel-live-chat.svg"
-      },
-      {
-        "Brand": "Psiquicos",
-        "file": "psiquicos/channel-live-chat.svg"
-      },
-      {
-        "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-live-chat.svg"
-      }
-    ]
-  },
-  {
     "name": "Channel minutes",
     "section": "Communication & Media",
     "code": [
@@ -720,83 +686,26 @@
     ]
   },
   {
-    "name": "Channel video call",
-    "section": "Communication & Media",
-    "code": [
-      "channelVideoCall"
-    ],
-    "aliases": [
-      "Video",
-      "Video call",
-      "Channels / Video Call"
-    ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
-    "files": [
-      {
-        "Brand": "Purple Garden",
-        "file": "purple-garden/channel-video-call.svg"
-      },
-      {
-        "Brand": "Kasamba",
-        "file": "kasamba/channel-video-call.svg"
-      },
-      {
-        "Brand": "Psiquicos",
-        "file": "psiquicos/channel-video-call.svg"
-      },
-      {
-        "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-video-call.svg"
-      }
-    ]
-  },
-  {
-    "name": "Channel voice call",
-    "section": "Communication & Media",
-    "code": [
-      "channelVoiceCall"
-    ],
-    "aliases": [
-      "Phone",
-      "Voice call",
-      "Channels / Voice Call",
-      "phoneIconLogo"
-    ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
-    "files": [
-      {
-        "Brand": "Purple Garden",
-        "file": "purple-garden/channel-voice-call.svg"
-      },
-      {
-        "Brand": "Kasamba",
-        "file": "kasamba/channel-voice-call.svg"
-      },
-      {
-        "Brand": "Psiquicos",
-        "file": "psiquicos/channel-voice-call.svg"
-      },
-      {
-        "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-voice-call.svg"
-      }
-    ]
-  },
-  {
     "name": "Channels/Live chat",
     "section": "Communication & Media",
     "code": [
-      "channelLiveChatOutlined"
+      "badgeMessage"
     ],
     "aliases": [
+      "Badge message",
+      "Live chat filter",
+      "Filters / Live Chat",
+      "Chat",
+      "Live chat",
+      "Channels / Live Chat",
+      "Channel live chat",
+      "channelLiveChat",
       "Channel live chat outlined",
-      "Channel=Chat"
+      "Channel=Chat",
+      "Filter live chat",
+      "Channels/Live chat (outlined",
+      "removed)",
+      "channelLiveChatOutlined"
     ],
     "color": {
       "figma": "Icons/Primary",
@@ -805,19 +714,19 @@
     "files": [
       {
         "Brand": "Purple Garden",
-        "file": "purple-garden/channel-live-chat-outlined.svg"
+        "file": "purple-garden/badge-message.svg"
       },
       {
         "Brand": "Kasamba",
-        "file": "kasamba/channel-live-chat-outlined.svg"
+        "file": "kasamba/badge-message.svg"
       },
       {
         "Brand": "Psiquicos",
-        "file": "psiquicos/channel-live-chat-outlined.svg"
+        "file": "psiquicos/badge-message.svg"
       },
       {
         "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-live-chat-outlined.svg"
+        "file": "purple-ocean/badge-message.svg"
       }
     ]
   },
@@ -847,11 +756,18 @@
     "name": "Channels/Video call",
     "section": "Communication & Media",
     "code": [
-      "channelVideoCallOutlined"
+      "channelVideoCall"
     ],
     "aliases": [
+      "Video",
+      "Video call",
+      "Channels / Video Call",
       "Channel video call outlined",
-      "Channel=Video"
+      "Channel=Video",
+      "Channel video call",
+      "Channels/Video call (outlined",
+      "removed)",
+      "channelVideoCallOutlined"
     ],
     "color": {
       "figma": "Icons/Primary",
@@ -860,11 +776,19 @@
     "files": [
       {
         "Brand": "Purple Garden",
-        "file": "purple-garden/channel-video-call-outlined.svg"
+        "file": "purple-garden/channel-video-call.svg"
+      },
+      {
+        "Brand": "Kasamba",
+        "file": "kasamba/channel-video-call.svg"
+      },
+      {
+        "Brand": "Psiquicos",
+        "file": "psiquicos/channel-video-call.svg"
       },
       {
         "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-video-call-outlined.svg"
+        "file": "purple-ocean/channel-video-call.svg"
       }
     ]
   },
@@ -872,11 +796,19 @@
     "name": "Channels/Voice call",
     "section": "Communication & Media",
     "code": [
-      "channelVoiceCallOutlined"
+      "channelVoiceCall"
     ],
     "aliases": [
+      "Phone",
+      "Voice call",
+      "Channels / Voice Call",
+      "phoneIconLogo",
       "Channel voice call outlined",
-      "Channel=Voice"
+      "Channel=Voice",
+      "Channel voice call",
+      "Channels/Voice call (outlined",
+      "removed)",
+      "channelVoiceCallOutlined"
     ],
     "color": {
       "figma": "Icons/Primary",
@@ -885,19 +817,19 @@
     "files": [
       {
         "Brand": "Purple Garden",
-        "file": "purple-garden/channel-voice-call-outlined.svg"
+        "file": "purple-garden/channel-voice-call.svg"
       },
       {
         "Brand": "Kasamba",
-        "file": "kasamba/channel-voice-call-outlined.svg"
+        "file": "kasamba/channel-voice-call.svg"
       },
       {
         "Brand": "Psiquicos",
-        "file": "psiquicos/channel-voice-call-outlined.svg"
+        "file": "psiquicos/channel-voice-call.svg"
       },
       {
         "Brand": "Purple Ocean",
-        "file": "purple-ocean/channel-voice-call-outlined.svg"
+        "file": "purple-ocean/channel-voice-call.svg"
       }
     ]
   },
@@ -5492,6 +5424,58 @@
     ]
   },
   {
+    "name": "Review",
+    "section": "Status & feedback",
+    "code": [],
+    "aliases": [
+      "Positive review",
+      "Negative review",
+      "Emotions / Positive",
+      "Emotions / Negative",
+      "Icons/Misc/Positive",
+      "Icons/Misc/Negative",
+      "Linear / Faces",
+      "Emotions",
+      "Stickers / Positive"
+    ],
+    "color": {
+      "figma": "Accents/Positive",
+      "css": "--color-accents-positive"
+    },
+    "files": [
+      {
+        "Type": "Positive",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/review-positive.svg"
+      },
+      {
+        "Type": "Positive",
+        "Brand": "Kasamba",
+        "file": "kasamba/review-positive.svg"
+      },
+      {
+        "Type": "Positive",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/review-positive.svg"
+      },
+      {
+        "Type": "Negative",
+        "Brand": "Purple Garden",
+        "file": "purple-garden/review-negative.svg"
+      },
+      {
+        "Type": "Negative",
+        "Brand": "Kasamba",
+        "file": "kasamba/review-negative.svg"
+      },
+      {
+        "Type": "Negative",
+        "Brand": "Psiquicos",
+        "file": "psiquicos/review-negative.svg"
+      }
+    ]
+  },
+  {
     "name": "Shield check",
     "section": "Status & feedback",
     "code": [
@@ -5578,6 +5562,29 @@
       {
         "Brand": "Purple Ocean",
         "file": "purple-ocean/stars-minimalistic.svg"
+      }
+    ]
+  },
+  {
+    "name": "Users group",
+    "section": "Status & feedback",
+    "code": [],
+    "aliases": [
+      "Users",
+      "Group",
+      "People",
+      "Community",
+      "Linear / Users / Users Group Rounded"
+    ],
+    "note": "Figma only – no icon in app code yet. PG art from PG Reskin; Kasamba, Psiquicos and Purple Ocean are placeholders.",
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/users-group.svg"
       }
     ]
   },
@@ -5723,6 +5730,29 @@
       {
         "Brand": "Purple Ocean",
         "file": "purple-ocean/order-add-video.svg"
+      }
+    ]
+  },
+  {
+    "name": "AI search",
+    "section": "UI Actions",
+    "code": [
+      "AiSearch"
+    ],
+    "aliases": [
+      "AI",
+      "Sparkles",
+      "Magic",
+      "Stars"
+    ],
+    "color": {
+      "figma": "Icons/Primary",
+      "css": "--color-icon-primary"
+    },
+    "files": [
+      {
+        "Brand": "Purple Garden",
+        "file": "purple-garden/ai-search.svg"
       }
     ]
   },
@@ -6270,40 +6300,6 @@
       {
         "Brand": "Purple Ocean",
         "file": "purple-ocean/badge-all.svg"
-      }
-    ]
-  },
-  {
-    "name": "Filter live chat",
-    "section": "UI Actions",
-    "code": [
-      "badgeMessage"
-    ],
-    "aliases": [
-      "Badge message",
-      "Live chat filter",
-      "Filters / Live Chat"
-    ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
-    "files": [
-      {
-        "Brand": "Purple Garden",
-        "file": "purple-garden/badge-message.svg"
-      },
-      {
-        "Brand": "Kasamba",
-        "file": "kasamba/badge-message.svg"
-      },
-      {
-        "Brand": "Psiquicos",
-        "file": "psiquicos/badge-message.svg"
-      },
-      {
-        "Brand": "Purple Ocean",
-        "file": "purple-ocean/badge-message.svg"
       }
     ]
   },
