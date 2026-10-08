@@ -1,3237 +1,698 @@
 {
-  "Branding": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4901960790157318,
-          0.16862745583057404,
-          0.43529412150382996
-        ],
-        "alpha": 1,
-        "hex": "#7D2B6F"
+  "Light Mode": {
+    "Black and White": {
+      "White": {
+        "$value": "{Brand.primitives.color.black-and-white.white}",
+        "$type": "color"
       },
-      "$description": "Main brand color. Logos, key highlights and brand moments.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:2",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:2a0b616a8ad5f6bfc1c6bca916a3f89bef6cd982/-1:-1",
-          "targetVariableName": "semantic/color/branding/primaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
+      "Black": {
+        "$value": "{Brand.primitives.color.black-and-white.black}",
+        "$type": "color"
+      }
+    },
+    "Branding": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.branding.primaryLight}",
+        "$type": "color",
+        "$description": "Main brand color. Logos, key highlights and brand moments."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.branding.secondaryLight}",
+        "$type": "color",
+        "$description": "Second brand color. Supporting highlights next to the primary brand color."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.branding.tertiaryLight}",
+        "$type": "color",
+        "$description": "Third brand color. Occasional accents and decorative details."
+      }
+    },
+    "Background": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.background.primaryLight}",
+        "$type": "color",
+        "$description": "Main screen background."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.background.secondaryLight}",
+        "$type": "color",
+        "$description": "Sections and grouped content on top of the main background."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.background.tertiaryLight}",
+        "$type": "color",
+        "$description": "Subtle fills, such as placeholders and inactive areas."
+      },
+      "Quaternary": {
+        "$value": "{Brand.semantic.color.background.quaternaryLight}",
+        "$type": "color",
+        "$description": "Cards and containers placed on other surfaces."
+      },
+      "Overlay": {
+        "$value": "{Brand.semantic.color.background.overlay}",
+        "$type": "color",
+        "$description": "Dark scrim behind modals, sheets and dialogs. Apply with opacity."
+      },
+      "Quinary": {
+        "$value": "{Brand.semantic.color.background.quinaryLight}",
+        "$type": "color",
+        "$description": "Extra surface level for nested content."
+      },
+      "Pale": {
+        "$value": "{Brand.semantic.color.background.paleLight}",
+        "$type": "color",
+        "$description": "Soft brand-tinted background for highlights and banners."
+      },
+      "Banner": {
+        "Hero": {
+          "$value": "{Brand.semantic.color.background.banner.heroLight}",
+          "$type": "color",
+          "$description": "Hero banner background (e.g. web hero section). Light/Dark via Modes, per-brand via Brand."
+        },
+        "Sale": {
+          "$value": "{Brand.semantic.color.background.banner.saleLight}",
+          "$type": "color",
+          "$description": "Sale / promo strip banner background. Light/Dark via Modes, per-brand via Brand."
         }
       }
     },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.7019608020782471,
-          0.5215686559677124
-        ],
-        "alpha": 1,
-        "hex": "#6AB385"
+    "Border": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.border.primaryLight}",
+        "$type": "color",
+        "$description": "Default borders and dividers."
       },
-      "$description": "Second brand color. Supporting highlights next to the primary brand color.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:3",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:6a0ba7693b0c1834a649e30e72b8c4abc48b3f46/-1:-1",
-          "targetVariableName": "semantic/color/branding/secondaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
+      "Secondary": {
+        "$value": "{Brand.semantic.color.border.secondaryLight}",
+        "$type": "color",
+        "$description": "Emphasis borders, such as selected or brand-tinted outlines."
+      }
+    },
+    "States": {
+      "Success": {
+        "$value": "{Brand.semantic.color.states.successLight}",
+        "$type": "color",
+        "$description": "Success messages, confirmations and positive feedback."
+      },
+      "Error": {
+        "$value": "{Brand.semantic.color.states.errorLight}",
+        "$type": "color",
+        "$description": "Errors, validation messages and failed actions."
+      },
+      "Information": {
+        "$value": "{Brand.semantic.color.states.infoLight}",
+        "$type": "color",
+        "$description": "Neutral information messages and tips."
+      },
+      "Warning": {
+        "$value": "{Brand.semantic.color.states.warningLight}",
+        "$type": "color",
+        "$description": "Warnings and cautions that need attention."
+      },
+      "Muted": {
+        "$value": "{Brand.semantic.color.states.mutedLight}",
+        "$type": "color",
+        "$description": "Inactive or de-emphasised content."
+      }
+    },
+    "Text": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.text.primaryLight}",
+        "$type": "color",
+        "$description": "Main text for headings and body copy."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.text.secondaryLight}",
+        "$type": "color",
+        "$description": "Supporting text: descriptions, hints and metadata."
+      },
+      "Tertiary": {
+        "$value": "{Brand.primitives.color.neutral.100}",
+        "$type": "color",
+        "$description": "Text on filled or brand-colored surfaces, such as primary buttons."
+      }
+    },
+    "Icons": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.icon.primary.light mode}",
+        "$type": "color",
+        "$description": "Default icon color."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.icon.secondary.light mode}",
+        "$type": "color",
+        "$description": "Secondary and less prominent icons."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.icon.tertiary.light mode}",
+        "$type": "color",
+        "$description": "Icons on filled or brand-colored surfaces."
+      },
+      "Disabled": {
+        "$value": "{Brand.semantic.color.icon.disabled.light mode}",
+        "$type": "color",
+        "$description": "Icons in disabled controls."
+      },
+      "Success": {
+        "$value": "{Brand.semantic.color.icon.success.light mode}",
+        "$type": "color",
+        "$description": "Success icons, such as checkmarks and confirmations."
+      },
+      "Danger": {
+        "$value": "{Brand.semantic.color.icon.danger.light mode}",
+        "$type": "color",
+        "$description": "Error and destructive-action icons."
+      },
+      "Channel": {
+        "Chat": {
+          "$value": "{Brand.semantic.color.icon.channel.chat.light mode}",
+          "$type": "color",
+          "$description": "Chat channel icon color."
+        },
+        "Voice": {
+          "$value": "{Brand.semantic.color.icon.channel.voice.light mode}",
+          "$type": "color",
+          "$description": "Voice channel icon color."
+        },
+        "Video": {
+          "$value": "{Brand.semantic.color.icon.channel.video.light mode}",
+          "$type": "color",
+          "$description": "Video channel icon color."
+        }
+      },
+      "Feedback": {
+        "Positive": {
+          "$value": "{Brand.semantic.color.icon.feedback.positive.light mode}",
+          "$type": "color",
+          "$description": "Positive feedback / review icon colour (per brand). Used by the Feedback/Positive icon."
+        },
+        "Negative": {
+          "$value": "{Brand.semantic.color.icon.feedback.negative.light mode}",
+          "$type": "color",
+          "$description": "Negative feedback / review icon colour (per brand). Used by the Feedback/Negative icon."
         }
       }
     },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6431372761726379,
-          0.24705882370471954,
-          0.4000000059604645
-        ],
-        "alpha": 1,
-        "hex": "#A43F66"
-      },
-      "$description": "Third brand color. Occasional accents and decorative details.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:4",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:318a1ef9c400b5f56ae25cc48cd492a01e2e282a/-1:-1",
-          "targetVariableName": "semantic/color/branding/tertiaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
+    "Button": {
+      "Primary": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.primary.light.Default}",
+          "$type": "color",
+          "$description": "Primary button fill. Main action on a screen."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.primary.light.Pressed}",
+          "$type": "color",
+          "$description": "Primary button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.primary.light.Disabled}",
+          "$type": "color",
+          "$description": "Primary button fill when disabled."
         }
-      }
-    }
-  },
-  "Background": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          1,
-          1
-        ],
-        "alpha": 1,
-        "hex": "#FFFFFF"
       },
-      "$description": "Main screen background.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:15032",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:75186ca47351ade36f7e053fb98a6335a4205222/-1:-1",
-          "targetVariableName": "semantic/color/background/primaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
+      "Accent": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.accent.light.Default}",
+          "$type": "color",
+          "$description": "Accent (call-to-action) button fill. High-attention actions such as start or buy."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.accent.light.Pressed}",
+          "$type": "color",
+          "$description": "Accent button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.accent.light.Disabled}",
+          "$type": "color",
+          "$description": "Accent button fill when disabled."
         }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9686274528503418,
-          0.9411764740943909,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#F7F0F4"
       },
-      "$description": "Sections and grouped content on top of the main background.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:10",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d76234cc2d1d32502c0d1dd89fc621736f0f1c03/-1:-1",
-          "targetVariableName": "semantic/color/background/secondaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
+      "Secondary": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.secondary.light.Default}",
+          "$type": "color",
+          "$description": "Secondary button fill. Alternative or less important actions."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.secondary.light.Pressed}",
+          "$type": "color",
+          "$description": "Secondary button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.secondary.light.Disabled}",
+          "$type": "color",
+          "$description": "Secondary button fill when disabled."
         }
       }
     },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8156862854957581,
-          0.8156862854957581,
-          0.8156862854957581
-        ],
-        "alpha": 1,
-        "hex": "#D0D0D0"
+    "Accents": {
+      "Red": {
+        "$value": "{Brand.semantic.color.accents.red.Light}",
+        "$type": "color",
+        "$description": "Red accent for tags, badges and illustrations."
       },
-      "$description": "Subtle fills, such as placeholders and inactive areas.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:11",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:368bc760327cd20b8ae6ddf38215e0b3c68c2932/-1:-1",
-          "targetVariableName": "semantic/color/background/tertiaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Quaternary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          1,
-          1
-        ],
-        "alpha": 1,
-        "hex": "#FFFFFF"
+      "Orange": {
+        "$value": "{Brand.semantic.color.accents.orange.Light}",
+        "$type": "color",
+        "$description": "Orange accent for tags, badges and illustrations."
       },
-      "$description": "Cards and containers placed on other surfaces.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:12",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:0c2faa0258ee23c32787d19a7e89c9064d594575/-1:-1",
-          "targetVariableName": "semantic/color/background/quaternaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Overlay": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#000000"
+      "Yellow": {
+        "$value": "{Brand.semantic.color.accents.yellow.Light}",
+        "$type": "color",
+        "$description": "Yellow accent for tags, badges and illustrations."
       },
-      "$description": "Dark scrim behind modals, sheets and dialogs. Apply with opacity.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:13",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:8519c004bb4499d5b88fe31dfaf290104ce07218/-1:-1",
-          "targetVariableName": "semantic/color/background/overlay",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Quinary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.95686274766922,
-          0.9372549057006836,
-          0.9529411792755127
-        ],
-        "alpha": 1,
-        "hex": "#F4EFF3"
+      "Green": {
+        "$value": "{Brand.semantic.color.accents.green.Light}",
+        "$type": "color",
+        "$description": "Green accent for tags, badges and illustrations."
       },
-      "$description": "Extra surface level for nested content.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:598:2",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d2e9128ce5012c45eae1c0380e1cff38c46597c8/-1:-1",
-          "targetVariableName": "semantic/color/background/quinaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Pale": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8666666746139526,
-          0.8470588326454163,
-          0.9215686321258545
-        ],
-        "alpha": 1,
-        "hex": "#DDD8EB"
+      "Blue": {
+        "$value": "{Brand.semantic.color.accents.blue.Light}",
+        "$type": "color",
+        "$description": "Blue accent for tags, badges and illustrations."
       },
-      "$description": "Soft brand-tinted background for highlights and banners.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:598:3",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:0f10bb7fa15c77cca21119ac03ee125bb868cadc/-1:-1",
-          "targetVariableName": "semantic/color/background/paleLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Border": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9019607901573181,
-          0.8745098114013672,
-          0.8941176533699036
-        ],
-        "alpha": 1,
-        "hex": "#E6DFE4"
+      "Purple": {
+        "$value": "{Brand.semantic.color.accents.purple.Light}",
+        "$type": "color",
+        "$description": "Purple accent for tags, badges and illustrations."
       },
-      "$description": "Default borders and dividers.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:14",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:43abca60a5ecae7b5713fe439ecd5d21ed3e48fd/-1:-1",
-          "targetVariableName": "semantic/color/border/primaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9725490212440491,
-          0.8666666746139526,
-          1
-        ],
-        "alpha": 1,
-        "hex": "#F8DDFF"
+      "Inverted": {
+        "$value": "{Brand.semantic.color.accents.inverted.Light}",
+        "$type": "color",
+        "$description": "Accent that contrasts with the current theme: dark in light mode, light in dark mode."
       },
-      "$description": "Emphasis borders, such as selected or brand-tinted outlines.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:15",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:6b0f32f7b8235a27eec5d389d422fe751d904c54/-1:-1",
-          "targetVariableName": "semantic/color/border/secondaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "States": {
-    "Success": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.7019608020782471,
-          0.5215686559677124
-        ],
-        "alpha": 1,
-        "hex": "#6AB385"
+      "Positive": {
+        "$value": "{Brand.semantic.color.accents.positive.Light}",
+        "$type": "color",
+        "$description": "Positive indicators, such as gains or good ratings."
       },
-      "$description": "Success messages, confirmations and positive feedback.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:3762",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:eacdcc6d2b7648bd80759193102f84c97558840d/-1:-1",
-          "targetVariableName": "semantic/color/states/successLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Error": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9411764740943909,
-          0.3607843220233917,
-          0.25882354378700256
-        ],
-        "alpha": 1,
-        "hex": "#F05C42"
-      },
-      "$description": "Errors, validation messages and failed actions.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:3763",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d0dc5c57f16f3c6ba2861124e05be079fa27edb3/-1:-1",
-          "targetVariableName": "semantic/color/states/errorLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Information": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.4627451002597809,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#6A76F4"
-      },
-      "$description": "Neutral information messages and tips.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:16",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:192168f25bf3adc9f0c52e61f8dbf845eb13775b/-1:-1",
-          "targetVariableName": "semantic/color/states/infoLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Warning": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9019607901573181,
-          0.7254902124404907,
-          0.07450980693101883
-        ],
-        "alpha": 1,
-        "hex": "#E6B913"
-      },
-      "$description": "Warnings and cautions that need attention.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:628:20",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d9ebbc4929fcfe6e0902de4820e1954061022bbf/-1:-1",
-          "targetVariableName": "semantic/color/states/warningLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Muted": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6196078658103943,
-          0.615686297416687,
-          0.615686297416687
-        ],
-        "alpha": 1,
-        "hex": "#9E9D9D"
-      },
-      "$description": "Inactive or de-emphasised content.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:628:23",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:582f9fbc808cfbfd4d3e08014857a4816b000be0/-1:-1",
-          "targetVariableName": "semantic/color/states/mutedLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Text": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.07058823853731155,
-          0.07058823853731155,
-          0.07058823853731155
-        ],
-        "alpha": 1,
-        "hex": "#121212"
-      },
-      "$description": "Main text for headings and body copy.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:5",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:ed1a8aab199b5ff0ba7a9eab43a8bc4695542ef1/-1:-1",
-          "targetVariableName": "semantic/color/text/primaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5372549295425415,
-          0.5372549295425415,
-          0.5372549295425415
-        ],
-        "alpha": 1,
-        "hex": "#898989"
-      },
-      "$description": "Supporting text: descriptions, hints and metadata.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:6",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:dc91fb88fa93a3bc105b39ed31f9e84257ca5938/-1:-1",
-          "targetVariableName": "semantic/color/text/secondaryLight",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9686274528503418,
-          0.9411764740943909,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#F7F0F4"
-      },
-      "$description": "Text on filled or brand-colored surfaces, such as primary buttons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:1017:26",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:c1e69ca083dac1e8fb1b7efb2bd1c5d696b73e3e/-1:-1",
-          "targetVariableName": "primitives/color/neutral/100",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Icons": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4901960790157318,
-          0.16862745583057404,
-          0.43529412150382996
-        ],
-        "alpha": 1,
-        "hex": "#7D2B6F"
-      },
-      "$description": "Default icon color.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:7",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:5a81e448026fac3e79edd5440369ac7130fba2ee/-1:-1",
-          "targetVariableName": "semantic/color/icon/primary/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.95686274766922,
-          0.9372549057006836,
-          0.9529411792755127
-        ],
-        "alpha": 1,
-        "hex": "#F4EFF3"
-      },
-      "$description": "Secondary and less prominent icons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:8",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:b0beda6ff50e0b4a1143ab154e44f4a94c09fb63/-1:-1",
-          "targetVariableName": "semantic/color/icon/secondary/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6431372761726379,
-          0.24705882370471954,
-          0.4000000059604645
-        ],
-        "alpha": 1,
-        "hex": "#A43F66"
-      },
-      "$description": "Icons on filled or brand-colored surfaces.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:9",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:310f3aca46c4e1c05b92e573dfe341550dd68649/-1:-1",
-          "targetVariableName": "semantic/color/icon/tertiary/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Disabled": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8156862854957581,
-          0.8156862854957581,
-          0.8156862854957581
-        ],
-        "alpha": 1,
-        "hex": "#D0D0D0"
-      },
-      "$description": "Icons in disabled controls.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:20",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:e683438e461088b17dff8e8ec9ce819a35b63a9c/-1:-1",
-          "targetVariableName": "semantic/color/icon/disabled/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Success": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.7019608020782471,
-          0.5215686559677124
-        ],
-        "alpha": 1,
-        "hex": "#6AB385"
-      },
-      "$description": "Success icons, such as checkmarks and confirmations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:21",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:1c9c0719ce4d79a1c99ad5dc7ce521c64fdf9278/-1:-1",
-          "targetVariableName": "semantic/color/icon/success/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Danger": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9411764740943909,
-          0.3607843220233917,
-          0.25882354378700256
-        ],
-        "alpha": 1,
-        "hex": "#F05C42"
-      },
-      "$description": "Error and destructive-action icons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:22",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:672e34907d269e6ce91bca857133d7d1d43c9593/-1:-1",
-          "targetVariableName": "semantic/color/icon/danger/light mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
+      "Negative": {
+        "$value": "{Brand.semantic.color.accents.negative.Light}",
+        "$type": "color",
+        "$description": "Negative indicators, such as losses or low ratings."
       }
     },
     "Channel": {
       "Chat": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.30588236451148987,
-            0.615686297416687,
-            0.41960784792900085
-          ],
-          "alpha": 1,
-          "hex": "#4E9D6B"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.chat.light.Online}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is online."
         },
-        "$description": "Chat channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:523",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:47ba5ddec5fa276b7be6f6c2495214d318785b03/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/chat/light mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.chat.light.Busy}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.chat.light.Offline}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is offline."
         }
       },
       "Voice": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.686274528503418,
-            0.3529411852359772,
-            0.6901960968971252
-          ],
-          "alpha": 1,
-          "hex": "#AF5AB0"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.voice.light.Online}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is online."
         },
-        "$description": "Voice channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:529",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:81031414d4cf7e92804c227122e45f38db85f985/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/voice/light mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.voice.light.Busy}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.voice.light.Offline}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is offline."
         }
       },
       "Video": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4156862795352936,
-            0.4627451002597809,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#6A76F4"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.video.light.Online}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is online."
         },
-        "$description": "Video channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:535",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:e773db2d31e22ae0753190b8f3cd23553ea411b5/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/video/light mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.video.light.Busy}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.video.light.Offline}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is offline."
         }
       }
     }
   },
-  "Button": {
-    "Primary": {
-      "Default": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.6000000238418579,
-            0.250980406999588,
-            0.572549045085907
-          ],
-          "alpha": 1,
-          "hex": "#994092"
-        },
-        "$description": "Primary button fill. Main action on a screen.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:20",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:8351f2ba1ed6d2b1a01195675318431ba50b2081/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/light/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+  "Dark Mode": {
+    "Black and White": {
+      "White": {
+        "$value": "{Brand.primitives.color.black-and-white.black}",
+        "$type": "color"
       },
-      "Pressed": {
+      "Black": {
+        "$value": "{Brand.primitives.color.black-and-white.white}",
+        "$type": "color"
+      }
+    },
+    "Branding": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.branding.primaryDark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.3686274588108063,
-            0.0941176488995552,
-            0.2980392277240753
-          ],
-          "alpha": 1,
-          "hex": "#5E184C"
+        "$description": "Main brand color. Logos, key highlights and brand moments."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.branding.secondaryDark}",
+        "$type": "color",
+        "$description": "Second brand color. Supporting highlights next to the primary brand color."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.branding.tertiaryDark}",
+        "$type": "color",
+        "$description": "Third brand color. Occasional accents and decorative details."
+      }
+    },
+    "Background": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.background.primaryDark}",
+        "$type": "color",
+        "$description": "Main screen background."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.background.secondaryDark}",
+        "$type": "color",
+        "$description": "Sections and grouped content on top of the main background."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.background.tertiaryDark}",
+        "$type": "color",
+        "$description": "Subtle fills, such as placeholders and inactive areas."
+      },
+      "Quaternary": {
+        "$value": "{Brand.semantic.color.background.quaternaryDark}",
+        "$type": "color",
+        "$description": "Cards and containers placed on other surfaces."
+      },
+      "Overlay": {
+        "$value": "{Brand.semantic.color.background.overlay}",
+        "$type": "color",
+        "$description": "Dark scrim behind modals, sheets and dialogs. Apply with opacity."
+      },
+      "Quinary": {
+        "$value": "{Brand.semantic.color.background.quinaryDark}",
+        "$type": "color",
+        "$description": "Extra surface level for nested content."
+      },
+      "Pale": {
+        "$value": "{Brand.semantic.color.background.paleDark}",
+        "$type": "color",
+        "$description": "Soft brand-tinted background for highlights and banners."
+      },
+      "Banner": {
+        "Hero": {
+          "$value": "{Brand.semantic.color.background.banner.heroDark}",
+          "$type": "color",
+          "$description": "Hero banner background (e.g. web hero section). Light/Dark via Modes, per-brand via Brand."
         },
-        "$description": "Primary button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:21",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:35063ecf6a84da3ec5d00c580aeca3ca6b8c8bf7/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/light/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Sale": {
+          "$value": "{Brand.semantic.color.background.banner.saleDark}",
+          "$type": "color",
+          "$description": "Sale / promo strip banner background. Light/Dark via Modes, per-brand via Brand."
         }
+      }
+    },
+    "Border": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.border.primaryDark}",
+        "$type": "color",
+        "$description": "Default borders and dividers."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.border.secondaryDark}",
+        "$type": "color",
+        "$description": "Emphasis borders, such as selected or brand-tinted outlines."
+      }
+    },
+    "States": {
+      "Success": {
+        "$value": "{Brand.semantic.color.states.successDark}",
+        "$type": "color",
+        "$description": "Success messages, confirmations and positive feedback."
+      },
+      "Error": {
+        "$value": "{Brand.semantic.color.states.errorDark}",
+        "$type": "color",
+        "$description": "Errors, validation messages and failed actions."
+      },
+      "Information": {
+        "$value": "{Brand.semantic.color.states.infoDark}",
+        "$type": "color",
+        "$description": "Neutral information messages and tips."
+      },
+      "Warning": {
+        "$value": "{Brand.semantic.color.states.warningDark}",
+        "$type": "color",
+        "$description": "Warnings and cautions that need attention."
+      },
+      "Muted": {
+        "$value": "{Brand.semantic.color.states.mutedDark}",
+        "$type": "color",
+        "$description": "Inactive or de-emphasised content."
+      }
+    },
+    "Text": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.text.primaryDark}",
+        "$type": "color",
+        "$description": "Main text for headings and body copy."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.text.secondaryDark}",
+        "$type": "color",
+        "$description": "Supporting text: descriptions, hints and metadata."
+      },
+      "Tertiary": {
+        "$value": "{Brand.primitives.color.neutral.100}",
+        "$type": "color",
+        "$description": "Text on filled or brand-colored surfaces, such as primary buttons."
+      }
+    },
+    "Icons": {
+      "Primary": {
+        "$value": "{Brand.semantic.color.icon.primary.dark mode}",
+        "$type": "color",
+        "$description": "Default icon color."
+      },
+      "Secondary": {
+        "$value": "{Brand.semantic.color.icon.secondary.dark mode}",
+        "$type": "color",
+        "$description": "Secondary and less prominent icons."
+      },
+      "Tertiary": {
+        "$value": "{Brand.semantic.color.icon.tertiary.dark mode}",
+        "$type": "color",
+        "$description": "Icons on filled or brand-colored surfaces."
       },
       "Disabled": {
+        "$value": "{Brand.semantic.color.icon.disabled.dark mode}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8156862854957581,
-            0.8156862854957581,
-            0.8156862854957581
-          ],
-          "alpha": 1,
-          "hex": "#D0D0D0"
-        },
-        "$description": "Primary button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:22",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:2a293585b8ec3b4e9c9bcd41be486eb2037e5847/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/light/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Accent": {
-      "Default": {
+        "$description": "Icons in disabled controls."
+      },
+      "Success": {
+        "$value": "{Brand.semantic.color.icon.success.dark mode}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4156862795352936,
-            0.7019608020782471,
-            0.5215686559677124
-          ],
-          "alpha": 1,
-          "hex": "#6AB385"
-        },
-        "$description": "Accent (call-to-action) button fill. High-attention actions such as start or buy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:26",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:0ade0c87589b385a0fcadc23b5809a7c03ee5080/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/light/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+        "$description": "Success icons, such as checkmarks and confirmations."
       },
-      "Pressed": {
+      "Danger": {
+        "$value": "{Brand.semantic.color.icon.danger.dark mode}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4156862795352936,
-            0.7019608020782471,
-            0.5215686559677124
-          ],
-          "alpha": 1,
-          "hex": "#6AB385"
+        "$description": "Error and destructive-action icons."
+      },
+      "Channel": {
+        "Chat": {
+          "$value": "{Brand.semantic.color.icon.channel.chat.dark mode}",
+          "$type": "color",
+          "$description": "Chat channel icon color."
         },
-        "$description": "Accent button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:27",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:e5882be78184f0fa2ae4758b3d326250a6ead020/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/light/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Voice": {
+          "$value": "{Brand.semantic.color.icon.channel.voice.dark mode}",
+          "$type": "color",
+          "$description": "Voice channel icon color."
+        },
+        "Video": {
+          "$value": "{Brand.semantic.color.icon.channel.video.dark mode}",
+          "$type": "color",
+          "$description": "Video channel icon color."
         }
       },
-      "Disabled": {
+      "Feedback": {
+        "Positive": {
+          "$value": "{Brand.semantic.color.icon.feedback.positive.dark mode}",
+          "$type": "color",
+          "$description": "Positive feedback / review icon colour (per brand). Used by the Feedback/Positive icon."
+        },
+        "Negative": {
+          "$value": "{Brand.semantic.color.icon.feedback.negative.dark mode}",
+          "$type": "color",
+          "$description": "Negative feedback / review icon colour (per brand). Used by the Feedback/Negative icon."
+        }
+      }
+    },
+    "Button": {
+      "Primary": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.primary.dark.Default}",
+          "$type": "color",
+          "$description": "Primary button fill. Main action on a screen."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.primary.dark.Pressed}",
+          "$type": "color",
+          "$description": "Primary button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.primary.dark.Disabled}",
+          "$type": "color",
+          "$description": "Primary button fill when disabled."
+        }
+      },
+      "Accent": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.accent.dark.Default}",
+          "$type": "color",
+          "$description": "Accent (call-to-action) button fill. High-attention actions such as start or buy."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.accent.dark.Pressed}",
+          "$type": "color",
+          "$description": "Accent button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.accent.dark.Disabled}",
+          "$type": "color",
+          "$description": "Accent button fill when disabled."
+        }
+      },
+      "Secondary": {
+        "Default": {
+          "$value": "{Brand.semantic.color.button.secondary.dark.Default}",
+          "$type": "color",
+          "$description": "Secondary button fill. Alternative or less important actions."
+        },
+        "Pressed": {
+          "$value": "{Brand.semantic.color.button.secondary.dark.Pressed}",
+          "$type": "color",
+          "$description": "Secondary button fill while pressed."
+        },
+        "Disabled": {
+          "$value": "{Brand.semantic.color.button.secondary.dark.Disabled}",
+          "$type": "color",
+          "$description": "Secondary button fill when disabled."
+        }
+      }
+    },
+    "Accents": {
+      "Red": {
+        "$value": "{Brand.semantic.color.accents.red.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8156862854957581,
-            0.8156862854957581,
-            0.8156862854957581
-          ],
-          "alpha": 1,
-          "hex": "#D0D0D0"
-        },
-        "$description": "Accent button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:28",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:ddf7cbd1d59f5e0a23e6804b0caa345b90a7243f/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/light/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Secondary": {
-      "Default": {
+        "$description": "Red accent for tags, badges and illustrations."
+      },
+      "Orange": {
+        "$value": "{Brand.semantic.color.accents.orange.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Secondary button fill. Alternative or less important actions.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:23",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:daaf8260de92dcf63451023ed4cc649ba30a44cf/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/light/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+        "$description": "Orange accent for tags, badges and illustrations."
       },
-      "Pressed": {
+      "Yellow": {
+        "$value": "{Brand.semantic.color.accents.yellow.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8941176533699036,
-            0.7764706015586853,
-            0.9254902005195618
-          ],
-          "alpha": 1,
-          "hex": "#E4C6EC"
-        },
-        "$description": "Secondary button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:24",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:382f6fc2ed0f7b4ee85da248f6c121024ec91cf2/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/light/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+        "$description": "Yellow accent for tags, badges and illustrations."
       },
-      "Disabled": {
+      "Green": {
+        "$value": "{Brand.semantic.color.accents.green.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Secondary button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:25",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:3ef8f024e2a5ed1f7e5a1ef82c1f8c25a16862eb/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/light/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "Accents": {
-    "Red": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.772549033164978,
-          0.3490196168422699,
-          0.5607843399047852
-        ],
-        "alpha": 1,
-        "hex": "#C5598F"
+        "$description": "Green accent for tags, badges and illustrations."
       },
-      "$description": "Red accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:59",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:5d0ce38c1ff14dc3115f8c0ce02c48cc6aa2fea0/-1:-1",
-          "targetVariableName": "semantic/color/accents/red/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Orange": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9647058844566345,
-          0.49803921580314636,
-          0.41960784792900085
-        ],
-        "alpha": 1,
-        "hex": "#F67F6B"
-      },
-      "$description": "Orange accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:60",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:8557d4bc087e33580e51ba2c484942ed79cef14e/-1:-1",
-          "targetVariableName": "semantic/color/accents/orange/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Yellow": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9725490212440491,
-          0.843137264251709,
-          0.3450980484485626
-        ],
-        "alpha": 1,
-        "hex": "#F8D758"
-      },
-      "$description": "Yellow accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:61",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d3b49aab92df19299175f1c7f271e0e3ba8518a1/-1:-1",
-          "targetVariableName": "semantic/color/accents/yellow/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Green": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.30588236451148987,
-          0.615686297416687,
-          0.41960784792900085
-        ],
-        "alpha": 1,
-        "hex": "#4E9D6B"
-      },
-      "$description": "Green accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:62",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:dba12cff9809af958fcb241fbaf42f7c6a1c5855/-1:-1",
-          "targetVariableName": "semantic/color/accents/green/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Blue": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.4627451002597809,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#6A76F4"
-      },
-      "$description": "Blue accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:63",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:5cfd33b738e96137bb37e453fca4d4f7de82f9c9/-1:-1",
-          "targetVariableName": "semantic/color/accents/blue/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Purple": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.30588236451148987,
-          0.10588235408067703,
-          0.20392157137393951
-        ],
-        "alpha": 1,
-        "hex": "#4E1B34"
-      },
-      "$description": "Purple accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:64",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:7d16d090fbb0a3396ac23d513d12007351f4441d/-1:-1",
-          "targetVariableName": "semantic/color/accents/purple/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Inverted": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.07058823853731155,
-          0.07058823853731155,
-          0.07058823853731155
-        ],
-        "alpha": 1,
-        "hex": "#121212"
-      },
-      "$description": "Accent that contrasts with the current theme: dark in light mode, light in dark mode.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:65",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:7d21f3c3efdee1a82ca94655c48254ed0188e6ce/-1:-1",
-          "targetVariableName": "semantic/color/accents/inverted/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Positive": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.30588236451148987,
-          0.615686297416687,
-          0.41960784792900085
-        ],
-        "alpha": 1,
-        "hex": "#4E9D6B"
-      },
-      "$description": "Positive indicators, such as gains or good ratings.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:66",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:e8e8b41fbff389743128244955ac0989f385be9a/-1:-1",
-          "targetVariableName": "semantic/color/accents/positive/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Negative": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.772549033164978,
-          0.3490196168422699,
-          0.5607843399047852
-        ],
-        "alpha": 1,
-        "hex": "#C5598F"
-      },
-      "$description": "Negative indicators, such as losses or low ratings.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:67",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:4b59fc09cb8f78bd252beeabee67e6c27ef10c18/-1:-1",
-          "targetVariableName": "semantic/color/accents/negative/Light",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Gradients": {
-    "Primary": {
-      "First": {
+      "Blue": {
+        "$value": "{Brand.semantic.color.accents.blue.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.7019608020782471,
-            0.5607843399047852,
-            1
-          ],
-          "alpha": 1,
-          "hex": "#B38FFF"
-        },
-        "$description": "Start color of the primary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:46",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:47ea734545cb9eb758191c0da677b95fab33a508/-1:-1",
-            "targetVariableName": "semantic/color/gradients/primaryFirst",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+        "$description": "Blue accent for tags, badges and illustrations."
       },
-      "Second": {
+      "Purple": {
+        "$value": "{Brand.semantic.color.accents.purple.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.5372549295425415,
-            0.34117648005485535,
-            0.9607843160629272
-          ],
-          "alpha": 1,
-          "hex": "#8957F5"
-        },
-        "$description": "End color of the primary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:47",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:608c52047dc2b6e509212c8261562db7e9eb89db/-1:-1",
-            "targetVariableName": "semantic/color/gradients/primarySecond",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Secondary": {
-      "First": {
+        "$description": "Purple accent for tags, badges and illustrations."
+      },
+      "Inverted": {
+        "$value": "{Brand.semantic.color.accents.inverted.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.529411792755127,
-            0.3333333432674408,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#8755F4"
-        },
-        "$description": "Start color of the secondary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:48",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:77c8365a79eb32f10c7ee71d8bc35c15431b399d/-1:-1",
-            "targetVariableName": "semantic/color/gradients/secondaryFirst",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
+        "$description": "Accent that contrasts with the current theme: dark in light mode, light in dark mode."
       },
-      "Second": {
+      "Positive": {
+        "$value": "{Brand.semantic.color.accents.positive.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9882352948188782,
-            0.5529412031173706,
-            0.23529411852359772
-          ],
-          "alpha": 1,
-          "hex": "#FC8D3C"
-        },
-        "$description": "End color of the secondary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:49",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:535daef8bfcead76d7266411b36b4872dafb69b4/-1:-1",
-            "targetVariableName": "semantic/color/gradients/secondarySecond",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "Channel": {
-    "Chat": {
-      "Online": {
+        "$description": "Positive indicators, such as gains or good ratings."
+      },
+      "Negative": {
+        "$value": "{Brand.semantic.color.accents.negative.Dark}",
         "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8784313797950745,
-            0.9411764740943909,
-            0.9019607901573181
-          ],
-          "alpha": 1,
-          "hex": "#E0F0E6"
-        },
-        "$description": "Chat channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:522",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:7c43b150beaed51081f9e06d1058572e17544148/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/light/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Chat channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:520",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:ba3b7cb452ca38fd782e689052b7dcfe43f3cbaa/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/light/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Chat channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:523",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:7ec2bc2b10705b720448b8496e39c490cf167274/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/light/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Voice": {
-      "Online": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9490196108818054,
-            0.8705882430076599,
-            0.9490196108818054
-          ],
-          "alpha": 1,
-          "hex": "#F2DEF2"
-        },
-        "$description": "Voice channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:528",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:dbf3d43f429aa2ace9896aa9637b12da2811ce36/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/light/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Voice channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:526",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:836f9caaf1be35b3f5b89421aab9da812853b252/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/light/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Voice channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:529",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:b233be9d09315e40d6a3542e37f4fef01b053510/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/light/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Video": {
-      "Online": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9333333373069763,
-            0.9235293865203857,
-            0.9607843160629272
-          ],
-          "alpha": 1,
-          "hex": "#EEEBF5"
-        },
-        "$description": "Video channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:534",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:588ceddb5ff5dadd5733371b294b8258eaf48267/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/light/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Video channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:532",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:abab86c376fbb2934c20cdedfeb320eb05119539/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/light/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9686274528503418,
-            0.9411764740943909,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#F7F0F4"
-        },
-        "$description": "Video channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:535",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:296095c173f017c0cde85cfa408c24ac46006367/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/light/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "$extensions": {
-    "com.figma.modeName": "Light Mode"
-  }
-}
-
-{
-  "Branding": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.686274528503418,
-          0.3529411852359772,
-          0.6901960968971252
-        ],
-        "alpha": 1,
-        "hex": "#AF5AB0"
-      },
-      "$description": "Main brand color. Logos, key highlights and brand moments.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:2",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:43948ef76055f392d16984112c5fd2c50bac8361/-1:-1",
-          "targetVariableName": "semantic/color/branding/primaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6000000238418579,
-          0.800000011920929,
-          0.6745098233222961
-        ],
-        "alpha": 1,
-        "hex": "#99CCAC"
-      },
-      "$description": "Second brand color. Supporting highlights next to the primary brand color.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:3",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d9b43d568aa754dd6253b4e71e4aff04b178bb07/-1:-1",
-          "targetVariableName": "semantic/color/branding/secondaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.772549033164978,
-          0.3490196168422699,
-          0.5607843399047852
-        ],
-        "alpha": 1,
-        "hex": "#C5598F"
-      },
-      "$description": "Third brand color. Occasional accents and decorative details.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:4",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:742dcbac8e81470ca0e60d1911243ec8af08af91/-1:-1",
-          "targetVariableName": "semantic/color/branding/tertiaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Background": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.14509804546833038,
-          0.15294118225574493,
-          0.16078431904315948
-        ],
-        "alpha": 1,
-        "hex": "#252729"
-      },
-      "$description": "Main screen background.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:15032",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:01b277a1e910d96be6f3b49cd0336f4f964b590a/-1:-1",
-          "targetVariableName": "semantic/color/background/primaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Sections and grouped content on top of the main background.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:10",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:2bc23083f4d69da46b3b1bb326b13413a22b0d17/-1:-1",
-          "targetVariableName": "semantic/color/background/secondaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Subtle fills, such as placeholders and inactive areas.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:11",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:24b78447c0932f3b1711d180386079d1a6bda5d5/-1:-1",
-          "targetVariableName": "semantic/color/background/tertiaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Quaternary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Cards and containers placed on other surfaces.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:12",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:866a07f28fccfe3eb0968f4e56af5ef5c68fde8c/-1:-1",
-          "targetVariableName": "semantic/color/background/quaternaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Overlay": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#000000"
-      },
-      "$description": "Dark scrim behind modals, sheets and dialogs. Apply with opacity.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:13",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:8519c004bb4499d5b88fe31dfaf290104ce07218/-1:-1",
-          "targetVariableName": "semantic/color/background/overlay",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Quinary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Extra surface level for nested content.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:598:2",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:6009055cf4ef2184ba4caa56d85d719168f55493/-1:-1",
-          "targetVariableName": "semantic/color/background/quinaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Pale": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Soft brand-tinted background for highlights and banners.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:598:3",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:944edc78c9ad58e76ecb3f066577d7ac9be05a8d/-1:-1",
-          "targetVariableName": "semantic/color/background/paleDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Border": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.21960784494876862,
-          0.22745098173618317,
-          0.250980406999588
-        ],
-        "alpha": 1,
-        "hex": "#383A40"
-      },
-      "$description": "Default borders and dividers.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:14",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:a302646fe6813aaf90d9ae98c666bee85570858b/-1:-1",
-          "targetVariableName": "semantic/color/border/primaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4901960790157318,
-          0.16862745583057404,
-          0.43529412150382996
-        ],
-        "alpha": 1,
-        "hex": "#7D2B6F"
-      },
-      "$description": "Emphasis borders, such as selected or brand-tinted outlines.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:15",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:f4bf1cf3cf472cdebf689a7eb9162574477fe397/-1:-1",
-          "targetVariableName": "semantic/color/border/secondaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "States": {
-    "Success": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.48235294222831726,
-          0.7450980544090271,
-          0.5803921818733215
-        ],
-        "alpha": 1,
-        "hex": "#7BBE94"
-      },
-      "$description": "Success messages, confirmations and positive feedback.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:3762",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:ee0ab15a0ecc622c3ea53a81e865da39b6096159/-1:-1",
-          "targetVariableName": "semantic/color/states/successDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Error": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9647058844566345,
-          0.49803921580314636,
-          0.41960784792900085
-        ],
-        "alpha": 1,
-        "hex": "#F67F6B"
-      },
-      "$description": "Errors, validation messages and failed actions.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:296:3763",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:b5d658ec79f2b810bec554143f4ad6c7a8d8c283/-1:-1",
-          "targetVariableName": "semantic/color/states/errorDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Information": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5803921818733215,
-          0.6117647290229797,
-          0.9725490212440491
-        ],
-        "alpha": 1,
-        "hex": "#949CF8"
-      },
-      "$description": "Neutral information messages and tips.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:16",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:db282a5f1d8f25bb0aa8b4192a986bb0f1cddbdb/-1:-1",
-          "targetVariableName": "semantic/color/states/infoDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Warning": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9529411792755127,
-          0.7921568751335144,
-          0.19607843458652496
-        ],
-        "alpha": 1,
-        "hex": "#F3CA32"
-      },
-      "$description": "Warnings and cautions that need attention.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:628:20",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:32de3548d044fb948542f512c4cf44913031f8ba/-1:-1",
-          "targetVariableName": "semantic/color/states/warningDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Muted": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6196078658103943,
-          0.615686297416687,
-          0.615686297416687
-        ],
-        "alpha": 1,
-        "hex": "#9E9D9D"
-      },
-      "$description": "Inactive or de-emphasised content.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:628:23",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:dc913a3795c25e8ccbf35b28e07e7ff2ed1221ba/-1:-1",
-          "targetVariableName": "semantic/color/states/mutedDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Text": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.95686274766922,
-          0.9372549057006836,
-          0.9529411792755127
-        ],
-        "alpha": 1,
-        "hex": "#F4EFF3"
-      },
-      "$description": "Main text for headings and body copy.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:5",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:b359a1b2e97d52d0a0a6e0b893e4374e6d007643/-1:-1",
-          "targetVariableName": "semantic/color/text/primaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6196078658103943,
-          0.615686297416687,
-          0.615686297416687
-        ],
-        "alpha": 1,
-        "hex": "#9E9D9D"
-      },
-      "$description": "Supporting text: descriptions, hints and metadata.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:6",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:b6cc1097097003c660b57985c6a771c9a2965861/-1:-1",
-          "targetVariableName": "semantic/color/text/secondaryDark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9686274528503418,
-          0.9411764740943909,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#F7F0F4"
-      },
-      "$description": "Text on filled or brand-colored surfaces, such as primary buttons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:1017:26",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:c1e69ca083dac1e8fb1b7efb2bd1c5d696b73e3e/-1:-1",
-          "targetVariableName": "primitives/color/neutral/100",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Icons": {
-    "Primary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.686274528503418,
-          0.3529411852359772,
-          0.6901960968971252
-        ],
-        "alpha": 1,
-        "hex": "#AF5AB0"
-      },
-      "$description": "Default icon color.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:7",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:718ecc9741a036b7c6bc51754472b3822c2d070b/-1:-1",
-          "targetVariableName": "semantic/color/icon/primary/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Secondary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.95686274766922,
-          0.9372549057006836,
-          0.9529411792755127
-        ],
-        "alpha": 1,
-        "hex": "#F4EFF3"
-      },
-      "$description": "Secondary and less prominent icons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:8",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:db33bb67d8cd681b80b80e7beaa334f76d7c5c1e/-1:-1",
-          "targetVariableName": "semantic/color/icon/secondary/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Tertiary": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.772549033164978,
-          0.3490196168422699,
-          0.5607843399047852
-        ],
-        "alpha": 1,
-        "hex": "#C5598F"
-      },
-      "$description": "Icons on filled or brand-colored surfaces.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:403:9",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:8c15048dd9805092f653a0fddb98793c38d49c23/-1:-1",
-          "targetVariableName": "semantic/color/icon/tertiary/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Disabled": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8156862854957581,
-          0.8156862854957581,
-          0.8156862854957581
-        ],
-        "alpha": 1,
-        "hex": "#D0D0D0"
-      },
-      "$description": "Icons in disabled controls.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:20",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:2a582207878c94fa2dc117e79f5b543be76c0aad/-1:-1",
-          "targetVariableName": "semantic/color/icon/disabled/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Success": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.48235294222831726,
-          0.7450980544090271,
-          0.5803921818733215
-        ],
-        "alpha": 1,
-        "hex": "#7BBE94"
-      },
-      "$description": "Success icons, such as checkmarks and confirmations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:21",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:70225006040aff032471417fda4114d15bf64121/-1:-1",
-          "targetVariableName": "semantic/color/icon/success/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Danger": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9647058844566345,
-          0.49803921580314636,
-          0.41960784792900085
-        ],
-        "alpha": 1,
-        "hex": "#F67F6B"
-      },
-      "$description": "Error and destructive-action icons.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:710:22",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:18ad6dbde417094a419938a0bd311c26f0db2731/-1:-1",
-          "targetVariableName": "semantic/color/icon/danger/dark mode",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
+        "$description": "Negative indicators, such as losses or low ratings."
       }
     },
     "Channel": {
       "Chat": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4156862795352936,
-            0.7019608020782471,
-            0.5215686559677124
-          ],
-          "alpha": 1,
-          "hex": "#6AB385"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.chat.dark.Online}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is online."
         },
-        "$description": "Chat channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:523",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:4c227062e6b9b33b22f2065fd740b1d9f153f4ad/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/chat/dark mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.chat.dark.Busy}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.chat.dark.Offline}",
+          "$type": "color",
+          "$description": "Chat channel button background when the advisor is offline."
         }
       },
       "Voice": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.7137255072593689,
-            0.49803921580314636,
-            0.7411764860153198
-          ],
-          "alpha": 1,
-          "hex": "#B67FBD"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.voice.dark.Online}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is online."
         },
-        "$description": "Voice channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:529",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:afd17a063352fbad79cbb8ad7b2cb2f9d2dc35c8/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/voice/dark mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.voice.dark.Busy}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.voice.dark.Offline}",
+          "$type": "color",
+          "$description": "Voice channel button background when the advisor is offline."
         }
       },
       "Video": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.5803921818733215,
-            0.6117647290229797,
-            0.9725490212440491
-          ],
-          "alpha": 1,
-          "hex": "#949CF8"
+        "Online": {
+          "$value": "{Brand.semantic.color.button.channel.video.dark.Online}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is online."
         },
-        "$description": "Video channel icon color.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:535",
-          "com.figma.scopes": [
-            "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:c5c05b4b9385ff404faba6315535713beb5f1140/-1:-1",
-            "targetVariableName": "semantic/color/icon/channel/video/dark mode",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
+        "Busy": {
+          "$value": "{Brand.semantic.color.button.channel.video.dark.Busy}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is busy."
+        },
+        "Offline": {
+          "$value": "{Brand.semantic.color.button.channel.video.dark.Offline}",
+          "$type": "color",
+          "$description": "Video channel button background when the advisor is offline."
         }
       }
     }
-  },
-  "Button": {
-    "Primary": {
-      "Default": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4901960790157318,
-            0.16862745583057404,
-            0.43529412150382996
-          ],
-          "alpha": 1,
-          "hex": "#7D2B6F"
-        },
-        "$description": "Primary button fill. Main action on a screen.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:20",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:d2f6b3f79facba9005b773b9b05662f3dc61069e/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/dark/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Pressed": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.686274528503418,
-            0.3529411852359772,
-            0.6901960968971252
-          ],
-          "alpha": 1,
-          "hex": "#AF5AB0"
-        },
-        "$description": "Primary button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:21",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:d357ac2089d7b0aca4d97ae14e49322f21640015/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/dark/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Disabled": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8156862854957581,
-            0.8156862854957581,
-            0.8156862854957581
-          ],
-          "alpha": 1,
-          "hex": "#D0D0D0"
-        },
-        "$description": "Primary button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:22",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:217a7c2f631843eb7b8739e1e31d9a8502b686e7/-1:-1",
-            "targetVariableName": "semantic/color/button/primary/dark/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Accent": {
-      "Default": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.4156862795352936,
-            0.7019608020782471,
-            0.5215686559677124
-          ],
-          "alpha": 1,
-          "hex": "#6AB385"
-        },
-        "$description": "Accent (call-to-action) button fill. High-attention actions such as start or buy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:26",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:1c5b9c14de1f30735c7b5957df559812991ca0df/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/dark/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Pressed": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.48235294222831726,
-            0.7450980544090271,
-            0.5803921818733215
-          ],
-          "alpha": 1,
-          "hex": "#7BBE94"
-        },
-        "$description": "Accent button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:27",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:6cba9d3a24023572189dafd33c838cf887188957/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/dark/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Disabled": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.8156862854957581,
-            0.8156862854957581,
-            0.8156862854957581
-          ],
-          "alpha": 1,
-          "hex": "#D0D0D0"
-        },
-        "$description": "Accent button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:28",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:b706060e074cfbc877746600306e01d9c6f39099/-1:-1",
-            "targetVariableName": "semantic/color/button/accent/dark/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Secondary": {
-      "Default": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.14509804546833038,
-            0.15294118225574493,
-            0.16078431904315948
-          ],
-          "alpha": 1,
-          "hex": "#252729"
-        },
-        "$description": "Secondary button fill. Alternative or less important actions.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:23",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:a27626c656f1409da2ba3af812a9c5da71d3eb23/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/dark/Default",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Pressed": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Secondary button fill while pressed.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:24",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:c1411471f0f57ef2c1beb027e4a7e255377e6530/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/dark/Pressed",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Disabled": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Secondary button fill when disabled.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:606:25",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:ce8dce2e79614a461758bf1035a69b244528cb1f/-1:-1",
-            "targetVariableName": "semantic/color/button/secondary/dark/Disabled",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "Accents": {
-    "Red": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8549019694328308,
-          0.5686274766921997,
-          0.6235294342041016
-        ],
-        "alpha": 1,
-        "hex": "#DA919F"
-      },
-      "$description": "Red accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:59",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:be04e1da3e34a763f9ed86899716f5b4ad87cf10/-1:-1",
-          "targetVariableName": "semantic/color/accents/red/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Orange": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9803921580314636,
-          0.6431372761726379,
-          0.5843137502670288
-        ],
-        "alpha": 1,
-        "hex": "#FAA495"
-      },
-      "$description": "Orange accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:60",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:8565ea305e6ab23fe5d219a5f33dd56de813babf/-1:-1",
-          "targetVariableName": "semantic/color/accents/orange/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Yellow": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9725490212440491,
-          0.843137264251709,
-          0.3450980484485626
-        ],
-        "alpha": 1,
-        "hex": "#F8D758"
-      },
-      "$description": "Yellow accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:61",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:53ece107db419ad66484f3adf83179eb9e56f1b8/-1:-1",
-          "targetVariableName": "semantic/color/accents/yellow/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Green": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.7019608020782471,
-          0.5215686559677124
-        ],
-        "alpha": 1,
-        "hex": "#6AB385"
-      },
-      "$description": "Green accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:62",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:dd5682a30c37838090114a81914fd0e12af16605/-1:-1",
-          "targetVariableName": "semantic/color/accents/green/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Blue": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4156862795352936,
-          0.4627451002597809,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#6A76F4"
-      },
-      "$description": "Blue accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:63",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:e3f33888a3db3d7253cd654e2eda6cfc7fd314d0/-1:-1",
-          "targetVariableName": "semantic/color/accents/blue/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Purple": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.772549033164978,
-          0.3490196168422699,
-          0.5607843399047852
-        ],
-        "alpha": 1,
-        "hex": "#C5598F"
-      },
-      "$description": "Purple accent for tags, badges and illustrations.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:64",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:feee296ed8f6f4d030cece86389406bb753fb536/-1:-1",
-          "targetVariableName": "semantic/color/accents/purple/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Inverted": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9686274528503418,
-          0.9411764740943909,
-          0.95686274766922
-        ],
-        "alpha": 1,
-        "hex": "#F7F0F4"
-      },
-      "$description": "Accent that contrasts with the current theme: dark in light mode, light in dark mode.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:65",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:a8152e6df32b2cdf3c0381d2a57527ca65a56c8a/-1:-1",
-          "targetVariableName": "semantic/color/accents/inverted/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Positive": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.48235294222831726,
-          0.7450980544090271,
-          0.5803921818733215
-        ],
-        "alpha": 1,
-        "hex": "#7BBE94"
-      },
-      "$description": "Positive indicators, such as gains or good ratings.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:66",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:d572b47c9b7ad8f61f5d372de933704e7928d64d/-1:-1",
-          "targetVariableName": "semantic/color/accents/positive/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    },
-    "Negative": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8549019694328308,
-          0.5686274766921997,
-          0.6235294342041016
-        ],
-        "alpha": 1,
-        "hex": "#DA919F"
-      },
-      "$description": "Negative indicators, such as losses or low ratings.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:782:67",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.aliasData": {
-          "targetVariableId": "VariableID:2964ef4cef2f9c528caecaf1b3e36c8c0292534d/-1:-1",
-          "targetVariableName": "semantic/color/accents/negative/Dark",
-          "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-          "targetVariableSetName": "Brand"
-        }
-      }
-    }
-  },
-  "Gradients": {
-    "Primary": {
-      "First": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.7019608020782471,
-            0.5607843399047852,
-            1
-          ],
-          "alpha": 1,
-          "hex": "#B38FFF"
-        },
-        "$description": "Start color of the primary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:46",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:47ea734545cb9eb758191c0da677b95fab33a508/-1:-1",
-            "targetVariableName": "semantic/color/gradients/primaryFirst",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Second": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.5372549295425415,
-            0.34117648005485535,
-            0.9607843160629272
-          ],
-          "alpha": 1,
-          "hex": "#8957F5"
-        },
-        "$description": "End color of the primary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:47",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:608c52047dc2b6e509212c8261562db7e9eb89db/-1:-1",
-            "targetVariableName": "semantic/color/gradients/primarySecond",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Secondary": {
-      "First": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.529411792755127,
-            0.3333333432674408,
-            0.95686274766922
-          ],
-          "alpha": 1,
-          "hex": "#8755F4"
-        },
-        "$description": "Start color of the secondary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:48",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:77c8365a79eb32f10c7ee71d8bc35c15431b399d/-1:-1",
-            "targetVariableName": "semantic/color/gradients/secondaryFirst",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Second": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.9882352948188782,
-            0.5529412031173706,
-            0.23529411852359772
-          ],
-          "alpha": 1,
-          "hex": "#FC8D3C"
-        },
-        "$description": "End color of the secondary gradient.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:786:49",
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:535daef8bfcead76d7266411b36b4872dafb69b4/-1:-1",
-            "targetVariableName": "semantic/color/gradients/secondarySecond",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "Channel": {
-    "Chat": {
-      "Online": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Chat channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:522",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:2bc4b99c1ed4a3c79381de39a249eef90b68c73e/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/dark/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Chat channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:520",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:248a39c8578603075947ad74955f610271e4a50d/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/dark/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Chat channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:523",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:913b9e3fe0bbcff18812f2d4c64e5477a3c4c48e/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/chat/dark/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Voice": {
-      "Online": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Voice channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:528",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:25b2277c0115e389dc44bff0cc4addc90459e653/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/dark/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Voice channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:526",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:c491226ef1a238ee72862291b662ccc82dec063a/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/dark/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Voice channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:529",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:2170d30f0a0fb0f038418f159ca13cd34b4e2fba/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/voice/dark/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    },
-    "Video": {
-      "Online": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Video channel button background when the advisor is online.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:960:534",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:c5291075172d699fe267ec5cd82db8845088f6ca/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/dark/Online",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Busy": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Video channel button background when the advisor is busy.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:532",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:d5e4ea5e20e7857ef845fa1bc3e5d87016c89a7e/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/dark/Busy",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      },
-      "Offline": {
-        "$type": "color",
-        "$value": {
-          "colorSpace": "srgb",
-          "components": [
-            0.21960784494876862,
-            0.22745098173618317,
-            0.250980406999588
-          ],
-          "alpha": 1,
-          "hex": "#383A40"
-        },
-        "$description": "Video channel button background when the advisor is offline.",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:962:535",
-          "com.figma.scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "com.figma.aliasData": {
-            "targetVariableId": "VariableID:4c7875c7650a2b8e57b916a9f63290ad2ac8d4bf/-1:-1",
-            "targetVariableName": "semantic/color/button/channel/video/dark/Offline",
-            "targetVariableSetId": "VariableCollectionId:7d8b49f6486042f1fb13bd58718dfb563378cf72/-1:-1",
-            "targetVariableSetName": "Brand"
-          }
-        }
-      }
-    }
-  },
-  "$extensions": {
-    "com.figma.modeName": "Dark Mode"
   }
 }
