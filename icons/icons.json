@@ -12,10 +12,6 @@
       "Purple Garden_Glyph"
     ],
     "note": "PG art from PG Reskin (Purple Garden_Glyph). Light/Dark come from Modes variables.",
-    "color": {
-      "figma": "Branding/Primary",
-      "css": "--color-branding-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -44,10 +40,6 @@
       "Wordmark"
     ],
     "note": "Figma only – inline logo (symbol + wordmark); the app bar uses the Glyph. Light/Dark come from Modes variables.",
-    "color": {
-      "figma": "Branding/Primary",
-      "css": "--color-branding-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -79,10 +71,6 @@
       "Logo_colored"
     ],
     "note": "PG art from PG Reskin (Logo_colored). Psiquicos and Purple Ocean have no stacked logo in code – placeholders. Light/Dark come from Modes variables.",
-    "color": {
-      "figma": "Branding/Primary",
-      "css": "--color-branding-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -108,10 +96,6 @@
       "Media logos"
     ],
     "note": "Used in Purple Garden. Colour: Modes › Text/Secondary (code uses #766E8B, no exact token).",
-    "color": {
-      "figma": "Text/Secondary",
-      "css": "--color-text-secondary"
-    },
     "files": [
       {
         "Logo": "New York Times",
@@ -277,10 +261,6 @@
       "Add image",
       "Chat Input / Add Image"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -307,10 +287,6 @@
       "Icons/Connetion/Bluetooth",
       "bluetoothPicker"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -341,10 +317,6 @@
       "Misc/Camera off",
       "Icons/Connetion/Camera off"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -375,10 +347,6 @@
       "Misc/Camera",
       "Icons/Connetion/Camera"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -410,10 +378,6 @@
       "Misc/Hang up",
       "Icons/Connetion/Hang up"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -445,10 +409,6 @@
       "Icons/Connetion/Headphones",
       "headphonePicker"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -478,10 +438,6 @@
       "Misc/Mute",
       "Icons/Connetion/Mute"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -513,10 +469,6 @@
       "Icons/Connetion/Phone",
       "phonePicker"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -547,10 +499,6 @@
       "Icons/Connetion/Speaker",
       "speakerPicker"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -580,10 +528,6 @@
       "Misc/Unmute",
       "Icons/Connetion/Unmute"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -615,10 +559,6 @@
       "Audio",
       "Sound / Camera"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -651,10 +591,6 @@
       "Channels / Minutes"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -674,10 +610,6 @@
       "Channels / Rush"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -707,10 +639,6 @@
       "removed)",
       "channelLiveChatOutlined"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -741,10 +669,6 @@
       "Watch"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -769,10 +693,6 @@
       "removed)",
       "channelVideoCallOutlined"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -810,10 +730,6 @@
       "removed)",
       "channelVoiceCallOutlined"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -845,10 +761,6 @@
       "Linear / Messages",
       "Conversation / Chat Round Dots"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -881,10 +793,6 @@
       "Chat Input / Lock",
       "lockFilled"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -918,10 +826,6 @@
       "Icons/Misc/image-02",
       "Chat Input / Image Gallery"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -951,10 +855,6 @@
       "Journeys / bubble",
       "Speech bubble"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -984,10 +884,6 @@
       "Journeys / Pause",
       "Pause"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1017,10 +913,6 @@
       "Universal play",
       "Journeys / Universal play"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1050,10 +942,6 @@
       "Journeys / text",
       "Icons/Journeys/Text"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1083,10 +971,6 @@
       "Journeys / video",
       "Icons/Journeys/Video"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1117,10 +1001,6 @@
       "Icons/Journeys/Voice",
       "Audio wave"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1150,10 +1030,6 @@
       "New message",
       "Unread message"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -1182,10 +1058,6 @@
       "Sound / Play",
       "Video audio sound play"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1233,10 +1105,6 @@
       "Audio",
       "Sound / Play Circle"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1267,10 +1135,6 @@
       "General play",
       "Play triangle"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1318,10 +1182,6 @@
       "Linear / Reconnect",
       "Icons/Misc/Reconnect"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1351,10 +1211,6 @@
       "Chat bubble dots",
       "Frame 35577"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -1382,10 +1238,6 @@
       "Linear / Messages",
       "Conversation / Letter"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -1420,10 +1272,6 @@
       "Icons/Misc/camera-02",
       "Chat Input / Camera"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2260,10 +2108,6 @@
       "Icons/Navbar/Back",
       "Navbar / Arrow back"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2293,10 +2137,6 @@
       "Arrow Right",
       "Icons/Navbar/Arrow right"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2326,10 +2166,6 @@
       "Arrow right 2",
       "Linear / Arrows / Arrow Right"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2359,10 +2195,6 @@
       "Arrow down custom",
       "Dropdown triangle"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -2387,10 +2219,6 @@
       "Linear / Arrows / Alt Arrow"
     ],
     "note": "All directions are one master shape per brand, rotated. Psiquicos master = its alt_arrow_right shape.",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Direction": "Up",
@@ -2484,10 +2312,6 @@
       "Double Alt Arrow Down",
       "Icons/Misc/Double chevron down"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2520,10 +2344,6 @@
       "UI / Hamburger Menu"
     ],
     "note": "Code (web): Menu",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2548,10 +2368,6 @@
     "aliases": [
       "Linear / Arrows / Order Arrow"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2574,10 +2390,6 @@
       "Icons/Profile/dollar-square",
       "Profile / Add funds"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2610,10 +2422,6 @@
       "Conversation / Pen 2",
       "Icons/Profile/pen-tool-03"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2643,10 +2451,6 @@
       "Linear / Money / Cash Out",
       "Misc outline / Redeem"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2678,10 +2482,6 @@
       "Linear / Money / Cashback",
       "Icons/Profile/credit-card-change"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2713,10 +2513,6 @@
       "Icons/Profile/moon",
       "Profile / Dark mode"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2750,10 +2546,6 @@
       "Icons/Profile/Favs",
       "Profile / Favorite"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2786,10 +2578,6 @@
       "Icons/Profile/add-circle",
       "Profile / Invite friends"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2821,10 +2609,6 @@
       "Profile / Journeys",
       "Misc / Journeys filled"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2855,10 +2639,6 @@
       "Icons/Profile/language-square",
       "Profile / Language"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2889,10 +2669,6 @@
       "Profile / Offers",
       "Icons/Profile/Offers"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2920,10 +2696,6 @@
       "Icons/Profile/wallet-01",
       "Profile / Payment methods"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2956,10 +2728,6 @@
       "Icons/Profile/discount",
       "Profile / Apply promocode"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -2991,10 +2759,6 @@
       "Icons/Profile/thumbs-up",
       "Profile / Rate us"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3027,10 +2791,6 @@
       "Icons/Profile/help-circle",
       "Profile / Support"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3062,10 +2822,6 @@
       "Icons/Profile/square-arrow-left-right-round",
       "Profile / Transactions"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3096,10 +2852,6 @@
       "More",
       "Dots"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3130,10 +2882,6 @@
       "Icons/Navbar/Settings",
       "Profile / Settings"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3163,10 +2911,6 @@
       "Icons/Navbar/Share",
       "Navbar / Share"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3215,10 +2959,6 @@
       "Icons/Tab Bar/Home",
       "Tab Bar/Tab bar home"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3250,10 +2990,6 @@
       "Icons/Tab Bar/Horoscope",
       "Tab Bar/Tab bar horoscopes"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3285,10 +3021,6 @@
       "Tabbar / Activity",
       "Tab Bar/Tab bar my activity"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3320,10 +3052,6 @@
       "Icons/Tab Bar/Profile",
       "Tab Bar/Tab bar profile"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -3354,10 +3082,6 @@
       "Tabbar / Hub",
       "Icons/Tab Bar/Hub"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4019,10 +3743,6 @@
       "Horoscope signs",
       "Star signs"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Sign": "Aquarius",
@@ -4276,10 +3996,6 @@
       "Payment error",
       "Exclamation circle"
     ],
-    "color": {
-      "figma": "Icons/Danger",
-      "css": "--color-icon-danger"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4331,10 +4047,6 @@
       "Availability / Busy"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -4354,10 +4066,6 @@
       "Availability / Offline"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -4376,10 +4084,6 @@
       "Availability / Online"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -4399,10 +4103,6 @@
       "Availability / Rush"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -4421,10 +4121,6 @@
       "Square academic cap",
       "Linear / School / Square Academic Cap"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4484,10 +4180,6 @@
       "Coupon",
       "Advisor / Coupon enabled"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4517,10 +4209,6 @@
       "Advisor carousel gift",
       "Gift badge"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4542,10 +4230,6 @@
       "Matching bonus",
       "Icons/Random filled/Bonus"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4572,10 +4256,6 @@
       "Verified badge",
       "Badges / Checkmark"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4608,10 +4288,6 @@
       "Badges / Top rated",
       "Badges/Badge crown minimalistic"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4642,10 +4318,6 @@
       "Badges / Discount",
       "General / Sale"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4678,10 +4350,6 @@
       "Badges / Fanfare",
       "Badges/Max discount"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4713,10 +4381,6 @@
       "Badges / Fire",
       "Badges / Trending"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4747,10 +4411,6 @@
       "Gift",
       "Badges / Gift"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4779,10 +4439,6 @@
     "aliases": [
       "Gift gradient"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Psiquicos",
@@ -4801,10 +4457,6 @@
       "Badges / Heart",
       "Favorite"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4835,10 +4487,6 @@
       "Leaf",
       "Badges / Leaf"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4869,10 +4517,6 @@
       "Target",
       "Badges / Most popular"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4898,10 +4542,6 @@
       "Reward star",
       "Loyalty"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4921,10 +4561,6 @@
       "Badges / Psychic stars",
       "Icons/Random filled/Staffpick"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -4957,10 +4593,6 @@
       "Online dot",
       "Status dot"
     ],
-    "color": {
-      "figma": "Icons/Success",
-      "css": "--color-icon-success"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -4985,10 +4617,6 @@
     "aliases": [
       "Forms / Calendar"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5014,10 +4642,6 @@
     "code": [],
     "aliases": [],
     "note": "Figma only – not in app code yet.",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5038,10 +4662,6 @@
       "App Lock / Confirmation",
       "Icons/Random outline/Confirmation"
     ],
-    "color": {
-      "figma": "Icons/Success",
-      "css": "--color-icon-success"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5075,10 +4695,6 @@
       "General / Clock",
       "Icons/Random filled/Clock"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5107,10 +4723,6 @@
     "aliases": [
       "Time filled"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -5129,10 +4741,6 @@
       "Clock",
       "Misc / Clock"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -5159,10 +4767,6 @@
       "Exclamation",
       "Warning"
     ],
-    "color": {
-      "figma": "Icons/Danger",
-      "css": "--color-icon-danger"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -5191,10 +4795,6 @@
       "Icons/Random filled/Help",
       "Misc / Help"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5226,10 +4826,6 @@
       "Highlights / Accuracy"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -5249,10 +4845,6 @@
       "Highlights / Retention"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -5272,10 +4864,6 @@
       "Highlights / Reviews"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -5295,10 +4883,6 @@
       "Icons/Misc/Hourglass Line",
       "Misc / Hourglass"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5329,10 +4913,6 @@
       "Unlimited",
       "Linear / Astronomy / Infinity"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5356,10 +4936,6 @@
       "General / Info",
       "Icons/Misc/Info"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5389,10 +4965,6 @@
       "Unread dot",
       "Badge dot"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Psiquicos",
@@ -5412,10 +4984,6 @@
       "Sparkle"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -5438,10 +5006,6 @@
       "Emotions",
       "Stickers / Positive"
     ],
-    "color": {
-      "figma": "Accents/Positive",
-      "css": "--color-accents-positive"
-    },
     "files": [
       {
         "Type": "Positive",
@@ -5485,10 +5049,6 @@
       "Secure",
       "Linear / Security / Shield Check"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5508,10 +5068,6 @@
       "Linear / Security / Shield Star",
       "Expert Guidance"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5542,10 +5098,6 @@
       "Sparkle",
       "Linear / Astronomy / Stars Minimalistic"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5577,10 +5129,6 @@
       "Linear / Users / Users Group Rounded"
     ],
     "note": "Figma only – no icon in app code yet. PG art from PG Reskin; Kasamba, Psiquicos and Purple Ocean are placeholders.",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5600,10 +5148,6 @@
       "Verify",
       "Linear / Security / Shield User"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -5629,10 +5173,6 @@
       "Verified badge",
       "Linear / Money / Verified Check"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5663,10 +5203,6 @@
       "Infinity",
       "Icons/Misc/Zen mode"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5722,10 +5258,6 @@
       "Order / Add Video"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -5745,10 +5277,6 @@
       "Magic",
       "Stars"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5765,10 +5293,6 @@
     "aliases": [
       "General / Block"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5800,10 +5324,6 @@
       "cancelCircle (PO)",
       "Icons/Random filled/Cancel"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5834,10 +5354,6 @@
       "Forms / Card",
       "Icons/Forms/Card"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5869,10 +5385,6 @@
       "Misc outline / Checkmark",
       "Icons/Misc/Checkmark"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5908,10 +5420,6 @@
       "cancel (KA/PO)",
       "miscClose"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5942,10 +5450,6 @@
       "General / Close",
       "Notification / Close"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -5975,10 +5479,6 @@
       "Close in square",
       "Dismiss"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -6006,10 +5506,6 @@
       "Order / Copy"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6029,10 +5525,6 @@
       "Misc / Download"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6053,10 +5545,6 @@
       "Icons/Random filled/Edit",
       "Misc / Edit"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6087,10 +5575,6 @@
       "Misc / Edit"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6108,10 +5592,6 @@
       "Heart outline",
       "Favorite outline"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -6138,10 +5618,6 @@
       "Forms / Eye",
       "Icons/Forms/Eye"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6173,10 +5649,6 @@
       "Forms / Eye Hidden",
       "Forms / Eye Slash"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6209,10 +5681,6 @@
       "Navbar / Favorite",
       "heart"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6245,10 +5713,6 @@
       "Heart {Status=Pressed}",
       "Navbar / Favorite filled"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6280,10 +5744,6 @@
       "Badge all",
       "Filters / All"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6314,10 +5774,6 @@
       "Under $5",
       "Filters / Under $5"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6348,10 +5804,6 @@
       "Genders / Female",
       "Icons/Genders/Female"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6382,10 +5834,6 @@
       "Genders / Male",
       "Icons/Genders/Male"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6417,10 +5865,6 @@
       "Genders / Other",
       "Icons/Genders/Other"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6451,10 +5895,6 @@
       "Shield key",
       "General / Key"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6486,10 +5926,6 @@
       "Badges / Like",
       "Badges / Recommended"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6520,10 +5956,6 @@
       "Sign out",
       "Linear / Arrows Action / Logout 2"
     ],
-    "color": {
-      "figma": "Icons/Danger",
-      "css": "--color-icon-danger"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6556,10 +5988,6 @@
       "Icons/Buttons/Bell unset",
       "Advisor info / Bell unset"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6591,10 +6019,6 @@
       "Icons/Buttons/Bell set",
       "Advisor info / Bell set"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6625,10 +6049,6 @@
       "Icons/Buttons/Bell",
       "Advisor info / Bell"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -6653,10 +6073,6 @@
       "Icons/Random filled/Plus",
       "Misc / Add Circle"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6687,10 +6103,6 @@
       "Add",
       "Plus thick"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -6712,10 +6124,6 @@
       "Popups & Drawers / Clear"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6733,10 +6141,6 @@
       "Popups & Drawers / Delete"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6754,10 +6158,6 @@
       "Popups & Drawers / Delete video"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6775,10 +6175,6 @@
       "Popups & Drawers / Replace"
     ],
     "note": "Only in Purple Ocean",
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Ocean",
@@ -6800,10 +6196,6 @@
       "Misc outline / Restart",
       "Icons/Misc/Reset"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6834,10 +6226,6 @@
       "Magnifier",
       "Icons/Navbar/Search and Filter"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6868,10 +6256,6 @@
       "Magnifer",
       "Linear / Search / Magnifer"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6901,10 +6285,6 @@
       "Linear / Essentional",
       "UI / Sort"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -6936,10 +6316,6 @@
       "General / Star half",
       "Star rating"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -7014,10 +6390,6 @@
       "Payment method",
       "Payment methods / Add Credit / Card"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -7047,10 +6419,6 @@
       "Bonus coin",
       "Reward"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -7076,10 +6444,6 @@
       "Cashback bold",
       "Money back"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -7107,10 +6471,6 @@
       "Linear / Essentional",
       "UI / Gift"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -7140,10 +6500,6 @@
       "Percent",
       "Discount"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Kasamba",
@@ -7173,10 +6529,6 @@
       "UI / Trash Bin Trash",
       "Misc / Delete"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
@@ -7209,10 +6561,6 @@
       "Linear / Settings",
       "Fine Tuning / Tuning 2"
     ],
-    "color": {
-      "figma": "Icons/Primary",
-      "css": "--color-icon-primary"
-    },
     "files": [
       {
         "Brand": "Purple Garden",
