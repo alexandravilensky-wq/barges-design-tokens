@@ -4,7 +4,19 @@
   "private": true,
   "type": "module",
   "description": "Figma variables → Style Dictionary → CSS per brand, previewed in Storybook",
+  "files": [
+    "build",
+    "icons"
+  ],
+  "exports": {
+    "./css/*": "./build/css/*",
+    "./json/*": "./build/json/*",
+    "./brands.json": "./build/brands.json",
+    "./icons/*": "./icons/*",
+    "./package.json": "./package.json"
+  },
   "scripts": {
+    "prepare": "npm run build:tokens",
     "build:tokens": "node scripts/build-tokens.mjs",
     "storybook": "npm run build:tokens && storybook dev -p 6007",
     "build-storybook": "npm run build:tokens && storybook build",
